@@ -96,7 +96,7 @@ void test114()
 
 void test115()
 {
-    string s("rabbbit"), t("rabbit");
+    string s("aacc"), t("ac");
     IACM *p = new DistinctSubsequnces(s, t);
     p->solve();
 }

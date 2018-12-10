@@ -10,9 +10,6 @@ public:
     virtual bool solve() override;
 
 private:
-    void subString(int nCurS, int nCurT);
-
-private:
     std::string m_sS, m_sT;
     int m_nRes = 0, m_nSLen, m_nTLen;
 };
