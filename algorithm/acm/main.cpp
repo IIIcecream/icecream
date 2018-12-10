@@ -2,11 +2,11 @@
 #include <vector>
 #include <algorithm>
 #include "binarySearch\binarySearch.h"
-#include "GasStation.h"
 #include "binaryTree\binaryTreeTraversal.h"
 #include "binaryTree\ConstructBinaryTree.h"
 #include "binaryTree\BinaryTreetoLinkedList.h"
 #include "string\DistinctSubsequnces.h"
+#include "others\PascalsTriangle.h"
 
 using namespace std;
 
@@ -101,13 +101,15 @@ void test115()
     p->solve();
 }
 
+void test118()
+{
+    IACM *p = new PascalsTriangle(5);
+    p->solve();
+}
+
 int main()
 {
-    //test103();
-    //test105();
-    //test106();
-    //test114();
-    test115();
+    test118();
     return 0;
 }
 

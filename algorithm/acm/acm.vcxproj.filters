@@ -27,12 +27,15 @@
     <Filter Include="源文件\String">
       <UniqueIdentifier>{4ba40643-bb23-4c40-b3b2-825208a9000e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Others">
+      <UniqueIdentifier>{442e793f-7daa-4321-8681-7ba0316fa798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Others">
+      <UniqueIdentifier>{455ec687-dd7f-48c8-85f2-6e4e5ad24f19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\GasStation.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="include\IACM.h">
@@ -65,11 +68,14 @@
     <ClInclude Include="include\binarySearch\BinarySearch.h">
       <Filter>头文件\BinarySearch</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\GasStation.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="include\others\PascalsTriangle.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\GasStation.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
       <Filter>源文件\BinaryTree</Filter>
     </ClCompile>
@@ -96,6 +102,12 @@
     </ClCompile>
     <ClCompile Include="src\bianrySearch\BinarySearch.cpp">
       <Filter>源文件\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\GasStation.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\PascalsTriangle.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

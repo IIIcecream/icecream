@@ -1,5 +1,6 @@
-#include "GasStation.h"
+
 #include <iostream>
+#include "others\GasStation.h"
 
 bool GasStation::solve()
 {

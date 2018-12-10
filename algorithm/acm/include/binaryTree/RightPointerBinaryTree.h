@@ -16,9 +16,9 @@ public:
     virtual bool solve() override;
 
 private:
-    void connect(TreeLinkNode *root);
+    void connect1(TreeLinkNode *root);
+    void connect2(TreeLinkNode *root);
 
 private:
     TreeLinkNode * m_pTree;
-    std::vector<TreeLinkNode*> m_vecNodes;
 };
