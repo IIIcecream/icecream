@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="customerImpl" class="main.aop.CustomerImpl"/>
+
+    <bean id="myAspectXml" class="main.aop.MyAspectXml"/>
+    <!-- AOP配置 -->
+    <aop:config>
+        <!-- 配置切面类：切入点+通知（类型） -->
+        <aop:aspect ref="myAspectXml">
+            <!-- 配置前置通知，切入点-->
+            <!-- 切入点表达式 execution(public void class.method()) -->
+            <aop:before method="log" pointcut="execution(public void main.aop.CustomerImpl.save())"/>
+            <!--
+                1. public 可以省略
+                2. void 返回值，写int 只会增强返回值为int的；写*，增强所有的该方法，不匹配返回值
+                3. *..*替换main.aop  所有路径，或者main.*.CustomerImpl
+                4. *替换类名 匹配任何类,或者*Impl，匹配部分类名
+                5. *替换方法名 匹配任何方法，或者save*之类的
+                6. 方法中的参数：一个*表示一个参数，..两个点表示所有参数都匹配
+            -->
+        </aop:aspect>
+    </aop:config>
+
+
+
+    <!-- 使用set方法注入-->
+<!--    <bean id = "UserService" class = "main.impl.UserServiceImpl">
+        <property name="name" value="ahah"/>
+    </bean>-->
+
+    <!-- 使用p命名空间注入,不常用 -->
+    <!--<bean id="UserServicec" class="main.ioc.UserServiceImpl" p:name="ahaha"/>-->
+
+    <!-- 使用Spel注入 -->
+    <!--<bean></bean>-->
+
+    <!--<bean id = "CustomDao" class = "main.ioc.CustomDao"/>-->
+    <!--<bean id = "CustomService" class = "main.ioc.CustomService">-->
+        <!--<property name="CustomDao" ref="CustomDao"/>-->
+    <!--</bean>-->
+
+    <!--<bean id = "Car" class = "main.ioc.Car">-->
+        <!--&lt;!&ndash;<constructor-arg name="name" value="奇瑞QQ"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg name="price" value="20000"/>&ndash;&gt;-->
+        <!--<constructor-arg index="0" value="长安"/>-->
+        <!--<constructor-arg index="1" value="50000"/>-->
+    <!--</bean>-->
+
+
+    <!-- 集合（数组，list）注入 -->
+    <!--
+    <bean id="" class="">
+        <property name="">
+            <list>  如果是set则此处使用<set>
+                <value>***</value>
+                <value>***</value>
+                如果list中放的是对象，则不使用value 而使用 <ref bean="">
+            </list>
+        </property>
+    </bean>
+    -->
+
+    <!-- map注入 -->
+    <!--
+    <bean id="" class="">
+        <property name="">
+            <map>
+                <entry key="aaa" value = "www"/>
+                <entry key="aga" value = "www"/>
+                如果是对象
+                <entry key-ref = "www" value-ref=""/>
+            </map>
+        </property>
+    </bean>
+    -->
+
+    <!-- 属性文件（Properties)注入 -->
+    <!--
+    <bean id="" class="">
+        <property name="">
+            <props>
+                <prop key="2www">222</prop>
+                <prop key="2222ww">22222</prop>
+            </props>
+        </property>
+    </bean>
+    -->
+
+    <!--引入配置文件-->
+    <!--<import resource="ApplicationContext11.xml"/>-->
+
+</beans>

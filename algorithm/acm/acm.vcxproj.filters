@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\binarySearch">
+      <UniqueIdentifier>{97c858d7-68e7-48e4-882a-c46bdcb28eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\binaryTree">
+      <UniqueIdentifier>{e0f18de8-5611-40d0-996c-548ac9f0fde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\binarySearch">
+      <UniqueIdentifier>{b16be0ba-a4e7-49ff-8ddd-7f9f265aa076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\binaryTree">
+      <UniqueIdentifier>{e9db2cda-3db0-4966-98f1-7053e9edeb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\string">
+      <UniqueIdentifier>{7102838b-56aa-4599-8b82-8fa445f02c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\string">
+      <UniqueIdentifier>{4ba40643-bb23-4c40-b3b2-825208a9000e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ACMMathCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GasStation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IACM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binarySearch\binarySearch.h">
+      <Filter>头文件\binarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binaryTree\binaryTreeCommon.h">
+      <Filter>头文件\binaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binaryTree\binaryTreeDepth.h">
+      <Filter>头文件\binaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binaryTree\binaryTreeTraversal.h">
+      <Filter>头文件\binaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binaryTree\ConstructBinaryTree.h">
+      <Filter>头文件\binaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binaryTree\BalancedBinaryTree.h">
+      <Filter>头文件\binaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binaryTree\BinaryTreetoLinkedList.h">
+      <Filter>头文件\binaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\string\DistinctSubsequnces.h">
+      <Filter>头文件\string</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GasStation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bianrySearch\binarySearch.cpp">
+      <Filter>源文件\binarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\binaryTreeDepth.cpp">
+      <Filter>源文件\binaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\binaryTreeTraversal.cpp">
+      <Filter>源文件\binaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
+      <Filter>源文件\binaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\BalancedBinaryTree.cpp">
+      <Filter>源文件\binaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\BinaryTreetoLinkedList.cpp">
+      <Filter>源文件\binaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string\DistinctSubsequnces.cpp">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
