@@ -1,4 +1,4 @@
-#include "binaryTree\ConstructBinaryTree.h"
+#include "BinaryTree\ConstructBinaryTree.h"
 
 
 ConstructBinaryTree::~ConstructBinaryTree()

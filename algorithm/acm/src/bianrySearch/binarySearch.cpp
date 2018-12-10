@@ -1,4 +1,4 @@
-#include "binarySearch\binarySearch.h"
+#include "BinarySearch\binarySearch.h"
 #include <iostream>
 
 bool SolutionBinaSrh::solve()
