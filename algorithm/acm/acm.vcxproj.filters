@@ -33,6 +33,12 @@
     <Filter Include="源文件\Others">
       <UniqueIdentifier>{455ec687-dd7f-48c8-85f2-6e4e5ad24f19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\DynamicProgramming">
+      <UniqueIdentifier>{c0b2532e-e244-4b4e-a7f6-31d2b51cc8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DynamicProgramming">
+      <UniqueIdentifier>{9ccf3b8b-0632-4a4b-8bfb-b6f5fb690c34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -114,6 +120,12 @@
     </ClCompile>
     <ClCompile Include="src\others\Triangle.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dynamicProgramming\BuySellStock.h">
+      <Filter>头文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
