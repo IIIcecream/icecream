@@ -10,6 +10,10 @@ public:
     virtual bool solve() override;
 
 private:
+    void pascalsTriangle1();
+    void pascalsTriangle2();
+private:
     int m_numRows;
-    std::vector<std::vector<int>> m_res;
+    std::vector<std::vector<int>> m_res1;
+    std::vector<int> m_res2;
 };
