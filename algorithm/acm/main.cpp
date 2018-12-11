@@ -7,6 +7,7 @@
 #include "binaryTree\BinaryTreetoLinkedList.h"
 #include "string\DistinctSubsequnces.h"
 #include "others\PascalsTriangle.h"
+#include "others\Triangle.h"
 
 using namespace std;
 
@@ -107,9 +108,20 @@ void test118()
     p->solve();
 }
 
+void test120()
+{
+    vector<vector<int>> triangle;
+    vector<int> a; a.push_back(2);  triangle.push_back(a);
+    vector<int> b; b.push_back(3), b.push_back(4); triangle.push_back(b);
+    vector<int> c; c.push_back(6), c.push_back(5), c.push_back(7); triangle.push_back(c);
+    vector<int> d; d.push_back(4), d.push_back(1), d.push_back(8), d.push_back(3); triangle.push_back(d);
+
+    IACM *p = new Triangle(triangle);
+    p->solve();
+}
 int main()
 {
-    test118();
+    test120();
     return 0;
 }
 

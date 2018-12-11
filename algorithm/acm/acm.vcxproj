@@ -31,6 +31,7 @@
     <ClInclude Include="include\IACM.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
+    <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +45,7 @@
     <ClCompile Include="src\binaryTree\RightPointerBinaryTree.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
+    <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

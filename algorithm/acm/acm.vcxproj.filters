@@ -74,6 +74,9 @@
     <ClInclude Include="include\others\PascalsTriangle.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\Triangle.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -107,6 +110,9 @@
       <Filter>源文件\Others</Filter>
     </ClCompile>
     <ClCompile Include="src\others\PascalsTriangle.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\Triangle.cpp">
       <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
