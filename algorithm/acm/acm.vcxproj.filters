@@ -89,6 +89,9 @@
     <ClInclude Include="include\binaryTree\BinaryTreeMaximumPathSum.h">
       <Filter>头文件\BinaryTree</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -132,6 +135,9 @@
     </ClCompile>
     <ClCompile Include="src\binaryTree\BinaryTreeMaximumPathSum.cpp">
       <Filter>源文件\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

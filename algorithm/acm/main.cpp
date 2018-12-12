@@ -10,6 +10,7 @@
 #include "others\Triangle.h"
 #include "dynamicProgramming\BuySellStock.h"
 #include "binaryTree\BinaryTreeMaximumPathSum.h"
+#include "others\LetterCombinationsOfPhoneNumbers.h"
 
 using namespace std;
 
@@ -151,9 +152,16 @@ void test124()
     p->solve();
 }
 
+void test17()
+{
+    string s("213");
+    IACM *p = new LetterCombinationsOfPhoneNumbers(s);
+    p->solve();
+}
+
 int main()
 {
-    test124();
+    test17();
     return 0;
 }
 
