@@ -45,6 +45,12 @@
     <Filter Include="源文件\LinkedList">
       <UniqueIdentifier>{837c8b94-3821-49a5-93c0-aa11afe50af2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Stack">
+      <UniqueIdentifier>{1f000677-d22e-47f3-ab2f-bdfe0efb43b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stack">
+      <UniqueIdentifier>{4c8ccaf7-3152-416e-b700-8986502db587}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -104,6 +110,9 @@
     <ClInclude Include="include\linkedList\LinkedListCommon.h">
       <Filter>头文件\LinkedList</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\GenerateParentheses.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -153,6 +162,9 @@
     </ClCompile>
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp">
       <Filter>源文件\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\GenerateParentheses.cpp">
+      <Filter>源文件\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
