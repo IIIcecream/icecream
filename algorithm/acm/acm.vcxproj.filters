@@ -39,6 +39,12 @@
     <Filter Include="源文件\DynamicProgramming">
       <UniqueIdentifier>{9ccf3b8b-0632-4a4b-8bfb-b6f5fb690c34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\LinkedList">
+      <UniqueIdentifier>{138ef31b-9a11-4d1b-aa7b-2312cddb6a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LinkedList">
+      <UniqueIdentifier>{837c8b94-3821-49a5-93c0-aa11afe50af2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -92,6 +98,12 @@
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\linkedList\MergeTwoSortedLists.h">
+      <Filter>头文件\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="include\linkedList\LinkedListCommon.h">
+      <Filter>头文件\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -138,6 +150,9 @@
     </ClCompile>
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp">
+      <Filter>源文件\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
