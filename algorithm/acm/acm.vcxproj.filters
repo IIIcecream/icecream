@@ -83,6 +83,9 @@
     <ClInclude Include="include\others\Triangle.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\BuySellStock.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -123,9 +126,6 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
-    </ClCompile>
-    <ClCompile Include="include\dynamicProgramming\BuySellStock.h">
-      <Filter>头文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -28,6 +28,7 @@
     <ClInclude Include="include\binaryTree\BinaryTreeTraversal.h" />
     <ClInclude Include="include\binaryTree\ConstructBinaryTree.h" />
     <ClInclude Include="include\binaryTree\RightPointerBinaryTree.h" />
+    <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
     <ClInclude Include="include\IACM.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
@@ -35,7 +36,6 @@
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\dynamicProgramming\BuySellStock.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\bianrySearch\BinarySearch.cpp" />
     <ClCompile Include="src\binaryTree\BalancedBinaryTree.cpp" />

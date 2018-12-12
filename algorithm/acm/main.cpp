@@ -8,6 +8,7 @@
 #include "string\DistinctSubsequnces.h"
 #include "others\PascalsTriangle.h"
 #include "others\Triangle.h"
+#include "dynamicProgramming\BuySellStock.h"
 
 using namespace std;
 
@@ -119,9 +120,26 @@ void test120()
     IACM *p = new Triangle(triangle);
     p->solve();
 }
+
+void test123()
+{
+    vector<int> prices;
+    prices.push_back(3);
+    prices.push_back(3);
+    prices.push_back(5);
+    prices.push_back(0);
+    prices.push_back(0);
+    prices.push_back(3);
+    prices.push_back(1);
+    prices.push_back(4);
+
+    IACM *p = new BuySellSrock(prices);
+    p->solve();
+}
+
 int main()
 {
-    test120();
+    test123();
     return 0;
 }
 

@@ -5,8 +5,16 @@
 *@author       tangw-b  2018/12/05  10:52
 */
 
+#ifndef INT_MAX
+#define INT_MAX 2147483647
+#endif
+
+#ifndef INT_MIN
+#define INT_MIN (-2147483647 - 1)
+#endif
 namespace ACM
 {
+
     static int max(int a, int b)
     {
         return a > b ? a : b;
