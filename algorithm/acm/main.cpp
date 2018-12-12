@@ -9,6 +9,7 @@
 #include "others\PascalsTriangle.h"
 #include "others\Triangle.h"
 #include "dynamicProgramming\BuySellStock.h"
+#include "binaryTree\BinaryTreeMaximumPathSum.h"
 
 using namespace std;
 
@@ -137,9 +138,22 @@ void test123()
     p->solve();
 }
 
+void test124()
+{
+    TreeNode *pNode1 = new TreeNode(2);
+    TreeNode *pNode2 = new TreeNode(-1);
+    //TreeNode *pNode3 = new TreeNode(3);
+
+    pNode1->left = pNode2;
+    //pNode1->right = pNode3;
+
+    IACM *p = new BTMaxPathSum(pNode1);
+    p->solve();
+}
+
 int main()
 {
-    test123();
+    test124();
     return 0;
 }
 

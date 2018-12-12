@@ -86,6 +86,9 @@
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h">
       <Filter>头文件\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="include\binaryTree\BinaryTreeMaximumPathSum.h">
+      <Filter>头文件\BinaryTree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -126,6 +129,9 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\BinaryTreeMaximumPathSum.cpp">
+      <Filter>源文件\BinaryTree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
