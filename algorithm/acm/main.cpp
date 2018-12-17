@@ -11,6 +11,7 @@
 #include "dynamicProgramming\BuySellStock.h"
 #include "binaryTree\BinaryTreeMaximumPathSum.h"
 #include "others\LetterCombinationsOfPhoneNumbers.h"
+#include "stack\GenerateParentheses.h"
 
 using namespace std;
 
@@ -159,9 +160,15 @@ void test17()
     p->solve();
 }
 
+void test22()
+{
+    IACM *p = new GenerateParentheses(3);
+    p->solve();
+}
+
 int main()
 {
-    test17();
+    test22();
     return 0;
 }
 
