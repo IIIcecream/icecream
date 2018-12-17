@@ -9,5 +9,5 @@ public:
     virtual bool solve() override;
 
 private:
-    ListNode *m_pList1, *m_pList2;
+    ListNode *m_pList1, *m_pList2, *m_pRes = nullptr;
 };
