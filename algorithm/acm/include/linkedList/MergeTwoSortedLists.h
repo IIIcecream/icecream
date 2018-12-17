@@ -2,6 +2,7 @@
 #include "IACM.h"
 #include "LinkedList\LinkedListCommon.h"
 
+// 合并两个有序链表
 class Merge2SortedLists : public IACM
 {
 public:
