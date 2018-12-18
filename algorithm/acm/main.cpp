@@ -36,6 +36,7 @@ void test103()
 
     IACM *p = new ZigZagLevelOrderTraversal(pTree);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test105()
@@ -55,8 +56,9 @@ void test105()
     inorder.push_back(20);
     inorder.push_back(7);
 
-    ConstructBinaryTree *pConstruct = new CBTfromPreInorder(preorder, inorder);
-    pConstruct->solve();
+    IACM *p = new CBTfromPreInorder(preorder, inorder);
+    p->solve();
+    SAFE_DELETE(p);
 }
 
 void test106()
@@ -76,8 +78,9 @@ void test106()
     postOrder.push_back(20);
     postOrder.push_back(3);
 
-    ConstructBinaryTree *pConstruct = new CBTfromInPostOrder(inorder, postOrder);
-    pConstruct->solve();
+    IACM *p = new CBTfromInPostOrder(inorder, postOrder);
+    p->solve();
+    SAFE_DELETE(p);
 }
 
 void test114()
@@ -99,6 +102,7 @@ void test114()
 
     IACM *p = new BinaryTreetoLinkedList(pNode1);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test115()
@@ -106,12 +110,14 @@ void test115()
     string s("aacc"), t("ac");
     IACM *p = new DistinctSubsequnces(s, t);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test118()
 {
     IACM *p = new PascalsTriangle(5);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test120()
@@ -124,6 +130,7 @@ void test120()
 
     IACM *p = new Triangle(triangle);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test123()
@@ -140,6 +147,7 @@ void test123()
 
     IACM *p = new BuySellSrock(prices);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test124()
@@ -153,6 +161,7 @@ void test124()
 
     IACM *p = new BTMaxPathSum(pNode1);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test17()
@@ -160,23 +169,24 @@ void test17()
     string s("213");
     IACM *p = new LetterCombinationsOfPhoneNumbers(s);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test22()
 {
     IACM *p = new GenerateParentheses(3);
     p->solve();
+    SAFE_DELETE(p);
 }
 
 void test32()
 {
     IACM *p = new LongestValidParentheses("()(())");
-    SCOPE_EXIT{ delete p; p = nullptr; };
     p->solve();
+    SAFE_DELETE(p);
 }
 
 int main()
 {
     return 0;
 }
-

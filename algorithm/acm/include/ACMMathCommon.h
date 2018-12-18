@@ -14,6 +14,8 @@
 #ifndef INT_MIN
 #define INT_MIN (-2147483647 - 1)
 #endif
+
+#define SAFE_DELETE(ptr) { if(ptr) delete(ptr); }
 namespace ACM
 {
     static int max(int a, int b)
