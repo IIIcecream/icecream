@@ -12,6 +12,8 @@
 #include "binaryTree\BinaryTreeMaximumPathSum.h"
 #include "others\LetterCombinationsOfPhoneNumbers.h"
 #include "stack\GenerateParentheses.h"
+#include "stack\LongestValidParentheses.h"
+#include "scopeguard.h"
 
 using namespace std;
 
@@ -166,9 +168,15 @@ void test22()
     p->solve();
 }
 
+void test32()
+{
+    IACM *p = new LongestValidParentheses("()(())");
+    SCOPE_EXIT{ delete p; p = nullptr; };
+    p->solve();
+}
+
 int main()
 {
-    test22();
     return 0;
 }
 

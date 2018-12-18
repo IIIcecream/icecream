@@ -113,6 +113,12 @@
     <ClInclude Include="include\stack\GenerateParentheses.h">
       <Filter>头文件\Stack</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\LongestValidParentheses.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scopeguard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -164,6 +170,9 @@
       <Filter>源文件\LinkedList</Filter>
     </ClCompile>
     <ClCompile Include="src\stack\GenerateParentheses.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\LongestValidParentheses.cpp">
       <Filter>源文件\Stack</Filter>
     </ClCompile>
   </ItemGroup>

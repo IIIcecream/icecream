@@ -37,7 +37,9 @@
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Triangle.h" />
+    <ClInclude Include="include\scopeguard.h" />
     <ClInclude Include="include\stack\GenerateParentheses.h" />
+    <ClInclude Include="include\stack\LongestValidParentheses.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +59,7 @@
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
+    <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
