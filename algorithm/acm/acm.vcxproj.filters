@@ -119,6 +119,12 @@
     <ClInclude Include="include\scopeguard.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\binarySearch\SearchInRotatedSortedArray.h">
+      <Filter>头文件\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binarySearch\Search2DMatrix.h">
+      <Filter>头文件\BinarySearch</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -174,6 +180,12 @@
     </ClCompile>
     <ClCompile Include="src\stack\LongestValidParentheses.cpp">
       <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bianrySearch\SearchInRotatedSortedArray.cpp">
+      <Filter>源文件\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bianrySearch\Search2DMatrix.cpp">
+      <Filter>源文件\BinarySearch</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

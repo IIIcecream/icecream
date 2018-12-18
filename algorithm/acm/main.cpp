@@ -13,7 +13,7 @@
 #include "others\LetterCombinationsOfPhoneNumbers.h"
 #include "stack\GenerateParentheses.h"
 #include "stack\LongestValidParentheses.h"
-#include "scopeguard.h"
+#include "binarySearch\SearchInRotatedSortedArray.h"
 
 using namespace std;
 
@@ -186,7 +186,24 @@ void test32()
     SAFE_DELETE(p);
 }
 
+void test33()
+{
+    vector<int> nums;
+    nums.push_back(4);
+    nums.push_back(5);
+    nums.push_back(6);
+    nums.push_back(7);
+    nums.push_back(0);
+    nums.push_back(1);
+    nums.push_back(2);
+    int nTarget = 4;
+    IACM *p = new SearchInRotatedSortedArray(nums, nTarget);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 int main()
 {
+    test33();
     return 0;
 }

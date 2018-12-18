@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h" />
     <ClInclude Include="include\binarySearch\BinarySearch.h" />
+    <ClInclude Include="include\binarySearch\Search2DMatrix.h" />
+    <ClInclude Include="include\binarySearch\SearchInRotatedSortedArray.h" />
     <ClInclude Include="include\binaryTree\BalancedBinaryTree.h" />
     <ClInclude Include="include\binaryTree\BinaryTreeCommon.h" />
     <ClInclude Include="include\binaryTree\BinaryTreeDepth.h" />
@@ -45,6 +47,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\bianrySearch\BinarySearch.cpp" />
+    <ClCompile Include="src\bianrySearch\Search2DMatrix.cpp" />
+    <ClCompile Include="src\bianrySearch\SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="src\binaryTree\BalancedBinaryTree.cpp" />
     <ClCompile Include="src\binaryTree\BinaryTreeDepth.cpp" />
     <ClCompile Include="src\binaryTree\BinaryTreeMaximumPathSum.cpp" />
