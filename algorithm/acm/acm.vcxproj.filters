@@ -51,6 +51,12 @@
     <Filter Include="源文件\Stack">
       <UniqueIdentifier>{4c8ccaf7-3152-416e-b700-8986502db587}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Graph">
+      <UniqueIdentifier>{e4cf8cb5-e618-4ea2-b91e-ee99db707f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graph">
+      <UniqueIdentifier>{167e032f-2bca-49ef-affb-5a2eacc4d7c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -125,6 +131,15 @@
     <ClInclude Include="include\binarySearch\Search2DMatrix.h">
       <Filter>头文件\BinarySearch</Filter>
     </ClInclude>
+    <ClInclude Include="include\binaryTree\SumRootToLeafNumbers.h">
+      <Filter>头文件\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graph\WordLadder.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graph\GraphCommon.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -186,6 +201,12 @@
     </ClCompile>
     <ClCompile Include="src\bianrySearch\Search2DMatrix.cpp">
       <Filter>源文件\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binaryTree\SumRootToLeafNumbers.cpp">
+      <Filter>源文件\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graph\WordLadder.cpp">
+      <Filter>源文件\Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

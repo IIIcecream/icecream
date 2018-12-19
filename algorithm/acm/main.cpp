@@ -14,9 +14,47 @@
 #include "stack\GenerateParentheses.h"
 #include "stack\LongestValidParentheses.h"
 #include "binarySearch\SearchInRotatedSortedArray.h"
+#include "graph\WordLadder.h"
 
 using namespace std;
 
+void test17()
+{
+    string s("213");
+    IACM *p = new LetterCombinationsOfPhoneNumbers(s);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test22()
+{
+    IACM *p = new GenerateParentheses(3);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test32()
+{
+    IACM *p = new LongestValidParentheses("()(())");
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test33()
+{
+    vector<int> nums;
+    nums.push_back(4);
+    nums.push_back(5);
+    nums.push_back(6);
+    nums.push_back(7);
+    nums.push_back(0);
+    nums.push_back(1);
+    nums.push_back(2);
+    int nTarget = 4;
+    IACM *p = new SearchInRotatedSortedArray(nums, nTarget);
+    p->solve();
+    SAFE_DELETE(p);
+}
 
 void test103()
 {
@@ -164,46 +202,24 @@ void test124()
     SAFE_DELETE(p);
 }
 
-void test17()
+void test127()
 {
-    string s("213");
-    IACM *p = new LetterCombinationsOfPhoneNumbers(s);
-    p->solve();
-    SAFE_DELETE(p);
-}
+    string sBegin("hit"), sEnd("cog");
+    vector<string> words;
+    words.push_back("hot");
+    words.push_back("dot");
+    words.push_back("dog");
+    words.push_back("lot");
+    words.push_back("log");
+    words.push_back("cog");
 
-void test22()
-{
-    IACM *p = new GenerateParentheses(3);
-    p->solve();
-    SAFE_DELETE(p);
-}
-
-void test32()
-{
-    IACM *p = new LongestValidParentheses("()(())");
-    p->solve();
-    SAFE_DELETE(p);
-}
-
-void test33()
-{
-    vector<int> nums;
-    nums.push_back(4);
-    nums.push_back(5);
-    nums.push_back(6);
-    nums.push_back(7);
-    nums.push_back(0);
-    nums.push_back(1);
-    nums.push_back(2);
-    int nTarget = 4;
-    IACM *p = new SearchInRotatedSortedArray(nums, nTarget);
+    IACM *p = new WordLadder(sBegin, sEnd, words);
     p->solve();
     SAFE_DELETE(p);
 }
 
 int main()
 {
-    test33();
+    test127();
     return 0;
 }
