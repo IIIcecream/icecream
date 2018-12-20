@@ -57,6 +57,12 @@
     <Filter Include="源文件\Graph">
       <UniqueIdentifier>{167e032f-2bca-49ef-affb-5a2eacc4d7c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Recursion">
+      <UniqueIdentifier>{2fef6f84-5d67-4ca7-844e-7e90961405b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Recursion">
+      <UniqueIdentifier>{f38f0783-1c4a-454c-8ed1-b39726674850}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -140,6 +146,9 @@
     <ClInclude Include="include\graph\GraphCommon.h">
       <Filter>头文件\Graph</Filter>
     </ClInclude>
+    <ClInclude Include="include\recursion\PalindromePartitioning.h">
+      <Filter>头文件\Recursion</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -207,6 +216,9 @@
     </ClCompile>
     <ClCompile Include="src\graph\WordLadder.cpp">
       <Filter>源文件\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\PalindromePartitioning.cpp">
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

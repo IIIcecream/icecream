@@ -15,6 +15,7 @@
 #include "stack\LongestValidParentheses.h"
 #include "binarySearch\SearchInRotatedSortedArray.h"
 #include "graph\WordLadder.h"
+#include "recursion\PalindromePartitioning.h"
 
 using namespace std;
 
@@ -218,8 +219,15 @@ void test127()
     SAFE_DELETE(p);
 }
 
+void test131()
+{
+    IACM *p = new PalindromePartitioning("aaa");
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test127();
+    test131();
     return 0;
 }

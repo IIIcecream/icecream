@@ -50,7 +50,7 @@ int WordLadder::ladderLength()
         {
             int nCurNode = nodes.front();
             nodes.pop();
-            for (int j = 0; j < Matrix[nCurNode].size(); ++j)
+            for (size_t j = 0; j < Matrix[nCurNode].size(); ++j)
             {
                 int nNextNode = Matrix[nCurNode][j];
                 if (nNextNode == nEnd)  return ++nRes;
