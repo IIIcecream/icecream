@@ -41,6 +41,7 @@
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
+    <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\recursion\PalindromePartitioning.h" />
     <ClInclude Include="include\scopeguard.h" />
@@ -67,6 +68,7 @@
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
+    <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\recursion\PalindromePartitioning.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />

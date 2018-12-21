@@ -16,6 +16,7 @@
 #include "binarySearch\SearchInRotatedSortedArray.h"
 #include "graph\WordLadder.h"
 #include "recursion\PalindromePartitioning.h"
+#include "others\SingleNumber.h"
 
 using namespace std;
 
@@ -226,8 +227,24 @@ void test131()
     SAFE_DELETE(p);
 }
 
+void test137()
+{
+    vector<int> nums;
+    nums.push_back(99);
+    nums.push_back(1);
+    nums.push_back(99);
+    nums.push_back(1);
+    nums.push_back(0);
+    nums.push_back(1);
+    nums.push_back(99);
+
+    IACM *p = new SingleNumber2(nums);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test131();
+    test137();
     return 0;
 }
