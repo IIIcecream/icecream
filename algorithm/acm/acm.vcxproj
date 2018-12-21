@@ -44,6 +44,7 @@
     <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\recursion\PalindromePartitioning.h" />
+    <ClInclude Include="include\recursion\WordBreak.h" />
     <ClInclude Include="include\scopeguard.h" />
     <ClInclude Include="include\stack\GenerateParentheses.h" />
     <ClInclude Include="include\stack\LongestValidParentheses.h" />
@@ -71,6 +72,7 @@
     <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\recursion\PalindromePartitioning.cpp" />
+    <ClCompile Include="src\recursion\WordBreak.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
     <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />

@@ -17,6 +17,7 @@
 #include "graph\WordLadder.h"
 #include "recursion\PalindromePartitioning.h"
 #include "others\SingleNumber.h"
+#include "recursion\WordBreak.h"
 
 using namespace std;
 
@@ -243,8 +244,33 @@ void test137()
     SAFE_DELETE(p);
 }
 
+void test139()
+{
+    //string word = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
+    string word = "catsandog";
+    vector<string> wordDict;
+    wordDict.push_back("cats");
+    wordDict.push_back("og");
+    wordDict.push_back("sand");
+    wordDict.push_back("and");
+    wordDict.push_back("cat");
+    //wordDict.push_back("a");
+    //wordDict.push_back("aa");
+    //wordDict.push_back("aaa");
+    //wordDict.push_back("aaaa");
+    //wordDict.push_back("aaaaa");
+    //wordDict.push_back("aaaaaa");
+    //wordDict.push_back("aaaaaaa");
+    //wordDict.push_back("aaaaaaaa");
+    //wordDict.push_back("aaaaaaaaa");
+    //wordDict.push_back("aaaaaaaaaa");
+    IACM *p = new WordBreak(word, wordDict);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test137();
+    test139();
     return 0;
 }
