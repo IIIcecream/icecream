@@ -18,6 +18,7 @@
 #include "recursion\PalindromePartitioning.h"
 #include "others\SingleNumber.h"
 #include "recursion\WordBreak.h"
+#include "linkedList\LinkedListCycle.h"
 
 using namespace std;
 
@@ -269,8 +270,31 @@ void test139()
     SAFE_DELETE(p);
 }
 
+void test142()
+{
+    ListNode *pNode1 = new ListNode(1);
+    ListNode *pNode2 = new ListNode(2);
+    ListNode *pNode3 = new ListNode(3);
+    ListNode *pNode4 = new ListNode(4);
+    ListNode *pNode5 = new ListNode(5);
+    ListNode *pNode6 = new ListNode(6);
+    ListNode *pNode7 = new ListNode(7);
+    pNode1->next = pNode2;
+    pNode2->next = pNode3;
+    pNode3->next = pNode4;
+    pNode4->next = pNode5;
+    pNode5->next = pNode6;
+    pNode6->next = pNode7;
+    pNode7->next = pNode4;
+
+    IACM *p = new LinkedListCycleII(pNode1);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test139();
+    test142();
     return 0;
 }

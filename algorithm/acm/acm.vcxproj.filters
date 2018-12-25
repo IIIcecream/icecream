@@ -155,6 +155,9 @@
     <ClInclude Include="include\recursion\WordBreak.h">
       <Filter>头文件\Recursion</Filter>
     </ClInclude>
+    <ClInclude Include="include\linkedList\LinkedListCycle.h">
+      <Filter>头文件\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -231,6 +234,9 @@
     </ClCompile>
     <ClCompile Include="src\recursion\WordBreak.cpp">
       <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linkedList\LinkedListCycle.cpp">
+      <Filter>源文件\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -37,6 +37,7 @@
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
     <ClInclude Include="include\linkedList\LinkedListCommon.h" />
+    <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
@@ -65,6 +66,7 @@
     <ClCompile Include="src\binaryTree\SumRootToLeafNumbers.cpp" />
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
+    <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
