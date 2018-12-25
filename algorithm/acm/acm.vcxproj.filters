@@ -158,6 +158,9 @@
     <ClInclude Include="include\linkedList\LinkedListCycle.h">
       <Filter>头文件\LinkedList</Filter>
     </ClInclude>
+    <ClInclude Include="include\recursion\CombinationSum.h">
+      <Filter>头文件\Recursion</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -237,6 +240,9 @@
     </ClCompile>
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp">
       <Filter>源文件\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\CombinationSum.cpp">
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

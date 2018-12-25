@@ -44,6 +44,7 @@
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\Triangle.h" />
+    <ClInclude Include="include\recursion\CombinationSum.h" />
     <ClInclude Include="include\recursion\PalindromePartitioning.h" />
     <ClInclude Include="include\recursion\WordBreak.h" />
     <ClInclude Include="include\scopeguard.h" />
@@ -73,6 +74,7 @@
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
+    <ClCompile Include="src\recursion\CombinationSum.cpp" />
     <ClCompile Include="src\recursion\PalindromePartitioning.cpp" />
     <ClCompile Include="src\recursion\WordBreak.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
