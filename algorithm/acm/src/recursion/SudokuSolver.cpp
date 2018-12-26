@@ -24,7 +24,7 @@ bool SudokuSolver::solveSudoku(vector<vector<char>>& board)
                 }
                 // 1-9 都错了，说明前面有问题，回溯
                 board[i][j] = '.';
-                return;
+                return false;
             }
         }
     
