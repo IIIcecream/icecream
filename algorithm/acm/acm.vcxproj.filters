@@ -63,6 +63,12 @@
     <Filter Include="源文件\Recursion">
       <UniqueIdentifier>{f38f0783-1c4a-454c-8ed1-b39726674850}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Math">
+      <UniqueIdentifier>{6ae6be52-dc23-4375-95ce-3c2e82fe7899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Math">
+      <UniqueIdentifier>{3f0bf158-0ab6-4469-bd02-e59be42a8ee0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -167,6 +173,9 @@
     <ClInclude Include="include\others\GroupAnagrams.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\math\pow.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -255,6 +264,9 @@
     </ClCompile>
     <ClCompile Include="src\others\GroupAnagrams.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\pow.cpp">
+      <Filter>源文件\Math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
