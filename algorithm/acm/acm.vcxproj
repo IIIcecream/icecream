@@ -40,8 +40,10 @@
     <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
     <ClInclude Include="include\others\GasStation.h" />
+    <ClInclude Include="include\others\GroupAnagrams.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
+    <ClInclude Include="include\others\Permutations.h" />
     <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\recursion\CombinationSum.h" />
@@ -70,8 +72,10 @@
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
+    <ClCompile Include="src\others\GroupAnagrams.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
+    <ClCompile Include="src\others\Permutations.cpp" />
     <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\recursion\CombinationSum.cpp" />

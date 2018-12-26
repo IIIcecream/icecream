@@ -19,6 +19,7 @@
 #include "others\SingleNumber.h"
 #include "recursion\WordBreak.h"
 #include "linkedList\LinkedListCycle.h"
+#include "others\GroupAnagrams.h"
 
 using namespace std;
 
@@ -56,6 +57,16 @@ void test33()
     nums.push_back(2);
     int nTarget = 4;
     IACM *p = new SearchInRotatedSortedArray(nums, nTarget);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test49()
+{
+    vector<string> strs;
+    strs.push_back("");
+
+    IACM *p = new GroupAnagrams(strs);
     p->solve();
     SAFE_DELETE(p);
 }
@@ -295,6 +306,6 @@ void test142()
 
 int main()
 {
-    test142();
+    test49();
     return 0;
 }

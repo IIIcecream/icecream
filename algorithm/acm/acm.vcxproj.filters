@@ -161,6 +161,12 @@
     <ClInclude Include="include\recursion\CombinationSum.h">
       <Filter>头文件\Recursion</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\Permutations.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="include\others\GroupAnagrams.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -243,6 +249,12 @@
     </ClCompile>
     <ClCompile Include="src\recursion\CombinationSum.cpp">
       <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\Permutations.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\GroupAnagrams.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
