@@ -38,37 +38,19 @@ double getPow(double x, int n) {
     return getPow(x * x, n / 2) * x;
 }
 
-// 位运算(n>0)
-double pow4(double x, int n) {
-    if (n == 0) return 1;
-    else {
-        while ((n & 1) == 0) {
-            n >>= 1;
-            x *= x;
-        }
-    }
-    double result = x;
-    n >>= 1;
-    while (n != 0) {
-        x *= x;
-        if (n & 1) result *= x;
-        n >>= 1;
-    }
-    return result;
-}
-
-// 位运算 简洁版
-double pow5(double x, int n) {
-
+// 位运算
+double pow4(double x, int n)
+{
     //还需处理 -2^31，因为2^31溢出了
     if (n < 0)
     {
-        if (n == INT_MIN) return 1.0 / (x * pow5(x, -(n + 1)));
-        return 1.0 / pow5(x, -n);
+        if (n == INT_MIN) return 1.0 / (x * pow4(x, -(n + 1)));
+        return 1.0 / pow4(x, -n);
     }
 
     double r = 1.0;
-    while (n) {
+    while (n)
+    {
         if (n & 1) r *= x;
         x *= x;
         n >>= 1;
@@ -77,7 +59,6 @@ double pow5(double x, int n) {
 }
 
 
-// 快速幂
 double CalcPow::myPow(double x, int n)
 {
     pow3(x, n);
