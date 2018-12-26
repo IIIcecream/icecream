@@ -20,6 +20,7 @@
 #include "recursion\WordBreak.h"
 #include "linkedList\LinkedListCycle.h"
 #include "others\GroupAnagrams.h"
+#include "recursion\SudokuSolver.h"
 
 using namespace std;
 
@@ -57,6 +58,36 @@ void test33()
     nums.push_back(2);
     int nTarget = 4;
     IACM *p = new SearchInRotatedSortedArray(nums, nTarget);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test37()
+{
+    vector<vector<char>> board;
+
+    vector<char> vec1(9, '.');
+    vec1[0] = '1';
+    vector<char> vec2(9, '.');
+    vector<char> vec3(9, '.');
+    vector<char> vec4(9, '.');
+    vector<char> vec5(9, '.');
+    vector<char> vec6(9, '.');
+    vector<char> vec7(9, '.');
+    vector<char> vec8(9, '.');
+    vector<char> vec9(9, '.');
+    
+    board.push_back(vec1);
+    board.push_back(vec2);
+    board.push_back(vec3);
+    board.push_back(vec4);
+    board.push_back(vec5);
+    board.push_back(vec6);
+    board.push_back(vec7);
+    board.push_back(vec8);
+    board.push_back(vec9);
+
+    IACM *p = new SudokuSolver(board);
     p->solve();
     SAFE_DELETE(p);
 }
@@ -306,6 +337,6 @@ void test142()
 
 int main()
 {
-    test49();
+    test37();
     return 0;
 }

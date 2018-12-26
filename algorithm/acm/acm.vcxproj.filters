@@ -176,6 +176,9 @@
     <ClInclude Include="include\math\pow.h">
       <Filter>头文件\Math</Filter>
     </ClInclude>
+    <ClInclude Include="include\recursion\SudokuSolver.h">
+      <Filter>头文件\Recursion</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -267,6 +270,9 @@
     </ClCompile>
     <ClCompile Include="src\math\pow.cpp">
       <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\SudokuSolver.cpp">
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
