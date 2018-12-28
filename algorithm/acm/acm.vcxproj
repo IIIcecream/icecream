@@ -46,6 +46,7 @@
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Permutations.h" />
     <ClInclude Include="include\others\SingleNumber.h" />
+    <ClInclude Include="include\others\SpiralMatrix.h" />
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\recursion\CombinationSum.h" />
     <ClInclude Include="include\recursion\PalindromePartitioning.h" />
@@ -80,6 +81,7 @@
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Permutations.cpp" />
     <ClCompile Include="src\others\SingleNumber.cpp" />
+    <ClCompile Include="src\others\SpiralMatrix.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\recursion\CombinationSum.cpp" />
     <ClCompile Include="src\recursion\PalindromePartitioning.cpp" />

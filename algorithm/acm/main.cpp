@@ -21,6 +21,7 @@
 #include "linkedList\LinkedListCycle.h"
 #include "others\GroupAnagrams.h"
 #include "recursion\SudokuSolver.h"
+#include "others\SpiralMatrix.h"
 
 using namespace std;
 
@@ -98,6 +99,13 @@ void test49()
     strs.push_back("");
 
     IACM *p = new GroupAnagrams(strs);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test59()
+{
+    IACM *p = new SpiralMatrixII(3);
     p->solve();
     SAFE_DELETE(p);
 }
@@ -337,6 +345,6 @@ void test142()
 
 int main()
 {
-    test37();
+    test59();
     return 0;
 }
