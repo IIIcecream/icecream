@@ -22,6 +22,7 @@
 #include "others\GroupAnagrams.h"
 #include "recursion\SudokuSolver.h"
 #include "others\SpiralMatrix.h"
+#include "recursion\WordSearch.h"
 
 using namespace std;
 
@@ -106,6 +107,33 @@ void test49()
 void test59()
 {
     IACM *p = new SpiralMatrixII(3);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test79()
+{
+    vector<vector<char>> board;
+    vector<char> b;
+    b.push_back('A');
+    b.push_back('B');
+    b.push_back('C');
+    b.push_back('E');
+    board.push_back(b);
+
+    b[0] = 'S';
+    b[1] = 'F';
+    b[2] = 'C';
+    b[3] = 'S';
+    board.push_back(b);
+
+    b[0] = 'A';
+    b[1] = 'D';
+    b[2] = 'E';
+    b[3] = 'E';
+    board.push_back(b);
+
+    IACM *p = new WordSearch(board, "ABCCED");
     p->solve();
     SAFE_DELETE(p);
 }
@@ -345,6 +373,6 @@ void test142()
 
 int main()
 {
-    test59();
+    test79();
     return 0;
 }
