@@ -23,6 +23,8 @@
 #include "recursion\SudokuSolver.h"
 #include "others\SpiralMatrix.h"
 #include "recursion\WordSearch.h"
+#include "others\UniqueBinarySearchTrees.h"
+#include "others\ReverseWords.h"
 
 using namespace std;
 
@@ -134,6 +136,13 @@ void test79()
     board.push_back(b);
 
     IACM *p = new WordSearch(board, "ABCCED");
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test96()
+{
+    IACM *p = new UniqueBinarySearchTrees(0);
     p->solve();
     SAFE_DELETE(p);
 }
@@ -371,8 +380,17 @@ void test142()
     SAFE_DELETE(p);
 }
 
+void test151()
+{
+    string s(" 1");
+    IACM *p = new ReverseWords(s);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test79();
+    test151();
     return 0;
 }

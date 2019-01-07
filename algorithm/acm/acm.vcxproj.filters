@@ -185,6 +185,12 @@
     <ClInclude Include="include\recursion\WordSearch.h">
       <Filter>头文件\Recursion</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\UniqueBinarySearchTrees.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="include\others\ReverseWords.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -285,6 +291,12 @@
     </ClCompile>
     <ClCompile Include="src\recursion\WordSearch.cpp">
       <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\UniqueBinarySearchTrees.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\ReverseWords.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
