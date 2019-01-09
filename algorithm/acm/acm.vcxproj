@@ -33,6 +33,7 @@
     <ClInclude Include="include\binaryTree\RightPointerBinaryTree.h" />
     <ClInclude Include="include\binaryTree\SumRootToLeafNumbers.h" />
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
+    <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
@@ -56,6 +57,8 @@
     <ClInclude Include="include\recursion\WordBreak.h" />
     <ClInclude Include="include\recursion\WordSearch.h" />
     <ClInclude Include="include\scopeguard.h" />
+    <ClInclude Include="include\sort\QuickSort.h" />
+    <ClInclude Include="include\sort\SortCommon.h" />
     <ClInclude Include="include\stack\GenerateParentheses.h" />
     <ClInclude Include="include\stack\LongestValidParentheses.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
@@ -74,6 +77,7 @@
     <ClCompile Include="src\binaryTree\RightPointerBinaryTree.cpp" />
     <ClCompile Include="src\binaryTree\SumRootToLeafNumbers.cpp" />
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
+    <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
@@ -93,6 +97,7 @@
     <ClCompile Include="src\recursion\SudokuSolver.cpp" />
     <ClCompile Include="src\recursion\WordBreak.cpp" />
     <ClCompile Include="src\recursion\WordSearch.cpp" />
+    <ClCompile Include="src\sort\QuickSort.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
     <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />

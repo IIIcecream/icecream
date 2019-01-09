@@ -25,6 +25,7 @@
 #include "recursion\WordSearch.h"
 #include "others\UniqueBinarySearchTrees.h"
 #include "others\ReverseWords.h"
+#include "dynamicProgramming\HouseRobber.h"
 
 using namespace std;
 
@@ -389,8 +390,21 @@ void test151()
     SAFE_DELETE(p);
 }
 
+void test198()
+{
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(2);
+    nums.push_back(3);
+    nums.push_back(1);
+    IACM *p = new HouseRobber(nums);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test151();
+    test198();
     return 0;
 }

@@ -69,6 +69,12 @@
     <Filter Include="源文件\Math">
       <UniqueIdentifier>{3f0bf158-0ab6-4469-bd02-e59be42a8ee0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Sort">
+      <UniqueIdentifier>{106c5105-e3be-4db3-9491-7d4516523eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sort">
+      <UniqueIdentifier>{d62f57e0-bdc6-4ed7-ad02-6e741e03c488}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -191,6 +197,15 @@
     <ClInclude Include="include\others\ReverseWords.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\HouseRobber.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sort\QuickSort.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sort\SortCommon.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -297,6 +312,12 @@
     </ClCompile>
     <ClCompile Include="src\others\ReverseWords.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sort\QuickSort.cpp">
+      <Filter>源文件\Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
