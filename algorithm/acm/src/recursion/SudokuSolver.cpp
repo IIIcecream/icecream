@@ -18,7 +18,7 @@ bool SudokuSolver::solveSudoku(vector<vector<char>>& board)
                 bValid = false;
                 for (int k = 0; k < 9; ++k)
                 {
-                    board[i][j] = (char)('0' + k);
+                    board[i][j] = (char)('1' + k);
                     if (valid(board, i, j))
                         if (solveSudoku(board)) return true;
                 }

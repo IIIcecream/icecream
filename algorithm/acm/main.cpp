@@ -72,15 +72,44 @@ void test37()
     vector<vector<char>> board;
 
     vector<char> vec1(9, '.');
-    vec1[0] = '1';
+    vec1[2] = '7';
+    vec1[3] = '2';
+    vec1[7] = '1';
+    vec1[8] = '3';
     vector<char> vec2(9, '.');
+    vec2[2] = '4';
+    vec2[3] = '7';
+    vec2[7] = '6';
     vector<char> vec3(9, '.');
+    vec3[0] = '6';
+    vec3[3] = '8';
+    vec3[7] = '5';
     vector<char> vec4(9, '.');
+    vec4[2] = '9';
+    vec4[4] = '8';
+    vec4[5] = '1';
+    vec4[8] = '4';
     vector<char> vec5(9, '.');
+    vec5[1] = '2';
+    vec5[5] = '5';
+    vec5[7] = '7';
     vector<char> vec6(9, '.');
+    vec6[0] = '8';
+    vec6[5] = '2';
+    vec6[6] = '5';
     vector<char> vec7(9, '.');
+    vec7[1] = '4';
+    vec7[5] = '9';
+    vec7[8] = '2';
     vector<char> vec8(9, '.');
+    vec8[1] = '9';
+    vec8[5] = '7';
+    vec8[6] = '1';
     vector<char> vec9(9, '.');
+    vec9[0] = '7';
+    vec9[1] = '6';
+    vec9[5] = '8';
+    vec9[6] = '3';
     
     board.push_back(vec1);
     board.push_back(vec2);
@@ -405,6 +434,6 @@ void test198()
 
 int main()
 {
-    test198();
+    test37();
     return 0;
 }

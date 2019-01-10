@@ -206,6 +206,9 @@
     <ClInclude Include="include\sort\SortCommon.h">
       <Filter>头文件\Sort</Filter>
     </ClInclude>
+    <ClInclude Include="include\sort\KthLargestElement.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -317,6 +320,9 @@
       <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
     <ClCompile Include="src\sort\QuickSort.cpp">
+      <Filter>源文件\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sort\KthLargestElement.cpp">
       <Filter>源文件\Sort</Filter>
     </ClCompile>
   </ItemGroup>
