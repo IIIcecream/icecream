@@ -215,6 +215,9 @@
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\graph\CourseSchedule.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -336,6 +339,9 @@
     </ClCompile>
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graph\CourseSchedule.cpp">
+      <Filter>源文件\Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
