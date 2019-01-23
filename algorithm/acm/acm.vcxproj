@@ -44,6 +44,7 @@
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
+    <ClInclude Include="include\others\MinimumSizeSubarraySum.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Permutations.h" />
     <ClInclude Include="include\others\ReverseWords.h" />
@@ -62,6 +63,7 @@
     <ClInclude Include="include\sort\SortCommon.h" />
     <ClInclude Include="include\stack\GenerateParentheses.h" />
     <ClInclude Include="include\stack\LongestValidParentheses.h" />
+    <ClInclude Include="include\stack\MyCalculator.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +88,7 @@
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
+    <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Permutations.cpp" />
     <ClCompile Include="src\others\ReverseWords.cpp" />
@@ -102,6 +105,7 @@
     <ClCompile Include="src\sort\QuickSort.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
     <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
+    <ClCompile Include="src\stack\MyCalculator.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

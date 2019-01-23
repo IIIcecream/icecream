@@ -13,6 +13,7 @@
 #include "others\LetterCombinationsOfPhoneNumbers.h"
 #include "stack\GenerateParentheses.h"
 #include "stack\LongestValidParentheses.h"
+#include "stack\MyCalculator.h"
 #include "binarySearch\SearchInRotatedSortedArray.h"
 #include "graph\WordLadder.h"
 #include "recursion\PalindromePartitioning.h"
@@ -432,8 +433,16 @@ void test198()
     SAFE_DELETE(p);
 }
 
+void tesst224()
+{
+    IACM *p = new MyCalculator("(1+(4+5+2)-3)+(6+8)");
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-    test37();
+    tesst224();
     return 0;
 }

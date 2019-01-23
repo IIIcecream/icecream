@@ -209,6 +209,12 @@
     <ClInclude Include="include\sort\KthLargestElement.h">
       <Filter>头文件\Sort</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\MyCalculator.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\others\MinimumSizeSubarraySum.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -324,6 +330,12 @@
     </ClCompile>
     <ClCompile Include="src\sort\KthLargestElement.cpp">
       <Filter>源文件\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\MyCalculator.cpp">
+      <Filter>源文件\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
