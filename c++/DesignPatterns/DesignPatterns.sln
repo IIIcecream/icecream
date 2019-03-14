@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignPatterns", "DesignPatterns\DesignPatterns.vcxproj", "{B9DC609C-A393-4D5C-8D20-BE1182D59662}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignPatterns", "DesignPatterns\DesignPatterns.vcxproj", "{DED1F71C-E525-42D9-8CBD-F7639984B8D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationType", "CreationType", "{462F1064-375D-4D74-A8C3-35E802526591}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehaviorType", "BehaviorType", "{F7D249AC-C557-4DED-AA23-09B8F618CDD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructureType", "StructureType", "{88FFEBAB-1E5B-459A-A223-BBBEB50EFD94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Debug|x64.ActiveCfg = Debug|x64
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Debug|x64.Build.0 = Debug|x64
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Debug|x86.ActiveCfg = Debug|Win32
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Debug|x86.Build.0 = Debug|Win32
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Release|x64.ActiveCfg = Release|x64
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Release|x64.Build.0 = Release|x64
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Release|x86.ActiveCfg = Release|Win32
-		{B9DC609C-A393-4D5C-8D20-BE1182D59662}.Release|x86.Build.0 = Release|Win32
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Debug|x64.ActiveCfg = Debug|x64
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Debug|x64.Build.0 = Debug|x64
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Debug|x86.Build.0 = Debug|Win32
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Release|x64.ActiveCfg = Release|x64
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Release|x64.Build.0 = Release|x64
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Release|x86.ActiveCfg = Release|Win32
+		{DED1F71C-E525-42D9-8CBD-F7639984B8D4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
