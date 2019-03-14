@@ -4,15 +4,9 @@
 #include <QCoreApplication>
 #include <QFile>
 
-#include "DDExportTestIntf.h"
 #include "DDExportTest.h"
 
-
-#ifdef WIN32
-typedef DDExportTestIntf *(__stdcall getDDExportTestIntf)();
-#else
-typedef DDExportTestIntf *(__attribute__((stdcall)) getDDExportTestIntf)();
-#endif
+typedef DDExportTestIntf *GetExportTestIntfFunc();
 
 DDPluginService::DDPluginService()
     : m_pIntf(nullptr)
@@ -32,6 +26,7 @@ DDPluginService::DDPluginService()
     else
     {
         m_qLibrary = nullptr;
+        return;
     }
 
     load();
@@ -54,20 +49,14 @@ void DDPluginService::load()
         return;
     }
 
-    //if (!m_qLibrary->isLoaded())
+    if (!m_qLibrary->isLoaded())
     {
-#if defined(WIN64) || defined(_WIN64) || defined(__WIN64__)
-        const char* strFuncName = "getDDExportTestIntf";
-#else
         const char* strFuncName = "_getDDExportTestIntf@0";
-#endif
+        GetExportTestIntfFunc *pFunc = (GetExportTestIntfFunc *)m_qLibrary->resolve(strFuncName);
 
-        //auto func = m_qLibrary->resolve(strFuncName);
-        //getDDExportTestIntf *pFunc = (getDDExportTestIntf *)func;
-        //if (pFunc != nullptr)
+        if (pFunc != nullptr)
         {
-            //m_pIntf = pFunc();
-            m_pIntf = new DDExportTestImpl;
+            m_pIntf = pFunc();
         }
     }
 }

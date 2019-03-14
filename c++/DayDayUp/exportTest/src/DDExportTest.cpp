@@ -1,7 +1,12 @@
 #include "DDExportTest.h"
 
-DDExportTestIntf * __stdcall getDDExportTestIntf()
+DDExportTestIntf * getDDExportTestIntf()
 {
-    return new DDExportTestIntf();
+    return new DDExportTestImpl();
+}
+
+void getppp()
+{
+
 }
 

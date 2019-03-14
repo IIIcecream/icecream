@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DayDayUp", "DayDayUp\src\DayDayUp.vcxproj", "{14132627-14FA-43D9-88FA-47819EEE4501}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DED8FB9-96F0-4D0D-BC21-06E032ED3E2E} = {9DED8FB9-96F0-4D0D-BC21-06E032ED3E2E}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exportTest", "exportTest\src\exportTest.vcxproj", "{E0B2375A-697E-4E26-9565-23D162FA8467}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugin", "plugin\src\Plugin.vcxproj", "{9DED8FB9-96F0-4D0D-BC21-06E032ED3E2E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0B2375A-697E-4E26-9565-23D162FA8467} = {E0B2375A-697E-4E26-9565-23D162FA8467}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
