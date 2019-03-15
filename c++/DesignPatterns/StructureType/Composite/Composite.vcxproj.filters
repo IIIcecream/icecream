@@ -15,11 +15,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Leaf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="src\Composite.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Leaf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="include\Composite.h">
       <Filter>头文件</Filter>
     </ClInclude>
