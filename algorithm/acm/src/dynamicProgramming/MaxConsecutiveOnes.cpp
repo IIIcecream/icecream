@@ -10,18 +10,20 @@ bool MaxConsecutiveOnes::solve()
 // LeetCode T485 最大连续1的个数
 int MaxConsecutiveOnes::findMaxConsecutiveOnes(vector<int>& nums)
 {
-    size_t nLen = nums.size();
-    int dp[100000], nRes;
-    nRes = dp[0] = nums[0];
-    for (size_t i = 1; i < nLen; ++i)
+    int nRes = 0;
+
+    int count = 0;
+    for (int i = 0; i < nums.size(); i++)
     {
-        if (nums[i])
+        if (nums[i] == 1) ++count;
+
+        if (nums[i] == 0 || i == nums.size() - 1)
         {
-            dp[i] = dp[i - 1] + 1;
-            if (i == nLen - 1) nRes = ACM::max(nRes, dp[i - 1] + 1);
+            if (count > nRes) nRes = count;
+            count = 0;
         }
-        else { nRes = ACM::max(nRes, dp[i - 1]); dp[i] = 0; }
     }
+
     return nRes;
 }
 
