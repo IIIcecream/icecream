@@ -9,6 +9,6 @@ bool CourseSchedule::solve()
 // 判断有向图中是否有环
 bool CourseSchedule::canFinish(int numCourses, vector<pair<int, int>>& prerequisites)
 {
-
+    return false;
 }
 

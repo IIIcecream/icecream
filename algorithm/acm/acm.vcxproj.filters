@@ -218,6 +218,9 @@
     <ClInclude Include="include\graph\CourseSchedule.h">
       <Filter>头文件\Graph</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -342,6 +345,9 @@
     </ClCompile>
     <ClCompile Include="src\graph\CourseSchedule.cpp">
       <Filter>源文件\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -27,6 +27,7 @@
 #include "others\UniqueBinarySearchTrees.h"
 #include "others\ReverseWords.h"
 #include "dynamicProgramming\HouseRobber.h"
+#include "dynamicProgramming\MaxConsecutiveOnes.h"
 
 using namespace std;
 
@@ -441,8 +442,23 @@ void tesst224()
     SAFE_DELETE(p);
 }
 
+void test485()
+{
+	vector<int> nums;
+	nums.push_back(1);
+	nums.push_back(1);
+	nums.push_back(0);
+	nums.push_back(1);
+	nums.push_back(1);
+	nums.push_back(1);
+	IACM *p = new MaxConsecutiveOnes(nums);
+	p->solve();
+
+	SAFE_DELETE(p);
+}
+
 int main()
 {
-    tesst224();
+	test485();
     return 0;
 }
