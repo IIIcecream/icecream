@@ -75,6 +75,12 @@
     <Filter Include="源文件\Sort">
       <UniqueIdentifier>{d62f57e0-bdc6-4ed7-ad02-6e741e03c488}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\SlidingWindow">
+      <UniqueIdentifier>{cb2bddc8-6921-4ba8-918e-5b48e709f8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SlidingWindow">
+      <UniqueIdentifier>{d110ceae-1fc9-4671-8671-1eeac5ea0766}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -221,6 +227,9 @@
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h">
       <Filter>头文件\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="include\slidingWindow\MaXConsecutiveOnesIII.h">
+      <Filter>头文件\SlidingWindow</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -348,6 +357,9 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slidingWindow\MaxConsecutiveOnesIII.cpp">
+      <Filter>源文件\SlidingWindow</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

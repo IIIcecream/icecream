@@ -28,6 +28,7 @@
 #include "others\ReverseWords.h"
 #include "dynamicProgramming\HouseRobber.h"
 #include "dynamicProgramming\MaxConsecutiveOnes.h"
+#include "slidingWindow\MaXConsecutiveOnesIII.h"
 
 using namespace std;
 
@@ -457,8 +458,28 @@ void test485()
 	SAFE_DELETE(p);
 }
 
+void tes1004()
+{
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(0);
+    nums.push_back(0);
+    nums.push_back(0);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(0);
+    IACM *p = new MaxConsecutiveOnesIII(nums, 2);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 int main()
 {
-	test485();
+    tes1004();
     return 0;
 }

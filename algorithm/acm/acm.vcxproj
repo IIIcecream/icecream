@@ -60,6 +60,7 @@
     <ClInclude Include="include\recursion\WordBreak.h" />
     <ClInclude Include="include\recursion\WordSearch.h" />
     <ClInclude Include="include\scopeguard.h" />
+    <ClInclude Include="include\slidingWindow\MaXConsecutiveOnesIII.h" />
     <ClInclude Include="include\sort\KthLargestElement.h" />
     <ClInclude Include="include\sort\QuickSort.h" />
     <ClInclude Include="include\sort\SortCommon.h" />
@@ -105,6 +106,7 @@
     <ClCompile Include="src\recursion\SudokuSolver.cpp" />
     <ClCompile Include="src\recursion\WordBreak.cpp" />
     <ClCompile Include="src\recursion\WordSearch.cpp" />
+    <ClCompile Include="src\slidingWindow\MaxConsecutiveOnesIII.cpp" />
     <ClCompile Include="src\sort\KthLargestElement.cpp" />
     <ClCompile Include="src\sort\QuickSort.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
