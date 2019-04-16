@@ -233,6 +233,9 @@
     <ClInclude Include="include\slidingWindow\LongestRepeatingCharacterReplacement.h">
       <Filter>头文件\SlidingWindow</Filter>
     </ClInclude>
+    <ClInclude Include="include\slidingWindow\MinimumWindowSubstring.h">
+      <Filter>头文件\SlidingWindow</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -365,6 +368,9 @@
       <Filter>源文件\SlidingWindow</Filter>
     </ClCompile>
     <ClCompile Include="src\slidingWindow\LongestRepeatingCharacterReplacement.cpp">
+      <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slidingWindow\MinimumWindowSubstring.cpp">
       <Filter>源文件\SlidingWindow</Filter>
     </ClCompile>
   </ItemGroup>

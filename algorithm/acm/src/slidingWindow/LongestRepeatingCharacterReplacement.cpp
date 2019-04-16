@@ -11,10 +11,10 @@ bool LongestRepeatingCharacterReplacement::solve()
 // leetcode T424 Longest Repeating Character Replacement     
 int LongestRepeatingCharacterReplacement::characterReplacement(string s, int k)
 {
-    int nRes = 0, nLeft = 0, nMax = 0;
+    size_t nRes = 0, nLeft = 0, nMax = 0;
     vector<int> nums(26, 0);
 
-    for (int nRight = 0; nRight < s.length(); ++nRight)
+    for (size_t nRight = 0; nRight < s.length(); ++nRight)
     {
         nMax = ACM::max(nMax, ++nums[s[nRight] - 'A']);
 

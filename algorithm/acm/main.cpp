@@ -29,6 +29,7 @@
 #include "dynamicProgramming\HouseRobber.h"
 #include "dynamicProgramming\MaxConsecutiveOnes.h"
 #include "slidingWindow\MaXConsecutiveOnesIII.h"
+#include "slidingWindow\MinimumWindowSubstring.h"
 
 using namespace std;
 
@@ -142,6 +143,13 @@ void test49()
 void test59()
 {
     IACM *p = new SpiralMatrixII(3);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test76()
+{
+    IACM *p = new MinimumWindowSubstring("cabwefgewcwaefgcf", "cae");
     p->solve();
     SAFE_DELETE(p);
 }
@@ -480,6 +488,6 @@ void tes1004()
 
 int main()
 {
-    tes1004();
+    test76();
     return 0;
 }
