@@ -69,6 +69,7 @@
     <ClInclude Include="include\sort\SortCommon.h" />
     <ClInclude Include="include\stack\GenerateParentheses.h" />
     <ClInclude Include="include\stack\LongestValidParentheses.h" />
+    <ClInclude Include="include\stack\MinStack.h" />
     <ClInclude Include="include\stack\MyCalculator.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
   </ItemGroup>
@@ -117,6 +118,7 @@
     <ClCompile Include="src\sort\QuickSort.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
     <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
+    <ClCompile Include="src\stack\MinStack.cpp" />
     <ClCompile Include="src\stack\MyCalculator.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
   </ItemGroup>

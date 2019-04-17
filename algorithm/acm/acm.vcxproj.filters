@@ -239,6 +239,9 @@
     <ClInclude Include="include\slidingWindow\SlidingWindowMaximum.h">
       <Filter>头文件\SlidingWindow</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\MinStack.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -378,6 +381,9 @@
     </ClCompile>
     <ClCompile Include="src\slidingWindow\SlidingWindowMaximum.cpp">
       <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\MinStack.cpp">
+      <Filter>源文件\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
