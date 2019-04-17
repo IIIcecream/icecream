@@ -30,6 +30,7 @@
 #include "dynamicProgramming\MaxConsecutiveOnes.h"
 #include "slidingWindow\MaXConsecutiveOnesIII.h"
 #include "slidingWindow\MinimumWindowSubstring.h"
+#include "slidingWindow\SlidingWindowMaximum.h"
 
 using namespace std;
 
@@ -451,6 +452,23 @@ void tesst224()
     SAFE_DELETE(p);
 }
 
+void test239()
+{
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(3);
+    nums.push_back(-1);
+    nums.push_back(-3);
+    nums.push_back(5);
+    nums.push_back(3);
+    nums.push_back(6);
+    nums.push_back(7);
+    IACM *p = new SlidingWindowMaximum(nums, 3);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test485()
 {
 	vector<int> nums;
@@ -488,6 +506,6 @@ void tes1004()
 
 int main()
 {
-    test76();
+    test239();
     return 0;
 }

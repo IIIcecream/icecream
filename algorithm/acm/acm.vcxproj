@@ -63,6 +63,7 @@
     <ClInclude Include="include\slidingWindow\LongestRepeatingCharacterReplacement.h" />
     <ClInclude Include="include\slidingWindow\MaXConsecutiveOnesIII.h" />
     <ClInclude Include="include\slidingWindow\MinimumWindowSubstring.h" />
+    <ClInclude Include="include\slidingWindow\SlidingWindowMaximum.h" />
     <ClInclude Include="include\sort\KthLargestElement.h" />
     <ClInclude Include="include\sort\QuickSort.h" />
     <ClInclude Include="include\sort\SortCommon.h" />
@@ -111,6 +112,7 @@
     <ClCompile Include="src\slidingWindow\LongestRepeatingCharacterReplacement.cpp" />
     <ClCompile Include="src\slidingWindow\MaxConsecutiveOnesIII.cpp" />
     <ClCompile Include="src\slidingWindow\MinimumWindowSubstring.cpp" />
+    <ClCompile Include="src\slidingWindow\SlidingWindowMaximum.cpp" />
     <ClCompile Include="src\sort\KthLargestElement.cpp" />
     <ClCompile Include="src\sort\QuickSort.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
