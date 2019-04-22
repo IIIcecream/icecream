@@ -13,6 +13,7 @@ class DDExportTestImpl : public DDExportTestIntf
 public:
     virtual ~DDExportTestImpl() {}
 
+    //virtual int getaaa() { return -1; }
     virtual int getVal() { return a; }
 
 private:

@@ -4,9 +4,3 @@ DDExportTestIntf * getDDExportTestIntf()
 {
     return new DDExportTestImpl();
 }
-
-void getppp()
-{
-
-}
-

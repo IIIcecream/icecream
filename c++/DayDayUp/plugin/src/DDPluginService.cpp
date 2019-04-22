@@ -39,7 +39,8 @@ DDPluginService::~DDPluginService()
 
 int DDPluginService::print()
 {
-    return m_pIntf ? m_pIntf->getVal() : -1;
+    int a = m_pIntf->getaaa();
+    return m_pIntf ? m_pIntf->getVal() : a;
 }
 
 void DDPluginService::load()
@@ -51,7 +52,7 @@ void DDPluginService::load()
 
     if (!m_qLibrary->isLoaded())
     {
-        const char* strFuncName = "_getDDExportTestIntf@0";
+        const char* strFuncName = "getDDExportTestIntf";
         GetExportTestIntfFunc *pFunc = (GetExportTestIntfFunc *)m_qLibrary->resolve(strFuncName);
 
         if (pFunc != nullptr)
