@@ -56,7 +56,7 @@ bool callTemplateFunc()
     compare(1.1, 2.3);
 
     //myVec<int> vec;
-    My_Register_CustomFunc(min);
+   // My_Register_CustomFunc(min);
 
     return true;
 };
