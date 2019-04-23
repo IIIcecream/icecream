@@ -38,26 +38,51 @@ int main()
     int nClientAddrLen = sizeof(clientAddr);
     SOCKET clientSock = INVALID_SOCKET;
 
-    char msgBuf[] = "Hello, I'm Server.\n";
-
+    clientSock = accept(serverSocket, (sockaddr*)&clientAddr, &nClientAddrLen);
+    if (INVALID_SOCKET == clientSock)
+        cout << "接受到无效客户端socket..." << endl;
+    cout << "新客户端加入：IP = " << inet_ntoa(clientAddr.sin_addr) << endl;
+    
+    char recvBuf[128] = {};
     while (true)
     {
-        clientSock = accept(serverSocket, (sockaddr*)&clientAddr, &nClientAddrLen);
-        if (INVALID_SOCKET == clientSock)
-            cout << "接受到无效客户端socket..." << endl;
-
-        cout << "新客户端加入：IP = " << inet_ntoa(clientAddr.sin_addr) << endl;
-
-        // 5 向客户端发送一条数据send
+        // 5 接收客户端数据
+        int nLen = recv(clientSock, recvBuf, 128, 0);
+        if (nLen <= 0)
+        {
+            cout << "客户端已退出，任务结束..." << endl;
+            break;
+        }
+        else
+        {
+            cout << "收到客户端请求：" << recvBuf << endl;
+        }
+       
+        // 6 处理请求，并返回数据
+        const char *msgBuf;
+        if (0 == strcmp(recvBuf, "getName"))
+        {
+            msgBuf = "Icecream";
+        }
+        else if (0 == strcmp(recvBuf, "getAge"))
+        {
+            msgBuf = "80";
+        }
+        else
+        {
+            msgBuf = "???";
+        }
         // 长度 + 1 是为了把bug后的\0也发送过去
         send(clientSock, msgBuf, strlen(msgBuf) + 1, 0);
     }
 
-	// 6 关闭套接字closeSocket
+	// 7 关闭套接字closeSocket
     closesocket(serverSocket);
 
 	// 清除windows socket环境
 	WSACleanup();
 
+    cout << "服务器已退出" << endl;
+    system("pause");
     return 0;
 }
