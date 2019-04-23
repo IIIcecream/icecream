@@ -2,6 +2,42 @@
 #include <iostream>
 using namespace std;
 
+// 命令类型
+enum CMD
+{
+    eCMD_LOGIN,
+    eCMD_LOGOUT,
+    eCMD_ERROR
+};
+
+// 消息头
+struct DataHeader
+{
+    short dataLength;   // 数据长度
+    CMD cmd;  //命令
+};
+
+struct Login
+{
+    char sUserName[32];
+    char sPassword[32];
+};
+
+struct LoginResult
+{
+    int result;
+};
+
+struct Logout
+{
+    char sUserName[32];
+};
+
+struct LogoutResult
+{
+    int result;
+};
+
 int main()
 {
 	// 启动windows socket 2.2环境
@@ -43,37 +79,59 @@ int main()
         cout << "接受到无效客户端socket..." << endl;
     cout << "新客户端加入：IP = " << inet_ntoa(clientAddr.sin_addr) << endl;
     
-    char recvBuf[128] = {};
     while (true)
     {
         // 5 接收客户端数据
-        int nLen = recv(clientSock, recvBuf, 128, 0);
+        DataHeader dataHeader;
+        int nLen = recv(clientSock, (char *)&dataHeader, sizeof(DataHeader), 0);
         if (nLen <= 0)
         {
             cout << "客户端已退出，任务结束..." << endl;
             break;
         }
-        else
-        {
-            cout << "收到客户端请求：" << recvBuf << endl;
-        }
+        cout << "收到命令：" << dataHeader.cmd << "数据长度" << dataHeader.dataLength << endl;
        
-        // 6 处理请求，并返回数据
-        const char *msgBuf;
-        if (0 == strcmp(recvBuf, "getName"))
+        switch (dataHeader.cmd)
         {
-            msgBuf = "Icecream";
-        }
-        else if (0 == strcmp(recvBuf, "getAge"))
+        case eCMD_LOGIN:
         {
-            msgBuf = "80";
+            Login login;
+
+            recv(clientSock, (char *)&login, sizeof(Login), 0);
+            // 忽略判断用户名密码的校验
+
+            cout << login.sUserName << " is login " << endl;
+
+            DataHeader loginResultHeader = { sizeof(LoginResult) , eCMD_LOGIN };
+            send(clientSock, (const char*)&loginResultHeader, sizeof(DataHeader), 0);
+            LoginResult loginResult = { 1 };
+            send(clientSock, (const char*)&loginResult, sizeof(LoginResult), 0);
+            
+            break;
         }
-        else
+        case eCMD_LOGOUT:
         {
-            msgBuf = "???";
+            Logout logout;
+
+            recv(clientSock, (char *)&logout, sizeof(Logout), 0);
+            // 忽略判断用户名密码的校验
+
+            cout << logout.sUserName << " is logout " << endl;
+
+            DataHeader loginResultHeader = { sizeof(LogoutResult) , eCMD_LOGOUT };
+            send(clientSock, (const char*)&loginResultHeader, sizeof(DataHeader), 0);
+            LogoutResult loginResult = { 1 };
+            send(clientSock, (const char*)&loginResult, sizeof(LogoutResult), 0);
+            break;
         }
-        // 长度 + 1 是为了把bug后的\0也发送过去
-        send(clientSock, msgBuf, strlen(msgBuf) + 1, 0);
+        default:
+        {
+            DataHeader errHeader;
+            errHeader.cmd = eCMD_ERROR;
+            errHeader.dataLength = 0;
+            send(clientSock, (const char*)&errHeader, sizeof(DataHeader), 0);
+        }
+        }
     }
 
 	// 7 关闭套接字closeSocket
