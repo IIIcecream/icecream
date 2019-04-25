@@ -81,6 +81,12 @@
     <Filter Include="源文件\SlidingWindow">
       <UniqueIdentifier>{d110ceae-1fc9-4671-8671-1eeac5ea0766}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Scheduling">
+      <UniqueIdentifier>{c709f2c1-d927-4650-aecc-6a878cef95a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Scheduling">
+      <UniqueIdentifier>{00d62760-b311-4448-9228-8c4f1c38555a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -245,6 +251,12 @@
     <ClInclude Include="include\slidingWindow\SlidingWindowMedian.h">
       <Filter>头文件\SlidingWindow</Filter>
     </ClInclude>
+    <ClInclude Include="include\slidingWindow\SubarraysWithKDifferentIntegers.h">
+      <Filter>头文件\SlidingWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scheduling\LRUCache.h">
+      <Filter>头文件\Scheduling</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -390,6 +402,12 @@
     </ClCompile>
     <ClCompile Include="src\slidingWindow\SlidingWindowMedian.cpp">
       <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slidingWindow\SubarraysWithKDifferentIntegers.cpp">
+      <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scheduling\LRUCache.cpp">
+      <Filter>源文件\Scheduling</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
