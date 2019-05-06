@@ -35,6 +35,7 @@
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
+    <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
     <ClInclude Include="include\graph\CourseSchedule.h" />
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
@@ -93,6 +94,7 @@
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
+    <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />

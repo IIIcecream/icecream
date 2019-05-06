@@ -260,6 +260,9 @@
     <ClInclude Include="include\scheduling\LFUCache.h">
       <Filter>头文件\Scheduling</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\MaximalSquare.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -414,6 +417,9 @@
     </ClCompile>
     <ClCompile Include="src\LRU\LFUCache.cpp">
       <Filter>源文件\Scheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
