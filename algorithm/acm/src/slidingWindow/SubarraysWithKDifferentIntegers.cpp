@@ -15,7 +15,7 @@ int SubarraysWithKDifferentIntegers::subarraysWithKDistinct(vector<int>& A, int 
 
     for (int i = 0; i < nLen; ++i)
     {
-        if(nums.size() < K || nums.count(A[i])) continue;
+        if((int)nums.size() < K || nums.count(A[i])) continue;
     }
 
     return nRes;

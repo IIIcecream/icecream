@@ -59,6 +59,7 @@
     <ClInclude Include="include\recursion\SudokuSolver.h" />
     <ClInclude Include="include\recursion\WordBreak.h" />
     <ClInclude Include="include\recursion\WordSearch.h" />
+    <ClInclude Include="include\scheduling\LFUCache.h" />
     <ClInclude Include="include\scheduling\LRUCache.h" />
     <ClInclude Include="include\scopeguard.h" />
     <ClInclude Include="include\slidingWindow\LongestRepeatingCharacterReplacement.h" />
@@ -96,6 +97,7 @@
     <ClCompile Include="src\graph\WordLadder.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
+    <ClCompile Include="src\LRU\LFUCache.cpp" />
     <ClCompile Include="src\math\pow.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />

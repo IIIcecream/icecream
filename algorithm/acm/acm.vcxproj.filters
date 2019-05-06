@@ -257,6 +257,9 @@
     <ClInclude Include="include\scheduling\LRUCache.h">
       <Filter>头文件\Scheduling</Filter>
     </ClInclude>
+    <ClInclude Include="include\scheduling\LFUCache.h">
+      <Filter>头文件\Scheduling</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -407,6 +410,9 @@
       <Filter>源文件\SlidingWindow</Filter>
     </ClCompile>
     <ClCompile Include="src\scheduling\LRUCache.cpp">
+      <Filter>源文件\Scheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LRU\LFUCache.cpp">
       <Filter>源文件\Scheduling</Filter>
     </ClCompile>
   </ItemGroup>

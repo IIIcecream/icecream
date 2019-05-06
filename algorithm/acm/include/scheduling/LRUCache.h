@@ -4,7 +4,7 @@
 #include <unordered_map>
 using namespace std;
 
-// LRU缓存机制
+// LRU缓存机制(Least recently used 最近最少使用,首先淘汰最长时间未被使用的页面,关键是看页面最后一次被使用到发生调度的时间长短)
 class LRUCache : public IACM
 {
 public:

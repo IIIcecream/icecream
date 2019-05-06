@@ -31,6 +31,7 @@
 #include "slidingWindow\MaXConsecutiveOnesIII.h"
 #include "slidingWindow\MinimumWindowSubstring.h"
 #include "slidingWindow\SlidingWindowMaximum.h"
+#include "scheduling\LFUCache.h"
 
 using namespace std;
 
@@ -469,6 +470,18 @@ void test239()
     SAFE_DELETE(p);
 }
 
+void test460()
+{
+    LFUCache *p = new LFUCache(2);
+    p->put(2, 1);
+    p->put(1, 2);
+    p->put(2, 3);
+    p->put(4, 1);
+    p->get(1);
+    p->get(2);
+    SAFE_DELETE(p);
+}
+
 void test485()
 {
 	vector<int> nums;
@@ -506,6 +519,6 @@ void tes1004()
 
 int main()
 {
-    test239();
+    test460();
     return 0;
 }
