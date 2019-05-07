@@ -263,6 +263,12 @@
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h">
       <Filter>头文件\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\LargestRectangleInHistogram.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stack\MaximalRectangle.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -420,6 +426,12 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\LargestRectangleInHistogram.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\MaximalRectangle.cpp">
+      <Filter>源文件\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

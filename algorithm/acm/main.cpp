@@ -32,6 +32,8 @@
 #include "slidingWindow\MinimumWindowSubstring.h"
 #include "slidingWindow\SlidingWindowMaximum.h"
 #include "scheduling\LFUCache.h"
+#include "stack\LargestRectangleInHistogram.h"
+#include "stack\MaximalRectangle.h"
 
 using namespace std;
 
@@ -179,6 +181,61 @@ void test79()
     board.push_back(b);
 
     IACM *p = new WordSearch(board, "ABCCED");
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test84()
+{
+    vector<int> heights;
+    heights.push_back(4);
+    heights.push_back(2);
+    heights.push_back(0);
+    heights.push_back(3);
+    heights.push_back(2);
+    heights.push_back(5);
+
+    IACM *p = new LargestRectangleInHistogram(heights);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test85()
+{
+    vector<vector<char>> matrix;
+    vector<char> a;
+    a.push_back('1');
+    a.push_back('0');
+    a.push_back('1');
+    a.push_back('0');
+    a.push_back('0');
+    matrix.push_back(a);
+
+    vector<char> b;
+    b.push_back('1');
+    b.push_back('0');
+    b.push_back('1');
+    b.push_back('1');
+    b.push_back('1');
+    matrix.push_back(b);
+
+    vector<char> c;
+    c.push_back('1');
+    c.push_back('1');
+    c.push_back('1');
+    c.push_back('1');
+    c.push_back('1');
+    matrix.push_back(c);
+
+    vector<char> d;
+    d.push_back('1');
+    d.push_back('0');
+    d.push_back('0');
+    d.push_back('1');
+    d.push_back('0');
+    matrix.push_back(d);
+
+    IACM *p = new MaximalRectangle(matrix);
     p->solve();
     SAFE_DELETE(p);
 }
@@ -519,6 +576,6 @@ void tes1004()
 
 int main()
 {
-    test460();
+    test85();
     return 0;
 }

@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-// LeetCode T221 最大正方形
+// 最大正方形
 class MaximalSquare : public IACM
 {
 public:
