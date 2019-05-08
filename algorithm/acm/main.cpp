@@ -34,6 +34,7 @@
 #include "scheduling\LFUCache.h"
 #include "stack\LargestRectangleInHistogram.h"
 #include "stack\MaximalRectangle.h"
+#include "binarySearch\FindPeakElement.h"
 
 using namespace std;
 
@@ -489,6 +490,21 @@ void test151()
     SAFE_DELETE(p);
 }
 
+void test162()
+{
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(2);
+    nums.push_back(3);
+    nums.push_back(1);
+    //nums.push_back(2);
+    //nums.push_back(5);
+
+    IACM *p = new FindPeakElement(nums);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 void test198()
 {
     vector<int> nums;
@@ -576,6 +592,6 @@ void tes1004()
 
 int main()
 {
-    test85();
+    test162();
     return 0;
 }

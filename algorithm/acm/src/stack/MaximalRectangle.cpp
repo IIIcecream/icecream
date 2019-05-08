@@ -22,7 +22,6 @@ int MaximalRectangle::maximalRectangle(vector<vector<char>>& matrix)
             if (matrix[i][j] != '0') heights[j]++;
             else heights[j] = 0;
         }
-        heights.back() = 0;
         nRes = ACM::max(nRes, LargestRectangleInHistogram(heights).largestRectangleArea(heights));
     }
 

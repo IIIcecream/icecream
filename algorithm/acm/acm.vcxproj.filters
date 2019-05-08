@@ -87,6 +87,12 @@
     <Filter Include="源文件\Scheduling">
       <UniqueIdentifier>{00d62760-b311-4448-9228-8c4f1c38555a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Recursion\DFS">
+      <UniqueIdentifier>{8c4517de-d1a8-4202-b2d6-0e618bcf03e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Recursion\DFS">
+      <UniqueIdentifier>{2b70b527-5741-4889-9663-db2b8a878876}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -269,6 +275,12 @@
     <ClInclude Include="include\stack\MaximalRectangle.h">
       <Filter>头文件\Stack</Filter>
     </ClInclude>
+    <ClInclude Include="include\binarySearch\FindPeakElement.h">
+      <Filter>头文件\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recursion\dfs\SurroundedRegions.h">
+      <Filter>头文件\Recursion\DFS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -432,6 +444,12 @@
     </ClCompile>
     <ClCompile Include="src\stack\MaximalRectangle.cpp">
       <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\FindPeakElement.cpp">
+      <Filter>源文件\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\dfs\SurroundedRegions.cpp">
+      <Filter>源文件\Recursion\DFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
