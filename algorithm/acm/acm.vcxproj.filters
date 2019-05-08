@@ -281,6 +281,9 @@
     <ClInclude Include="include\recursion\dfs\SurroundedRegions.h">
       <Filter>头文件\Recursion\DFS</Filter>
     </ClInclude>
+    <ClInclude Include="include\recursion\dfs\NumberOfIslands.h">
+      <Filter>头文件\Recursion\DFS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -445,10 +448,13 @@
     <ClCompile Include="src\stack\MaximalRectangle.cpp">
       <Filter>源文件\Stack</Filter>
     </ClCompile>
-    <ClCompile Include="src\stack\FindPeakElement.cpp">
+    <ClCompile Include="src\recursion\dfs\SurroundedRegions.cpp">
+      <Filter>源文件\Recursion\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bianrySearch\FindPeakElement.cpp">
       <Filter>源文件\BinarySearch</Filter>
     </ClCompile>
-    <ClCompile Include="src\recursion\dfs\SurroundedRegions.cpp">
+    <ClCompile Include="src\recursion\dfs\NumberOfIslands.cpp">
       <Filter>源文件\Recursion\DFS</Filter>
     </ClCompile>
   </ItemGroup>

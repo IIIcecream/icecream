@@ -57,6 +57,7 @@
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\others\UniqueBinarySearchTrees.h" />
     <ClInclude Include="include\recursion\CombinationSum.h" />
+    <ClInclude Include="include\recursion\dfs\NumberOfIslands.h" />
     <ClInclude Include="include\recursion\dfs\SurroundedRegions.h" />
     <ClInclude Include="include\recursion\PalindromePartitioning.h" />
     <ClInclude Include="include\recursion\SudokuSolver.h" />
@@ -85,6 +86,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\bianrySearch\BinarySearch.cpp" />
+    <ClCompile Include="src\bianrySearch\FindPeakElement.cpp" />
     <ClCompile Include="src\bianrySearch\Search2DMatrix.cpp" />
     <ClCompile Include="src\bianrySearch\SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="src\binaryTree\BalancedBinaryTree.cpp" />
@@ -117,6 +119,7 @@
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\others\UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="src\recursion\CombinationSum.cpp" />
+    <ClCompile Include="src\recursion\dfs\NumberOfIslands.cpp" />
     <ClCompile Include="src\recursion\dfs\SurroundedRegions.cpp" />
     <ClCompile Include="src\recursion\PalindromePartitioning.cpp" />
     <ClCompile Include="src\recursion\SudokuSolver.cpp" />
@@ -131,7 +134,6 @@
     <ClCompile Include="src\slidingWindow\SubarraysWithKDifferentIntegers.cpp" />
     <ClCompile Include="src\sort\KthLargestElement.cpp" />
     <ClCompile Include="src\sort\QuickSort.cpp" />
-    <ClCompile Include="src\stack\FindPeakElement.cpp" />
     <ClCompile Include="src\stack\GenerateParentheses.cpp" />
     <ClCompile Include="src\stack\LargestRectangleInHistogram.cpp" />
     <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
