@@ -1,14 +1,13 @@
-#include "DDPluginService.h"
+#include "DDExportLoad.h"
 #include <QString>
 #include <QLibrary>
 #include <QCoreApplication>
 #include <QFile>
-
-#include "DDExportTest.h"
+#include "..\..\exportTest\include\DDExportTestIntf.h"
 
 typedef DDExportTestIntf *GetExportTestIntfFunc();
 
-DDPluginService::DDPluginService()
+DDExportLoad::DDExportLoad()
     : m_pIntf(nullptr)
 {
     QString strPath = qApp->applicationDirPath();
@@ -32,18 +31,12 @@ DDPluginService::DDPluginService()
     load();
 }
 
-DDPluginService::~DDPluginService()
+DDExportLoad::~DDExportLoad()
 {
-    if (m_pIntf) delete m_pIntf;
+
 }
 
-int DDPluginService::print()
-{
-    int a = m_pIntf->getaaa();
-    return m_pIntf ? m_pIntf->getVal() : a;
-}
-
-void DDPluginService::load()
+void DDExportLoad::load()
 {
     if (m_pIntf != nullptr)
     {
@@ -60,5 +53,10 @@ void DDPluginService::load()
             m_pIntf = pFunc();
         }
     }
+}
+
+int DDExportLoad::print()
+{
+    return m_pIntf ? m_pIntf->getVal() : -1;
 }
 

@@ -81,6 +81,18 @@
     <Filter Include="源文件\SlidingWindow">
       <UniqueIdentifier>{d110ceae-1fc9-4671-8671-1eeac5ea0766}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Scheduling">
+      <UniqueIdentifier>{c709f2c1-d927-4650-aecc-6a878cef95a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Scheduling">
+      <UniqueIdentifier>{00d62760-b311-4448-9228-8c4f1c38555a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Recursion\DFS">
+      <UniqueIdentifier>{8c4517de-d1a8-4202-b2d6-0e618bcf03e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Recursion\DFS">
+      <UniqueIdentifier>{2b70b527-5741-4889-9663-db2b8a878876}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -242,6 +254,36 @@
     <ClInclude Include="include\stack\MinStack.h">
       <Filter>头文件\Stack</Filter>
     </ClInclude>
+    <ClInclude Include="include\slidingWindow\SlidingWindowMedian.h">
+      <Filter>头文件\SlidingWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slidingWindow\SubarraysWithKDifferentIntegers.h">
+      <Filter>头文件\SlidingWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scheduling\LRUCache.h">
+      <Filter>头文件\Scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scheduling\LFUCache.h">
+      <Filter>头文件\Scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\MaximalSquare.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stack\LargestRectangleInHistogram.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stack\MaximalRectangle.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binarySearch\FindPeakElement.h">
+      <Filter>头文件\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recursion\dfs\SurroundedRegions.h">
+      <Filter>头文件\Recursion\DFS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recursion\dfs\NumberOfIslands.h">
+      <Filter>头文件\Recursion\DFS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -384,6 +426,36 @@
     </ClCompile>
     <ClCompile Include="src\stack\MinStack.cpp">
       <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slidingWindow\SlidingWindowMedian.cpp">
+      <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slidingWindow\SubarraysWithKDifferentIntegers.cpp">
+      <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scheduling\LRUCache.cpp">
+      <Filter>源文件\Scheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LRU\LFUCache.cpp">
+      <Filter>源文件\Scheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\LargestRectangleInHistogram.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\MaximalRectangle.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\dfs\SurroundedRegions.cpp">
+      <Filter>源文件\Recursion\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bianrySearch\FindPeakElement.cpp">
+      <Filter>源文件\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\dfs\NumberOfIslands.cpp">
+      <Filter>源文件\Recursion\DFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
