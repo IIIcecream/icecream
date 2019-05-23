@@ -1,4 +1,4 @@
-#include "BinaryTree\BalancedBinaryTree.h"
+#include "tree\BinaryTree\BalancedBinaryTree.h"
 #include <vcruntime_exception.h>
 #include "ACMMathCommon.h"
 

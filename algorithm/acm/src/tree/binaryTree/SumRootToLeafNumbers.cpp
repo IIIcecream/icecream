@@ -1,4 +1,4 @@
-#include "binaryTree\SumRootToLeafNumbers.h"
+#include "tree\binaryTree\SumRootToLeafNumbers.h"
 
 bool SumRootToLeafNumbers::solve()
 {

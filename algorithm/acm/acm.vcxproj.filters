@@ -12,17 +12,11 @@
     <Filter Include="头文件\BinarySearch">
       <UniqueIdentifier>{97c858d7-68e7-48e4-882a-c46bdcb28eb3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\BinaryTree">
-      <UniqueIdentifier>{e0f18de8-5611-40d0-996c-548ac9f0fde4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\String">
       <UniqueIdentifier>{7102838b-56aa-4599-8b82-8fa445f02c45}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\BinarySearch">
       <UniqueIdentifier>{b16be0ba-a4e7-49ff-8ddd-7f9f265aa076}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\BinaryTree">
-      <UniqueIdentifier>{e9db2cda-3db0-4966-98f1-7053e9edeb6c}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\String">
       <UniqueIdentifier>{4ba40643-bb23-4c40-b3b2-825208a9000e}</UniqueIdentifier>
@@ -93,6 +87,24 @@
     <Filter Include="源文件\Recursion\DFS">
       <UniqueIdentifier>{2b70b527-5741-4889-9663-db2b8a878876}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Tree">
+      <UniqueIdentifier>{416d641d-1c69-4334-998a-255b7b7bd68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree">
+      <UniqueIdentifier>{4d78b587-e57e-45d4-b2b7-75bb1558998b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tree\BinaryTree">
+      <UniqueIdentifier>{eeb07842-e6b2-47d1-ae2a-ebeedd1c5042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tree\Trie">
+      <UniqueIdentifier>{c4482e4f-8db1-4730-855a-b8254f0a9414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree\BinaryTree">
+      <UniqueIdentifier>{7e9a3449-1946-4cb9-93d9-79df7866c7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree\Trie">
+      <UniqueIdentifier>{c8c19e0a-bf56-451c-9870-3c732431632b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -101,29 +113,8 @@
     <ClInclude Include="include\IACM.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="include\binaryTree\ConstructBinaryTree.h">
-      <Filter>头文件\BinaryTree</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\BalancedBinaryTree.h">
-      <Filter>头文件\BinaryTree</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\BinaryTreetoLinkedList.h">
-      <Filter>头文件\BinaryTree</Filter>
-    </ClInclude>
     <ClInclude Include="include\string\DistinctSubsequnces.h">
       <Filter>头文件\String</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\RightPointerBinaryTree.h">
-      <Filter>头文件\BinaryTree</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\BinaryTreeCommon.h">
-      <Filter>头文件\BinaryTree</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\BinaryTreeDepth.h">
-      <Filter>头文件\BinaryTree</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\BinaryTreeTraversal.h">
-      <Filter>头文件\BinaryTree</Filter>
     </ClInclude>
     <ClInclude Include="include\binarySearch\BinarySearch.h">
       <Filter>头文件\BinarySearch</Filter>
@@ -139,9 +130,6 @@
     </ClInclude>
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h">
       <Filter>头文件\DynamicProgramming</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\BinaryTreeMaximumPathSum.h">
-      <Filter>头文件\BinaryTree</Filter>
     </ClInclude>
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h">
       <Filter>头文件\Others</Filter>
@@ -166,9 +154,6 @@
     </ClInclude>
     <ClInclude Include="include\binarySearch\Search2DMatrix.h">
       <Filter>头文件\BinarySearch</Filter>
-    </ClInclude>
-    <ClInclude Include="include\binaryTree\SumRootToLeafNumbers.h">
-      <Filter>头文件\BinaryTree</Filter>
     </ClInclude>
     <ClInclude Include="include\graph\WordLadder.h">
       <Filter>头文件\Graph</Filter>
@@ -287,31 +272,40 @@
     <ClInclude Include="include\linkedList\CloneRandomPointerList.h">
       <Filter>头文件\LinkedList</Filter>
     </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\BalancedBinaryTree.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\binaryTreeCommon.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\binaryTreeDepth.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\BinaryTreeMaximumPathSum.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\BinaryTreetoLinkedList.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\binaryTreeTraversal.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\ConstructBinaryTree.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\RightPointerBinaryTree.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\SumRootToLeafNumbers.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
-      <Filter>源文件\BinaryTree</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\binaryTree\BalancedBinaryTree.cpp">
-      <Filter>源文件\BinaryTree</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binaryTree\BinaryTreetoLinkedList.cpp">
-      <Filter>源文件\BinaryTree</Filter>
-    </ClCompile>
     <ClCompile Include="src\string\DistinctSubsequnces.cpp">
       <Filter>源文件\String</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binaryTree\RightPointerBinaryTree.cpp">
-      <Filter>源文件\BinaryTree</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binaryTree\BinaryTreeDepth.cpp">
-      <Filter>源文件\BinaryTree</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binaryTree\BinaryTreeTraversal.cpp">
-      <Filter>源文件\BinaryTree</Filter>
     </ClCompile>
     <ClCompile Include="src\bianrySearch\BinarySearch.cpp">
       <Filter>源文件\BinarySearch</Filter>
@@ -327,9 +321,6 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binaryTree\BinaryTreeMaximumPathSum.cpp">
-      <Filter>源文件\BinaryTree</Filter>
     </ClCompile>
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp">
       <Filter>源文件\Others</Filter>
@@ -348,9 +339,6 @@
     </ClCompile>
     <ClCompile Include="src\bianrySearch\Search2DMatrix.cpp">
       <Filter>源文件\BinarySearch</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binaryTree\SumRootToLeafNumbers.cpp">
-      <Filter>源文件\BinaryTree</Filter>
     </ClCompile>
     <ClCompile Include="src\graph\WordLadder.cpp">
       <Filter>源文件\Graph</Filter>
@@ -462,6 +450,30 @@
     </ClCompile>
     <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp">
       <Filter>源文件\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\BalancedBinaryTree.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\binaryTreeDepth.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\BinaryTreeMaximumPathSum.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\BinaryTreetoLinkedList.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\binaryTreeTraversal.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\ConstructBinaryTree.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\RightPointerBinaryTree.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\SumRootToLeafNumbers.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

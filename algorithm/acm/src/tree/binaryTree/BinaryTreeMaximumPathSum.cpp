@@ -1,4 +1,4 @@
-#include "binaryTree\BinaryTreeMaximumPathSum.h"
+#include "tree\binaryTree\BinaryTreeMaximumPathSum.h"
 #include "ACMMathCommon.h"
 #include <string>
 
