@@ -41,6 +41,7 @@
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
+    <ClInclude Include="include\linkedList\CloneRandomPointerList.h" />
     <ClInclude Include="include\linkedList\LinkedListCommon.h" />
     <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
@@ -103,6 +104,7 @@
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
+    <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
     <ClCompile Include="src\LRU\LFUCache.cpp" />

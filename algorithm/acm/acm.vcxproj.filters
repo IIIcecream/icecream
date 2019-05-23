@@ -284,6 +284,9 @@
     <ClInclude Include="include\recursion\dfs\NumberOfIslands.h">
       <Filter>头文件\Recursion\DFS</Filter>
     </ClInclude>
+    <ClInclude Include="include\linkedList\CloneRandomPointerList.h">
+      <Filter>头文件\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp">
@@ -456,6 +459,9 @@
     </ClCompile>
     <ClCompile Include="src\recursion\dfs\NumberOfIslands.cpp">
       <Filter>源文件\Recursion\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp">
+      <Filter>源文件\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
