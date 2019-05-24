@@ -299,6 +299,9 @@
     <ClInclude Include="include\tree\binaryTree\SumRootToLeafNumbers.h">
       <Filter>头文件\Tree\BinaryTree</Filter>
     </ClInclude>
+    <ClInclude Include="include\tree\trie\Trie.h">
+      <Filter>头文件\Tree\Trie</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -474,6 +477,9 @@
     </ClCompile>
     <ClCompile Include="src\tree\binaryTree\SumRootToLeafNumbers.cpp">
       <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\trie\Trie.cpp">
+      <Filter>源文件\Tree\Trie</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

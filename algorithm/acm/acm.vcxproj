@@ -83,6 +83,7 @@
     <ClInclude Include="include\tree\binaryTree\ConstructBinaryTree.h" />
     <ClInclude Include="include\tree\binaryTree\RightPointerBinaryTree.h" />
     <ClInclude Include="include\tree\binaryTree\SumRootToLeafNumbers.h" />
+    <ClInclude Include="include\tree\trie\Trie.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="src\tree\binaryTree\ConstructBinaryTree.cpp" />
     <ClCompile Include="src\tree\binaryTree\RightPointerBinaryTree.cpp" />
     <ClCompile Include="src\tree\binaryTree\SumRootToLeafNumbers.cpp" />
+    <ClCompile Include="src\tree\trie\Trie.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
