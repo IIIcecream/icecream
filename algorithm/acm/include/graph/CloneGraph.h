@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-#include <unordered_map>
+#include <map>
 #include "IACM.h"
 using namespace std;
 
@@ -28,5 +28,5 @@ public:
     Node * cloneGraph(Node* node);
 
 private:
-    unordered_map <Node *, Node *> nodeMap; //记录src节点与dest节点的映射关系
+    map <Node *, Node *> nodeMap; //记录src节点与dest节点的映射关系
 };
