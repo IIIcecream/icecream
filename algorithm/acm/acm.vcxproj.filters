@@ -302,6 +302,9 @@
     <ClInclude Include="include\tree\trie\Trie.h">
       <Filter>头文件\Tree\Trie</Filter>
     </ClInclude>
+    <ClInclude Include="include\graph\CloneGraph.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -480,6 +483,9 @@
     </ClCompile>
     <ClCompile Include="src\tree\trie\Trie.cpp">
       <Filter>源文件\Tree\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graph\CloneGraph.cpp">
+      <Filter>源文件\Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
