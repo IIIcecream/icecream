@@ -32,7 +32,7 @@ void  rotate2(vector<int>& nums, int k)
     if (!nLen || !k) return;
 
     reverse(nums.begin(), nums.begin() + nLen - k);
-    reverse(nums.begin()+ nLen - k + 1, nums.end());
+    reverse(nums.begin() + nLen - k, nums.end());
     reverse(nums.begin(), nums.end());
 }
 
