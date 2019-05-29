@@ -40,11 +40,13 @@
     <ClInclude Include="include\math\pow.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
+    <ClInclude Include="include\others\HandofStraights.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Permutations.h" />
     <ClInclude Include="include\others\ReverseWords.h" />
+    <ClInclude Include="include\others\RotateArray.h" />
     <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\SpiralMatrix.h" />
     <ClInclude Include="include\others\Triangle.h" />
@@ -106,11 +108,13 @@
     <ClCompile Include="src\math\pow.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
+    <ClCompile Include="src\others\HandofStraights.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Permutations.cpp" />
     <ClCompile Include="src\others\ReverseWords.cpp" />
+    <ClCompile Include="src\others\RotateArray.cpp" />
     <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\SpiralMatrix.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
