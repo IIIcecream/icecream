@@ -1,5 +1,5 @@
-#include "BinaryTree\RightPointerBinaryTree.h"
-#include "binaryTree\binaryTreeCommon.h"
+#include "tree\BinaryTree\RightPointerBinaryTree.h"
+#include "tree\binaryTree\binaryTreeCommon.h"
 
 bool NextRightPointersBT::solve()
 {

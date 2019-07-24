@@ -62,6 +62,6 @@ double pow4(double x, int n)
 
 double CalcPow::myPow(double x, int n)
 {
-    pow3(x, n);
+    return pow3(x, n);
 }
 

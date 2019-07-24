@@ -24,34 +24,29 @@
     <ClInclude Include="include\binarySearch\FindPeakElement.h" />
     <ClInclude Include="include\binarySearch\Search2DMatrix.h" />
     <ClInclude Include="include\binarySearch\SearchInRotatedSortedArray.h" />
-    <ClInclude Include="include\binaryTree\BalancedBinaryTree.h" />
-    <ClInclude Include="include\binaryTree\BinaryTreeCommon.h" />
-    <ClInclude Include="include\binaryTree\BinaryTreeDepth.h" />
-    <ClInclude Include="include\binaryTree\BinaryTreeMaximumPathSum.h" />
-    <ClInclude Include="include\binaryTree\BinaryTreetoLinkedList.h" />
-    <ClInclude Include="include\binaryTree\BinaryTreeTraversal.h" />
-    <ClInclude Include="include\binaryTree\ConstructBinaryTree.h" />
-    <ClInclude Include="include\binaryTree\RightPointerBinaryTree.h" />
-    <ClInclude Include="include\binaryTree\SumRootToLeafNumbers.h" />
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
+    <ClInclude Include="include\graph\CloneGraph.h" />
     <ClInclude Include="include\graph\CourseSchedule.h" />
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
+    <ClInclude Include="include\linkedList\CloneRandomPointerList.h" />
     <ClInclude Include="include\linkedList\LinkedListCommon.h" />
     <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
     <ClInclude Include="include\math\pow.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
+    <ClInclude Include="include\others\HandofStraights.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Permutations.h" />
     <ClInclude Include="include\others\ReverseWords.h" />
+    <ClInclude Include="include\others\RotateArray.h" />
     <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\SpiralMatrix.h" />
     <ClInclude Include="include\others\Triangle.h" />
@@ -82,6 +77,16 @@
     <ClInclude Include="include\stack\MinStack.h" />
     <ClInclude Include="include\stack\MyCalculator.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
+    <ClInclude Include="include\tree\binaryTree\BalancedBinaryTree.h" />
+    <ClInclude Include="include\tree\binaryTree\binaryTreeCommon.h" />
+    <ClInclude Include="include\tree\binaryTree\binaryTreeDepth.h" />
+    <ClInclude Include="include\tree\binaryTree\BinaryTreeMaximumPathSum.h" />
+    <ClInclude Include="include\tree\binaryTree\BinaryTreetoLinkedList.h" />
+    <ClInclude Include="include\tree\binaryTree\binaryTreeTraversal.h" />
+    <ClInclude Include="include\tree\binaryTree\ConstructBinaryTree.h" />
+    <ClInclude Include="include\tree\binaryTree\RightPointerBinaryTree.h" />
+    <ClInclude Include="include\tree\binaryTree\SumRootToLeafNumbers.h" />
+    <ClInclude Include="include\tree\trie\Trie.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -89,31 +94,27 @@
     <ClCompile Include="src\bianrySearch\FindPeakElement.cpp" />
     <ClCompile Include="src\bianrySearch\Search2DMatrix.cpp" />
     <ClCompile Include="src\bianrySearch\SearchInRotatedSortedArray.cpp" />
-    <ClCompile Include="src\binaryTree\BalancedBinaryTree.cpp" />
-    <ClCompile Include="src\binaryTree\BinaryTreeDepth.cpp" />
-    <ClCompile Include="src\binaryTree\BinaryTreeMaximumPathSum.cpp" />
-    <ClCompile Include="src\binaryTree\BinaryTreetoLinkedList.cpp" />
-    <ClCompile Include="src\binaryTree\BinaryTreeTraversal.cpp" />
-    <ClCompile Include="src\binaryTree\ConstructBinaryTree.cpp" />
-    <ClCompile Include="src\binaryTree\RightPointerBinaryTree.cpp" />
-    <ClCompile Include="src\binaryTree\SumRootToLeafNumbers.cpp" />
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
+    <ClCompile Include="src\graph\CloneGraph.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
+    <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
     <ClCompile Include="src\LRU\LFUCache.cpp" />
     <ClCompile Include="src\math\pow.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
+    <ClCompile Include="src\others\HandofStraights.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Permutations.cpp" />
     <ClCompile Include="src\others\ReverseWords.cpp" />
+    <ClCompile Include="src\others\RotateArray.cpp" />
     <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\SpiralMatrix.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
@@ -141,12 +142,21 @@
     <ClCompile Include="src\stack\MinStack.cpp" />
     <ClCompile Include="src\stack\MyCalculator.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
+    <ClCompile Include="src\tree\binaryTree\BalancedBinaryTree.cpp" />
+    <ClCompile Include="src\tree\binaryTree\binaryTreeDepth.cpp" />
+    <ClCompile Include="src\tree\binaryTree\BinaryTreeMaximumPathSum.cpp" />
+    <ClCompile Include="src\tree\binaryTree\BinaryTreetoLinkedList.cpp" />
+    <ClCompile Include="src\tree\binaryTree\binaryTreeTraversal.cpp" />
+    <ClCompile Include="src\tree\binaryTree\ConstructBinaryTree.cpp" />
+    <ClCompile Include="src\tree\binaryTree\RightPointerBinaryTree.cpp" />
+    <ClCompile Include="src\tree\binaryTree\SumRootToLeafNumbers.cpp" />
+    <ClCompile Include="src\tree\trie\Trie.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{692D4300-050A-49B3-B326-7EECECC18416}</ProjectGuid>
     <RootNamespace>acm</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -200,14 +210,16 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)acm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level1</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)acm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -218,7 +230,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(projectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)acm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -234,7 +246,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(projectDir)include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)acm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

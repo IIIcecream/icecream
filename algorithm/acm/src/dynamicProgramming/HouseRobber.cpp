@@ -29,3 +29,19 @@ int HouseRobber::rob2(vector<int>& nums)
     return ACM::max(rob(nums1), rob(nums2));
 }
 
+// House Robber III LeetCode T337
+int HouseRobber::rob3(TreeNode* root)
+{
+    if (!root) return 0;
+    if (!robMap.count(root))
+    {
+        int nVal = 0;
+        if (root->left) nVal += rob3(root->left->left) + rob3(root->left->right);
+        if (root->right)nVal += rob3(root->right->left) + rob3(root->right->right);
+        nVal = ACM::max(nVal + root->val, rob3(root->left) + rob3(root->right));
+        robMap[root] = nVal;
+    }
+    
+    return robMap[root];
+}
+

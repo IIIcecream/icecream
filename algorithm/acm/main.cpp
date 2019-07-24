@@ -2,14 +2,14 @@
 #include <vector>
 #include <algorithm>
 #include "binarySearch\binarySearch.h"
-#include "binaryTree\binaryTreeTraversal.h"
-#include "binaryTree\ConstructBinaryTree.h"
-#include "binaryTree\BinaryTreetoLinkedList.h"
+#include "tree\binaryTree\binaryTreeTraversal.h"
+#include "tree\binaryTree\ConstructBinaryTree.h"
+#include "tree\binaryTree\BinaryTreetoLinkedList.h"
 #include "string\DistinctSubsequnces.h"
 #include "others\PascalsTriangle.h"
 #include "others\Triangle.h"
 #include "dynamicProgramming\BuySellStock.h"
-#include "binaryTree\BinaryTreeMaximumPathSum.h"
+#include "tree\binaryTree\BinaryTreeMaximumPathSum.h"
 #include "others\LetterCombinationsOfPhoneNumbers.h"
 #include "stack\GenerateParentheses.h"
 #include "stack\LongestValidParentheses.h"
@@ -35,6 +35,7 @@
 #include "stack\LargestRectangleInHistogram.h"
 #include "stack\MaximalRectangle.h"
 #include "binarySearch\FindPeakElement.h"
+#include "linkedList\CloneRandomPointerList.h"
 
 using namespace std;
 
@@ -433,6 +434,21 @@ void test137()
     SAFE_DELETE(p);
 }
 
+void test138()
+{
+    //RandomListNode *pNode4 = new RandomListNode(4, nullptr, nullptr);
+    //RandomListNode *pNode3 = new RandomListNode(3, pNode4, nullptr);
+    RandomListNode *pNode2 = new RandomListNode(2, nullptr, nullptr);
+    RandomListNode *pNode1 = new RandomListNode(1, pNode2, nullptr);
+
+    pNode2->random = pNode2;
+    pNode1->random = pNode2;
+
+    IACM *p = new CloneRandomPointerList(pNode1);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 void test139()
 {
     //string word = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
@@ -592,6 +608,6 @@ void tes1004()
 
 int main()
 {
-    test162();
+    test138();
     return 0;
 }

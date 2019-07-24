@@ -1,6 +1,8 @@
 #pragma once
 #include "IACM.h"
 #include <vector>
+#include <map>
+#include "tree\binaryTree\binaryTreeCommon.h"
 using namespace std;
 
 // ¥Úº“ΩŸ…·
@@ -13,7 +15,9 @@ public:
 private:
     int rob(vector<int>& nums);
     int rob2(vector<int>& nums);
+    int rob3(TreeNode* root);
 
 private:
     vector<int> m_nums;
+    map<TreeNode*, int> robMap;
 };
