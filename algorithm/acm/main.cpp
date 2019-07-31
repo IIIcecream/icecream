@@ -36,6 +36,7 @@
 #include "stack\MaximalRectangle.h"
 #include "binarySearch\FindPeakElement.h"
 #include "linkedList\CloneRandomPointerList.h"
+#include "graph\CourseSchedule.h"
 
 using namespace std;
 
@@ -534,6 +535,35 @@ void test198()
     SAFE_DELETE(p);
 }
 
+void test207()
+{
+    vector<vector<int>> prerequisites;
+    prerequisites.resize(1, vector<int>(2, 0));
+
+    prerequisites[0][0] = 1;
+    prerequisites[0][1] = 0;
+
+    //prerequisites[1][0] = 1;
+    //prerequisites[1][1] = 0;
+
+    //prerequisites[2][0] = 3;
+    //prerequisites[2][1] = 1;
+
+    //prerequisites[3][0] = 3;
+    //prerequisites[3][1] = 2;
+
+    //prerequisites[4][0] = 1;
+    //prerequisites[4][1] = 3;
+
+    //prerequisites[5][0] = 2;
+    //prerequisites[5][1] = 2;
+
+    IACM *p = new CourseSchedule(2, prerequisites);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void tesst224()
 {
     IACM *p = new MyCalculator("(1+(4+5+2)-3)+(6+8)");
@@ -608,6 +638,6 @@ void tes1004()
 
 int main()
 {
-    test138();
+    test207();
     return 0;
 }
