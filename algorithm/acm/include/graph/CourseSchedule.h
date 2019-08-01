@@ -17,6 +17,7 @@ private:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites);
     bool dfs(int nVertex);
 
+    bool canFinish2(int numCourses, vector<vector<int>>& prerequisites);
 private:
     int m_nNumCourses;
     vector<vector<int>>& m_vecPrerequisites;
