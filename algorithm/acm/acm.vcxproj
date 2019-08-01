@@ -28,12 +28,14 @@
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
+    <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h" />
     <ClInclude Include="include\graph\CloneGraph.h" />
     <ClInclude Include="include\graph\CourseSchedule.h" />
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
     <ClInclude Include="include\linkedList\CloneRandomPointerList.h" />
+    <ClInclude Include="include\linkedList\IntersectionLinkedLists.h" />
     <ClInclude Include="include\linkedList\LinkedListCommon.h" />
     <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
@@ -98,10 +100,12 @@
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
+    <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp" />
     <ClCompile Include="src\graph\CloneGraph.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
     <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp" />
+    <ClCompile Include="src\linkedList\IntersectionLinkedLists.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
     <ClCompile Include="src\LRU\LFUCache.cpp" />

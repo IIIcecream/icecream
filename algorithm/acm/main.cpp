@@ -37,6 +37,7 @@
 #include "binarySearch\FindPeakElement.h"
 #include "linkedList\CloneRandomPointerList.h"
 #include "graph\CourseSchedule.h"
+#include "dynamicProgramming\MaximumProductSubarray.h"
 
 using namespace std;
 
@@ -507,6 +508,20 @@ void test151()
     SAFE_DELETE(p);
 }
 
+void test152()
+{
+    vector<int> nums;
+    nums.push_back(2);
+    nums.push_back(-5);
+    nums.push_back(-2);
+    nums.push_back(-4);
+    nums.push_back(3);
+
+    IACM *p = new MaximumProductSubarray(nums);
+    p->solve();
+    SAFE_DELETE(p);
+ }
+
 void test162()
 {
     vector<int> nums;
@@ -638,6 +653,6 @@ void tes1004()
 
 int main()
 {
-    test207();
+    test152();
     return 0;
 }

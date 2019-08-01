@@ -311,6 +311,12 @@
     <ClInclude Include="include\others\RotateArray.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\linkedList\IntersectionLinkedLists.h">
+      <Filter>头文件\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -498,6 +504,12 @@
     </ClCompile>
     <ClCompile Include="src\others\RotateArray.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linkedList\IntersectionLinkedLists.cpp">
+      <Filter>源文件\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
