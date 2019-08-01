@@ -45,11 +45,11 @@ bool GameOfLife::needChange(int nCurState, int i, int j, vector<vector<int>>& bo
     if (getValue(i + 1, j + 1, board)) nAliveAround++;
     if (getValue(i + 1, j - 1, board)) nAliveAround++;
 
-    if (nAliveAround == 3 ) return true;
+    if (!board[i][j] && nAliveAround == 3 ) return true;
     if (board[i][j])
     {
-        if (nAliveAround == 2) return true;
-        if (nAliveAround < 2 || nAliveAround > 3) return true;
+        if (nAliveAround == 2 || nAliveAround == 3) return false;
+        return true;
     }
     return false;
 }
