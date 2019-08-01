@@ -38,6 +38,7 @@
 #include "linkedList\CloneRandomPointerList.h"
 #include "graph\CourseSchedule.h"
 #include "dynamicProgramming\MaximumProductSubarray.h"
+#include "others\GameOfLife.h"
 
 using namespace std;
 
@@ -604,6 +605,40 @@ void test239()
     SAFE_DELETE(p);
 }
 
+void test289()
+{
+    vector<int> vec1;
+    vec1.push_back(0);
+    vec1.push_back(1);
+    vec1.push_back(0);
+
+    vector<int> vec2;
+    vec2.push_back(0);
+    vec2.push_back(0);
+    vec2.push_back(1);
+
+    vector<int> vec3;
+    vec3.push_back(1);
+    vec3.push_back(1);
+    vec3.push_back(1);
+
+    vector<int> vec4;
+    vec4.push_back(0);
+    vec4.push_back(0);
+    vec4.push_back(0);
+
+    vector<vector<int>> board;
+    board.push_back(vec1);
+    board.push_back(vec2);
+    board.push_back(vec3);
+    board.push_back(vec4);
+
+    IACM *p = new GameOfLife(board);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test460()
 {
     LFUCache *p = new LFUCache(2);
@@ -653,6 +688,6 @@ void tes1004()
 
 int main()
 {
-    test152();
+    test289();
     return 0;
 }

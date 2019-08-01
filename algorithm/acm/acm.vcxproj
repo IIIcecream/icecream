@@ -40,6 +40,7 @@
     <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
     <ClInclude Include="include\math\pow.h" />
+    <ClInclude Include="include\others\GameOfLife.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
     <ClInclude Include="include\others\HandofStraights.h" />
@@ -110,6 +111,7 @@
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
     <ClCompile Include="src\LRU\LFUCache.cpp" />
     <ClCompile Include="src\math\pow.cpp" />
+    <ClCompile Include="src\others\GameOfLife.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
     <ClCompile Include="src\others\HandofStraights.cpp" />
