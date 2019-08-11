@@ -31,6 +31,7 @@
     <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h" />
     <ClInclude Include="include\graph\CloneGraph.h" />
     <ClInclude Include="include\graph\CourseSchedule.h" />
+    <ClInclude Include="include\graph\CourseScheduleII.h" />
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
@@ -104,6 +105,7 @@
     <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp" />
     <ClCompile Include="src\graph\CloneGraph.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
+    <ClCompile Include="src\graph\CourseScheduleII.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
     <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp" />
     <ClCompile Include="src\linkedList\IntersectionLinkedLists.cpp" />
