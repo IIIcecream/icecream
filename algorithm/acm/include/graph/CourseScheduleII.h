@@ -8,7 +8,7 @@ using namespace std;
 class  CourseScheduleII : public IACM
 {
 public:
-    CourseScheduleII(int numCourses, vector<vector<int>>& prerequisites) : m_nNumCourses(nullptr), m_prerequisites(prerequisites) {}
+    CourseScheduleII(int numCourses, vector<vector<int>>& prerequisites) : m_nNumCourses(numCourses), m_prerequisites(prerequisites) {}
     virtual bool solve() override;
 
 private:

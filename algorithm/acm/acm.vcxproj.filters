@@ -323,6 +323,9 @@
     <ClInclude Include="include\graph\CourseScheduleII.h">
       <Filter>头文件\Graph</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\BulbSwitcher.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -522,6 +525,9 @@
     </ClCompile>
     <ClCompile Include="src\graph\CourseScheduleII.cpp">
       <Filter>源文件\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\BulbSwitcher.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

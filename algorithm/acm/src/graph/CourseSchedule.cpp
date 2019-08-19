@@ -16,7 +16,7 @@ bool CourseSchedule::canFinish(int numCourses, vector<vector<int>>& prerequisite
 
     visited.resize(numCourses, 0);
     // 生成邻接表
-    for (int i = 0; i < prerequisites.size(); ++i)
+    for (size_t i = 0; i < prerequisites.size(); ++i)
     {
         int nSrc = prerequisites[i][0];
         int nDest = prerequisites[i][1];
@@ -43,7 +43,7 @@ bool CourseSchedule::dfs(int nVertex)
 
     bool bRes = true;
     if(graph.count(nVertex))
-        for (int i = 0; bRes && i < graph[nVertex].size(); ++i) bRes &= dfs(graph[nVertex][i]);
+        for (size_t i = 0; bRes && i < graph[nVertex].size(); ++i) bRes &= dfs(graph[nVertex][i]);
 
     if (bRes) visited[nVertex] = 2;
     return bRes;
@@ -61,7 +61,7 @@ bool CourseSchedule::canFinish2(int numCourses, vector<vector<int>>& prerequisit
     vector<vector<int>> graph(numCourses, vector<int>());
 
     // 生成邻接表及入度map
-    for (int i = 0; i < prerequisites.size(); ++i)
+    for (size_t i = 0; i < prerequisites.size(); ++i)
     {
         int nSrc = prerequisites[i][0];
         int nDest = prerequisites[i][1];

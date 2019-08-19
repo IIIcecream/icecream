@@ -1,5 +1,6 @@
 #include "graph/CourseScheduleII.h"
 #include <queue>
+using std::queue;
 
 bool CourseScheduleII::solve()
 {
@@ -15,14 +16,34 @@ vector<int> CourseScheduleII::findOrder(int numCourses, vector<vector<int>>& pre
 
     for (size_t i = 0; i < prerequisites.size(); ++i)
     {
-        int nSrc = prerequisites[i][0];
-        int nDest = prerequisites[i][1];
+        int nSrc = prerequisites[i][1];
+        int nDest = prerequisites[i][0];
 
         indegree[nDest]++;
-
-
+        graph[nSrc].push_back(nDest);
     }
 
+    vector<int> res;
+
     queue<int> zeroDegree;
+    for (int i = 0; i < numCourses; ++i)
+    {
+        if (indegree[i] == 0) zeroDegree.push(i);
+    }
+
+    while (!zeroDegree.empty())
+    {
+        int n = zeroDegree.front();
+        zeroDegree.pop();
+        res.push_back(n);
+
+        for (size_t i = 0; i < graph[n].size(); ++i)
+        {
+            if (--indegree[graph[n][i]] == 0) zeroDegree.push(graph[n][i]);
+        }
+    }
+
+    if (res.size() != numCourses) return vector<int>();
+    return res;
 }
 

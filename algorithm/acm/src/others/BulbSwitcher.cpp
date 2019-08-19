@@ -36,21 +36,3 @@ int BulbSwitcher::bulbSwitch3(int n)
     }
     return res;
 }
-
-/*!
-*@brief        获取n的因子数量
-*@author       tangw   2019/08/09  19:48
-*/
-int BulbSwitcher::getFactorNum(int n)
-{
-    int nSqrt = sqrt(n);
-    if (nSqrt * nSqrt == n) return 1;
-
-    int nRes = 0;
-    for (int i = 0; i <= nSqrt; ++i)
-    {
-        if (n % i == 0) nRes += 2;
-    }
-    return nRes;
-}
-

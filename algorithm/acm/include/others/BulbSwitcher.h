@@ -15,8 +15,6 @@ private:
     int bulbSwitch2(int n);
     int bulbSwitch3(int n);
 
-    int getFactorNum(int n);
-
 private:
     int m_n;
 };
