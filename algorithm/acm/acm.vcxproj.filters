@@ -329,6 +329,9 @@
     <ClInclude Include="include\stack\BasicCalculator.h">
       <Filter>头文件\Stack</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\IsomorphicStrings.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -534,6 +537,9 @@
     </ClCompile>
     <ClCompile Include="src\stack\BasicCalculator.cpp">
       <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\IsomorphicStrings.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
