@@ -46,6 +46,7 @@
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
     <ClInclude Include="include\others\HandofStraights.h" />
+    <ClInclude Include="include\others\LargestNumber.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
@@ -119,6 +120,7 @@
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
     <ClCompile Include="src\others\HandofStraights.cpp" />
+    <ClCompile Include="src\others\LargestNumber.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />

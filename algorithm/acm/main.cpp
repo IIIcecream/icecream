@@ -40,6 +40,7 @@
 #include "dynamicProgramming\MaximumProductSubarray.h"
 #include "others\GameOfLife.h"
 #include "graph\CourseScheduleII.h"
+#include "others\LargestNumber.h"
 
 using namespace std;
 
@@ -539,6 +540,17 @@ void test162()
     SAFE_DELETE(p);
 }
 
+void test179()
+{
+    vector<int> nums;
+    int n = 100;
+    while(n--) nums.push_back(0);
+
+    IACM *p = new LargestNumber(nums);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
 void test198()
 {
     vector<int> nums;
@@ -609,6 +621,7 @@ void test210()
 
     SAFE_DELETE(p);
 }
+
 void tesst224()
 {
     IACM *p = new MyCalculator("(1+(4+5+2)-3)+(6+8)");
@@ -717,6 +730,6 @@ void tes1004()
 
 int main()
 {
-    test210();
+    test179();
     return 0;
 }

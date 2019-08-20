@@ -326,6 +326,9 @@
     <ClInclude Include="include\others\BulbSwitcher.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\LargestNumber.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -527,6 +530,9 @@
       <Filter>源文件\Graph</Filter>
     </ClCompile>
     <ClCompile Include="src\others\BulbSwitcher.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\LargestNumber.cpp">
       <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
