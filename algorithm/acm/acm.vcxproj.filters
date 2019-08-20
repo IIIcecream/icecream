@@ -332,6 +332,9 @@
     <ClInclude Include="include\others\IsomorphicStrings.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\linkedList\RemoveElements.h">
+      <Filter>头文件\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -540,6 +543,9 @@
     </ClCompile>
     <ClCompile Include="src\others\IsomorphicStrings.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linkedList\RemoveElements.cpp">
+      <Filter>源文件\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

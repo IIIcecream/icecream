@@ -40,6 +40,7 @@
     <ClInclude Include="include\linkedList\LinkedListCommon.h" />
     <ClInclude Include="include\linkedList\LinkedListCycle.h" />
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
+    <ClInclude Include="include\linkedList\RemoveElements.h" />
     <ClInclude Include="include\math\pow.h" />
     <ClInclude Include="include\others\BulbSwitcher.h" />
     <ClInclude Include="include\others\GameOfLife.h" />
@@ -114,6 +115,7 @@
     <ClCompile Include="src\linkedList\IntersectionLinkedLists.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
     <ClCompile Include="src\linkedList\MergeTwoSortedLists.cpp" />
+    <ClCompile Include="src\linkedList\RemoveElements.cpp" />
     <ClCompile Include="src\LRU\LFUCache.cpp" />
     <ClCompile Include="src\math\pow.cpp" />
     <ClCompile Include="src\others\BulbSwitcher.cpp" />
