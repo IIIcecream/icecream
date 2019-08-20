@@ -212,9 +212,6 @@
     <ClInclude Include="include\sort\KthLargestElement.h">
       <Filter>头文件\Sort</Filter>
     </ClInclude>
-    <ClInclude Include="include\stack\MyCalculator.h">
-      <Filter>头文件\Stack</Filter>
-    </ClInclude>
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
@@ -329,6 +326,9 @@
     <ClInclude Include="include\others\LargestNumber.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\BasicCalculator.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -419,9 +419,6 @@
       <Filter>源文件\Sort</Filter>
     </ClCompile>
     <ClCompile Include="src\sort\KthLargestElement.cpp">
-      <Filter>源文件\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="src\stack\MyCalculator.cpp">
       <Filter>源文件\Sort</Filter>
     </ClCompile>
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp">
@@ -534,6 +531,9 @@
     </ClCompile>
     <ClCompile Include="src\others\LargestNumber.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\BasicCalculator.cpp">
+      <Filter>源文件\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

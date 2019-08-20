@@ -13,7 +13,6 @@
 #include "others\LetterCombinationsOfPhoneNumbers.h"
 #include "stack\GenerateParentheses.h"
 #include "stack\LongestValidParentheses.h"
-#include "stack\MyCalculator.h"
 #include "binarySearch\SearchInRotatedSortedArray.h"
 #include "graph\WordLadder.h"
 #include "recursion\PalindromePartitioning.h"
@@ -41,6 +40,7 @@
 #include "others\GameOfLife.h"
 #include "graph\CourseScheduleII.h"
 #include "others\LargestNumber.h"
+#include "stack\BasicCalculator.h"
 
 using namespace std;
 
@@ -624,7 +624,7 @@ void test210()
 
 void tesst224()
 {
-    IACM *p = new MyCalculator("(1+(4+5+2)-3)+(6+8)");
+    IACM *p = new BasicCalculator("(1+(4+5+2)-3)+(6+8)");
     p->solve();
 
     SAFE_DELETE(p);
@@ -730,6 +730,6 @@ void tes1004()
 
 int main()
 {
-    test179();
+    tesst224();
     return 0;
 }
