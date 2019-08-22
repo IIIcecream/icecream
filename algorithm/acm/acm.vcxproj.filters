@@ -335,6 +335,9 @@
     <ClInclude Include="include\linkedList\RemoveElements.h">
       <Filter>头文件\LinkedList</Filter>
     </ClInclude>
+    <ClInclude Include="include\linkedList\AddAndSearchWord.h">
+      <Filter>头文件\Tree\Trie</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -546,6 +549,9 @@
     </ClCompile>
     <ClCompile Include="src\linkedList\RemoveElements.cpp">
       <Filter>源文件\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linkedList\AddAndSearchWord.cpp">
+      <Filter>源文件\Tree\Trie</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

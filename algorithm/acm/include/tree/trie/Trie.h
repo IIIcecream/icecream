@@ -5,14 +5,14 @@
 using namespace std;
 
 // Ç°×ºÊ÷½Úµã£¨×ÖµäÊ÷£©
-struct Node {
+struct TrieNode {
     bool bIsword;
-    Node* child[26];
-    Node() : bIsword(false)
+    TrieNode* child[26];
+    TrieNode() : bIsword(false)
     {
         for (int i = 0; i < 26; i++) child[i] = nullptr;
     }
-    ~Node()
+    ~TrieNode()
     {
         for (int i = 0; i < 26; i++)
             if(child[i]) delete child[i];
@@ -38,5 +38,5 @@ public:
     bool startsWith(string prefix);
 
 private:
-    Node * m_pRoot;
+    TrieNode * m_pRoot;
 };

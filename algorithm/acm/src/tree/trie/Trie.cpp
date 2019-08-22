@@ -4,7 +4,7 @@
 // LeetCode 208. Implement Trie (Prefix Tree)
 Trie::Trie()
 {
-    m_pRoot = new Node;   // 前缀树根节点
+    m_pRoot = new TrieNode;   // 前缀树根节点
 }
 
 Trie::~Trie()
@@ -21,10 +21,10 @@ void Trie::insert(string word)
 {
     if (word.empty()) return;
 
-    Node *pNode = m_pRoot;
+    TrieNode *pNode = m_pRoot;
     for (size_t i = 0; i < word.size(); ++i)
     {
-        if (pNode->child[word[i] - 'a'] == nullptr) pNode->child[word[i] - 'a'] = new Node();
+        if (pNode->child[word[i] - 'a'] == nullptr) pNode->child[word[i] - 'a'] = new TrieNode();
 
         pNode = pNode->child[word[i] - 'a'];
     }
@@ -35,7 +35,7 @@ bool Trie::search(string word)
 {
     if (word.empty() || m_pRoot == nullptr) return false;
 
-    Node *pNode = m_pRoot;
+    TrieNode *pNode = m_pRoot;
     for (size_t i = 0; i < word.size(); ++i)
     {
         pNode = pNode->child[word[i] - 'a'];
@@ -48,7 +48,7 @@ bool Trie::startsWith(string prefix)
 {
     if (prefix.empty() || m_pRoot == nullptr) return false;
 
-    Node *pNode = m_pRoot;
+    TrieNode *pNode = m_pRoot;
     for (size_t i = 0; i < prefix.size(); ++i)
     {
         pNode = pNode->child[prefix[i] - 'a'];

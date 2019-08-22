@@ -18,7 +18,8 @@
 #define SAFE_DELETE(ptr) { if(ptr) delete(ptr); }
 namespace ACM
 {
-    static int max(int a, int b)
+    template <class T1, class T2>
+    static int max(T1 a, T2 b)
     {
         return a > b ? a : b;
     }
@@ -36,12 +37,14 @@ namespace ACM
         return nMax;
     }
 
-    static int min(int a, int b)
+    template <class T1, class T2>
+    static int min(T1 a, T2 b)
     {
         return a < b ? a : b;
     }
 
-    static int abs(int a)
+    template <class T>
+    static int abs(T a)
     {
         return a < 0 ? -a : a;
     }

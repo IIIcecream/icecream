@@ -6,14 +6,14 @@
 using namespace std;
 
 // 图节点
-class Node {
+class GraphNode {
 public:
     int val;
-    vector<Node*> neighbors;
+    vector<GraphNode*> neighbors;
 
-    Node() {}
+    GraphNode() {}
 
-    Node(int _val, vector<Node*> _neighbors) {
+    GraphNode(int _val, vector<GraphNode*> _neighbors) {
         val = _val;
         neighbors = _neighbors;
     }
@@ -25,8 +25,8 @@ class CloneGraph : public IACM
 public:
     virtual bool solve() override;
 
-    Node * cloneGraph(Node* node);
+    GraphNode * cloneGraph(GraphNode* node);
 
 private:
-    map <Node *, Node *> nodeMap; //记录src节点与dest节点的映射关系
+    map <GraphNode *, GraphNode *> nodeMap; //记录src节点与dest节点的映射关系
 };

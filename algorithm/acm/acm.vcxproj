@@ -35,6 +35,7 @@
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
     <ClInclude Include="include\IACM.h" />
+    <ClInclude Include="include\linkedList\AddAndSearchWord.h" />
     <ClInclude Include="include\linkedList\CloneRandomPointerList.h" />
     <ClInclude Include="include\linkedList\IntersectionLinkedLists.h" />
     <ClInclude Include="include\linkedList\LinkedListCommon.h" />
@@ -111,6 +112,7 @@
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\CourseScheduleII.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
+    <ClCompile Include="src\linkedList\AddAndSearchWord.cpp" />
     <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp" />
     <ClCompile Include="src\linkedList\IntersectionLinkedLists.cpp" />
     <ClCompile Include="src\linkedList\LinkedListCycle.cpp" />
@@ -247,6 +249,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)acm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

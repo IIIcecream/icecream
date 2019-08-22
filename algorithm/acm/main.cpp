@@ -41,6 +41,8 @@
 #include "graph\CourseScheduleII.h"
 #include "others\LargestNumber.h"
 #include "stack\BasicCalculator.h"
+#include "linkedList\AddAndSearchWord.h"
+#include "testFileDAO\TestFileDAO.h"
 
 using namespace std;
 
@@ -622,6 +624,17 @@ void test210()
     SAFE_DELETE(p);
 }
 
+void tesst211()
+{
+    AddAndSearchWord *p = new AddAndSearchWord();
+    
+    p->addWord("a");
+    p->search("ab");
+    p->search("a");
+
+    SAFE_DELETE(p);
+}
+
 void tesst224()
 {
     IACM *p = new BasicCalculator("(1+(4+5+2)-3)+(6+8)");
@@ -730,6 +743,6 @@ void tes1004()
 
 int main()
 {
-    tesst224();
+    tesst211();
     return 0;
 }
