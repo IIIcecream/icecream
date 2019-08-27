@@ -338,6 +338,12 @@
     <ClInclude Include="include\linkedList\AddAndSearchWord.h">
       <Filter>头文件\Tree\Trie</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\MultiplyStrings.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recursion\DecodeWays.h">
+      <Filter>头文件\Recursion</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -552,6 +558,12 @@
     </ClCompile>
     <ClCompile Include="src\linkedList\AddAndSearchWord.cpp">
       <Filter>源文件\Tree\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\MultiplyStrings.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recursion\DecodeWays.cpp">
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

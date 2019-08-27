@@ -42,7 +42,8 @@
 #include "others\LargestNumber.h"
 #include "stack\BasicCalculator.h"
 #include "linkedList\AddAndSearchWord.h"
-#include "testFileDAO\TestFileDAO.h"
+#include "others\MultiplyStrings.h"
+#include "recursion\DecodeWays.h"
 
 using namespace std;
 
@@ -139,6 +140,13 @@ void test37()
     board.push_back(vec9);
 
     IACM *p = new SudokuSolver(board);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void test43()
+{
+    IACM *p = new MultiplyStrings("123", "456");
     p->solve();
     SAFE_DELETE(p);
 }
@@ -245,6 +253,13 @@ void test85()
     matrix.push_back(d);
 
     IACM *p = new MaximalRectangle(matrix);
+    p->solve();
+    SAFE_DELETE(p);
+}
+
+void tet91()
+{
+    IACM *p = new DecodeWays("12");
     p->solve();
     SAFE_DELETE(p);
 }
@@ -743,6 +758,6 @@ void tes1004()
 
 int main()
 {
-    tesst211();
+    tet91();
     return 0;
 }

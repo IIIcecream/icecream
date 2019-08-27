@@ -52,6 +52,7 @@
     <ClInclude Include="include\others\LargestNumber.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h" />
+    <ClInclude Include="include\others\MultiplyStrings.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Permutations.h" />
     <ClInclude Include="include\others\ReverseWords.h" />
@@ -61,6 +62,7 @@
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\others\UniqueBinarySearchTrees.h" />
     <ClInclude Include="include\recursion\CombinationSum.h" />
+    <ClInclude Include="include\recursion\DecodeWays.h" />
     <ClInclude Include="include\recursion\dfs\NumberOfIslands.h" />
     <ClInclude Include="include\recursion\dfs\SurroundedRegions.h" />
     <ClInclude Include="include\recursion\PalindromePartitioning.h" />
@@ -129,6 +131,7 @@
     <ClCompile Include="src\others\LargestNumber.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp" />
+    <ClCompile Include="src\others\MultiplyStrings.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Permutations.cpp" />
     <ClCompile Include="src\others\ReverseWords.cpp" />
@@ -138,6 +141,7 @@
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\others\UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="src\recursion\CombinationSum.cpp" />
+    <ClCompile Include="src\recursion\DecodeWays.cpp" />
     <ClCompile Include="src\recursion\dfs\NumberOfIslands.cpp" />
     <ClCompile Include="src\recursion\dfs\SurroundedRegions.cpp" />
     <ClCompile Include="src\recursion\PalindromePartitioning.cpp" />
