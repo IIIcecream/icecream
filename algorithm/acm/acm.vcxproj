@@ -52,6 +52,7 @@
     <ClInclude Include="include\others\IsomorphicStrings.h" />
     <ClInclude Include="include\others\LargestNumber.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
+    <ClInclude Include="include\others\MergeIntervals.h" />
     <ClInclude Include="include\others\MinimumSizeSubarraySum.h" />
     <ClInclude Include="include\others\MultiplyStrings.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
@@ -132,6 +133,7 @@
     <ClCompile Include="src\others\IsomorphicStrings.cpp" />
     <ClCompile Include="src\others\LargestNumber.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
+    <ClCompile Include="src\others\MergeIntervals.cpp" />
     <ClCompile Include="src\others\MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="src\others\MultiplyStrings.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
