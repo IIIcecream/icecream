@@ -4,6 +4,7 @@
 #include <vector>
 using std::vector;
 
+// 合并区间
 class MergeIntervals : public IACM
 {
 public:

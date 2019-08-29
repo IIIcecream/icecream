@@ -49,6 +49,7 @@
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
     <ClInclude Include="include\others\HandofStraights.h" />
+    <ClInclude Include="include\others\InsertInterval.h" />
     <ClInclude Include="include\others\IsomorphicStrings.h" />
     <ClInclude Include="include\others\LargestNumber.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
@@ -130,6 +131,7 @@
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
     <ClCompile Include="src\others\HandofStraights.cpp" />
+    <ClCompile Include="src\others\InsertInterval.cpp" />
     <ClCompile Include="src\others\IsomorphicStrings.cpp" />
     <ClCompile Include="src\others\LargestNumber.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
