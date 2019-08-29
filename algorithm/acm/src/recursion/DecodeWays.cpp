@@ -10,14 +10,9 @@ bool DecodeWays::solve()
 // LeetCode 91. Decode Ways
 int DecodeWays::numDecodings(string s)
 {
+    // dp
     vector<int> res;
     res.resize(s.size(), 0);
-
-    auto getVal = [&](int n)->int
-    {
-        if (n < 0) return 0;
-        return res[n];
-    };
 
     if (s.size() > 0) res[0] = s[0] != '0';
 

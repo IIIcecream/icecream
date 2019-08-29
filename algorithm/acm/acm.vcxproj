@@ -44,6 +44,7 @@
     <ClInclude Include="include\linkedList\RemoveElements.h" />
     <ClInclude Include="include\math\pow.h" />
     <ClInclude Include="include\others\BulbSwitcher.h" />
+    <ClInclude Include="include\others\CompareStringsbyFrequencyoftheSmallestCharacter.h" />
     <ClInclude Include="include\others\GameOfLife.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
@@ -123,6 +124,7 @@
     <ClCompile Include="src\LRU\LFUCache.cpp" />
     <ClCompile Include="src\math\pow.cpp" />
     <ClCompile Include="src\others\BulbSwitcher.cpp" />
+    <ClCompile Include="src\others\CompareStringsbyFrequencyoftheSmallestCharacter.cpp" />
     <ClCompile Include="src\others\GameOfLife.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
