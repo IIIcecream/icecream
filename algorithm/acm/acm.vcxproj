@@ -64,6 +64,7 @@
     <ClInclude Include="include\others\SingleNumber.h" />
     <ClInclude Include="include\others\SpiralMatrix.h" />
     <ClInclude Include="include\others\Triangle.h" />
+    <ClInclude Include="include\others\UglyNumber.h" />
     <ClInclude Include="include\others\UniqueBinarySearchTrees.h" />
     <ClInclude Include="include\recursion\CombinationSum.h" />
     <ClInclude Include="include\recursion\DecodeWays.h" />
@@ -147,6 +148,7 @@
     <ClCompile Include="src\others\SingleNumber.cpp" />
     <ClCompile Include="src\others\SpiralMatrix.cpp" />
     <ClCompile Include="src\others\Triangle.cpp" />
+    <ClCompile Include="src\others\UglyNumber.cpp" />
     <ClCompile Include="src\others\UniqueBinarySearchTrees.cpp" />
     <ClCompile Include="src\recursion\CombinationSum.cpp" />
     <ClCompile Include="src\recursion\DecodeWays.cpp" />

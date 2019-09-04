@@ -356,6 +356,9 @@
     <ClInclude Include="include\others\FactorialTrailingZeroes.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\UglyNumber.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -587,6 +590,9 @@
       <Filter>源文件\Others</Filter>
     </ClCompile>
     <ClCompile Include="src\others\FactorialTrailingZeroes.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\UglyNumber.cpp">
       <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
