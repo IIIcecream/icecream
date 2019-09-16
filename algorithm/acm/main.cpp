@@ -44,6 +44,7 @@
 #include "linkedList\AddAndSearchWord.h"
 #include "others\MultiplyStrings.h"
 #include "recursion\DecodeWays.h"
+#include "others\UglyNumber.h"
 
 using namespace std;
 
@@ -675,6 +676,14 @@ void test239()
     SAFE_DELETE(p);
 }
 
+void tesst264()
+{
+    IACM *p = new UglyNumberII(10);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test289()
 {
     vector<int> vec1;
@@ -758,6 +767,6 @@ void tes1004()
 
 int main()
 {
-    tet91();
+    tesst264();
     return 0;
 }
