@@ -54,6 +54,8 @@ bool SuperUglyNumber::solve()
     return nthSuperUglyNumber(m_n, m_primes);
 }
 
+
+// LeetCode 313. Ugly NumberII
 int SuperUglyNumber::nthSuperUglyNumber(int n, vector<int>& primes)
 {
     vector<int> pointers(primes.size(), 0);
