@@ -46,6 +46,7 @@
     <ClInclude Include="include\others\BulbSwitcher.h" />
     <ClInclude Include="include\others\CompareStringsbyFrequencyoftheSmallestCharacter.h" />
     <ClInclude Include="include\others\FactorialTrailingZeroes.h" />
+    <ClInclude Include="include\others\FirstMissingPositive.h" />
     <ClInclude Include="include\others\GameOfLife.h" />
     <ClInclude Include="include\others\GasStation.h" />
     <ClInclude Include="include\others\GroupAnagrams.h" />
@@ -130,6 +131,7 @@
     <ClCompile Include="src\others\BulbSwitcher.cpp" />
     <ClCompile Include="src\others\CompareStringsbyFrequencyoftheSmallestCharacter.cpp" />
     <ClCompile Include="src\others\FactorialTrailingZeroes.cpp" />
+    <ClCompile Include="src\others\FirstMissingPositive.cpp" />
     <ClCompile Include="src\others\GameOfLife.cpp" />
     <ClCompile Include="src\others\GasStation.cpp" />
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
