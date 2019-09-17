@@ -452,7 +452,7 @@ void test137()
     nums.push_back(1);
     nums.push_back(99);
 
-    IACM *p = new SingleNumber2(nums);
+    IACM *p = new SingleNumberII(nums);
     p->solve();
     SAFE_DELETE(p);
 }
@@ -676,6 +676,19 @@ void test239()
     SAFE_DELETE(p);
 }
 
+void test260()
+{
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(2);
+    nums.push_back(1);
+    nums.push_back(3);
+    IACM *p = new SingleNumberIII(nums);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void tesst264()
 {
     IACM *p = new UglyNumberII(10);
@@ -767,6 +780,6 @@ void tes1004()
 
 int main()
 {
-    tesst264();
+    test260();
     return 0;
 }
