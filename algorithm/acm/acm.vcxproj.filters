@@ -362,6 +362,9 @@
     <ClInclude Include="include\others\FirstMissingPositive.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\BullsAndCows.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -599,6 +602,9 @@
       <Filter>源文件\Others</Filter>
     </ClCompile>
     <ClCompile Include="src\others\FirstMissingPositive.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\BullsAndCows.cpp">
       <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
