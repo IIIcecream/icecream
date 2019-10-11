@@ -365,6 +365,12 @@
     <ClInclude Include="include\others\BullsAndCows.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\BinaryTreePaths.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\LongestIncreasingSubsequence.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -606,6 +612,12 @@
     </ClCompile>
     <ClCompile Include="src\others\BullsAndCows.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\BinaryTreePaths.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\LongestIncreasingSubsequence.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

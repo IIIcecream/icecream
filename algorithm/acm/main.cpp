@@ -45,6 +45,8 @@
 #include "others\MultiplyStrings.h"
 #include "recursion\DecodeWays.h"
 #include "others\UglyNumber.h"
+#include "tree\binaryTree\BinaryTreePaths.h"
+#include "dynamicProgramming\LongestIncreasingSubsequence.h"
 
 using namespace std;
 
@@ -676,6 +678,24 @@ void test239()
     SAFE_DELETE(p);
 }
 
+void tesst257()
+{
+    TreeNode *pNode1 = new TreeNode(1);
+    TreeNode *pNode2 = new TreeNode(2);
+    TreeNode *pNode3 = new TreeNode(3);
+    TreeNode *pNode4 = new TreeNode(4);
+
+    pNode1->left = pNode2;
+    pNode1->right = pNode3;
+
+    pNode2->right = pNode4;
+
+    IACM *p = new BinaryTreePaths(pNode1);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test260()
 {
     vector<int> nums;
@@ -731,6 +751,22 @@ void test289()
     SAFE_DELETE(p);
 }
 
+void test300()
+{
+    vector<int> nums;
+    nums.push_back(10);
+    nums.push_back(9);
+    nums.push_back(2);
+    nums.push_back(5);
+    nums.push_back(3);
+    nums.push_back(4);
+
+    IACM *p = new LongestIncreasingSubsequence(nums);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test460()
 {
     LFUCache *p = new LFUCache(2);
@@ -780,6 +816,6 @@ void tes1004()
 
 int main()
 {
-    test260();
+    test300();
     return 0;
 }

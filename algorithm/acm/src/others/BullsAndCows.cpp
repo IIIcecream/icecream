@@ -36,13 +36,13 @@ string BullsAndCows::getHint(string secret, string guess)
 
     // ½â·¨2
     int m[256] = { 0 };
-    int bull = 0, cow = 0, len = secret.size();
+    int bull = 0, cow = 0;
 
-    for (int i = 0; i < len; i++) {
-        if (secret[i] == guess[i]) {
-            bull++;
-        }
-        else {
+    for (size_t i = 0; i < secret.size(); i++)
+    {
+        if (secret[i] == guess[i]) bull++;
+        else
+        {
             if (m[secret[i]]++ < 0) cow++;
             if (m[guess[i]]-- > 0) cow++;
         }

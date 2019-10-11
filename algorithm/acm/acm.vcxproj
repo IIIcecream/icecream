@@ -26,6 +26,7 @@
     <ClInclude Include="include\binarySearch\SearchInRotatedSortedArray.h" />
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
+    <ClInclude Include="include\dynamicProgramming\LongestIncreasingSubsequence.h" />
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
     <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h" />
@@ -99,6 +100,7 @@
     <ClInclude Include="include\tree\binaryTree\binaryTreeCommon.h" />
     <ClInclude Include="include\tree\binaryTree\binaryTreeDepth.h" />
     <ClInclude Include="include\tree\binaryTree\BinaryTreeMaximumPathSum.h" />
+    <ClInclude Include="include\tree\binaryTree\BinaryTreePaths.h" />
     <ClInclude Include="include\tree\binaryTree\BinaryTreetoLinkedList.h" />
     <ClInclude Include="include\tree\binaryTree\binaryTreeTraversal.h" />
     <ClInclude Include="include\tree\binaryTree\ConstructBinaryTree.h" />
@@ -114,6 +116,7 @@
     <ClCompile Include="src\bianrySearch\SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
+    <ClCompile Include="src\dynamicProgramming\LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp" />
@@ -181,6 +184,7 @@
     <ClCompile Include="src\tree\binaryTree\BalancedBinaryTree.cpp" />
     <ClCompile Include="src\tree\binaryTree\binaryTreeDepth.cpp" />
     <ClCompile Include="src\tree\binaryTree\BinaryTreeMaximumPathSum.cpp" />
+    <ClCompile Include="src\tree\binaryTree\BinaryTreePaths.cpp" />
     <ClCompile Include="src\tree\binaryTree\BinaryTreetoLinkedList.cpp" />
     <ClCompile Include="src\tree\binaryTree\binaryTreeTraversal.cpp" />
     <ClCompile Include="src\tree\binaryTree\ConstructBinaryTree.cpp" />
