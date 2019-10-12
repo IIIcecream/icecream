@@ -12,7 +12,6 @@ vector<string> BinaryTreePaths::binaryTreePaths(TreeNode* root)
     vector<string> res;
     if (!root) return res;
 
-    string sCurPath;
     binaryTreePaths(root, "", res);
     return res;
 }

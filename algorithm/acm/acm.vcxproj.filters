@@ -371,6 +371,9 @@
     <ClInclude Include="include\dynamicProgramming\LongestIncreasingSubsequence.h">
       <Filter>头文件\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\CoinChange.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -617,6 +620,9 @@
       <Filter>源文件\Tree\BinaryTree</Filter>
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\LongestIncreasingSubsequence.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\CoinChange.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
