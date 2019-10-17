@@ -28,6 +28,7 @@
     <ClInclude Include="include\dynamicProgramming\CoinChange.h" />
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
     <ClInclude Include="include\dynamicProgramming\LongestIncreasingSubsequence.h" />
+    <ClInclude Include="include\dynamicProgramming\LongestPalindromicSubsequence.h" />
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
     <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h" />
@@ -70,6 +71,7 @@
     <ClInclude Include="include\others\Triangle.h" />
     <ClInclude Include="include\others\UglyNumber.h" />
     <ClInclude Include="include\others\UniqueBinarySearchTrees.h" />
+    <ClInclude Include="include\recursion\bfs\FindBottomLeftTreeValue.h" />
     <ClInclude Include="include\recursion\CombinationSum.h" />
     <ClInclude Include="include\recursion\DecodeWays.h" />
     <ClInclude Include="include\recursion\dfs\NumberOfIslands.h" />
@@ -119,6 +121,7 @@
     <ClCompile Include="src\dynamicProgramming\CoinChange.cpp" />
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
     <ClCompile Include="src\dynamicProgramming\LongestIncreasingSubsequence.cpp" />
+    <ClCompile Include="src\dynamicProgramming\LongestPalindromicSubsequence.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp" />
@@ -159,6 +162,7 @@
     <ClCompile Include="src\others\Triangle.cpp" />
     <ClCompile Include="src\others\UglyNumber.cpp" />
     <ClCompile Include="src\others\UniqueBinarySearchTrees.cpp" />
+    <ClCompile Include="src\recursion\bfs\FindBottomLeftTreeValue.cpp" />
     <ClCompile Include="src\recursion\CombinationSum.cpp" />
     <ClCompile Include="src\recursion\DecodeWays.cpp" />
     <ClCompile Include="src\recursion\dfs\NumberOfIslands.cpp" />
