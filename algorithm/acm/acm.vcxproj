@@ -86,6 +86,7 @@
     <ClInclude Include="include\slidingWindow\LongestRepeatingCharacterReplacement.h" />
     <ClInclude Include="include\slidingWindow\MaXConsecutiveOnesIII.h" />
     <ClInclude Include="include\slidingWindow\MinimumWindowSubstring.h" />
+    <ClInclude Include="include\slidingWindow\ReplaceSubstringForBalancedString.h" />
     <ClInclude Include="include\slidingWindow\SlidingWindowMaximum.h" />
     <ClInclude Include="include\slidingWindow\SlidingWindowMedian.h" />
     <ClInclude Include="include\slidingWindow\SubarraysWithKDifferentIntegers.h" />
@@ -98,6 +99,7 @@
     <ClInclude Include="include\stack\LongestValidParentheses.h" />
     <ClInclude Include="include\stack\MaximalRectangle.h" />
     <ClInclude Include="include\stack\MinStack.h" />
+    <ClInclude Include="include\stack\NextGreaterElement.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
     <ClInclude Include="include\tree\binaryTree\BalancedBinaryTree.h" />
     <ClInclude Include="include\tree\binaryTree\binaryTreeCommon.h" />
@@ -175,6 +177,7 @@
     <ClCompile Include="src\slidingWindow\LongestRepeatingCharacterReplacement.cpp" />
     <ClCompile Include="src\slidingWindow\MaxConsecutiveOnesIII.cpp" />
     <ClCompile Include="src\slidingWindow\MinimumWindowSubstring.cpp" />
+    <ClCompile Include="src\slidingWindow\ReplaceSubstringForBalancedString.cpp" />
     <ClCompile Include="src\slidingWindow\SlidingWindowMaximum.cpp" />
     <ClCompile Include="src\slidingWindow\SlidingWindowMedian.cpp" />
     <ClCompile Include="src\slidingWindow\SubarraysWithKDifferentIntegers.cpp" />
@@ -186,6 +189,7 @@
     <ClCompile Include="src\stack\LongestValidParentheses.cpp" />
     <ClCompile Include="src\stack\MaximalRectangle.cpp" />
     <ClCompile Include="src\stack\MinStack.cpp" />
+    <ClCompile Include="src\stack\NextGreaterElement.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
     <ClCompile Include="src\tree\binaryTree\BalancedBinaryTree.cpp" />
     <ClCompile Include="src\tree\binaryTree\binaryTreeDepth.cpp" />

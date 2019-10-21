@@ -386,6 +386,12 @@
     <ClInclude Include="include\recursion\bfs\FindBottomLeftTreeValue.h">
       <Filter>头文件\Recursion\BFS</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\NextGreaterElement.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slidingWindow\ReplaceSubstringForBalancedString.h">
+      <Filter>头文件\SlidingWindow</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -642,6 +648,12 @@
     </ClCompile>
     <ClCompile Include="src\recursion\bfs\FindBottomLeftTreeValue.cpp">
       <Filter>源文件\Recursion\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\NextGreaterElement.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slidingWindow\ReplaceSubstringForBalancedString.cpp">
+      <Filter>源文件\SlidingWindow</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
