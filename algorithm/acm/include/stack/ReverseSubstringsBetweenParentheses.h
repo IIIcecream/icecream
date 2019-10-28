@@ -3,6 +3,7 @@
 #include <string>
 using std::string;
 
+// 反转每对括号间的子串
 class ReverseSubstringsBetweenParentheses : public IACM
 {
 public:

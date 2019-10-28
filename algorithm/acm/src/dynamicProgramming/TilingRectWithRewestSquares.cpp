@@ -10,10 +10,10 @@ bool TilingRectWithRewestSquares::solve()
 int TilingRectWithRewestSquares::tilingRectangle(int n, int m)
 {
     // https://leetcode-cn.com/problems/tiling-a-rectangle-with-the-fewest-squares/solution/5241-pu-ci-zhuan-dong-tai-gui-hua-by-xu-yuan-shu/
-    int f[14][14];
-    memset(f, 1, sizeof(f));
-    for (int i = 0; i <= n; i++)f[i][0] = 0;
-    for (int i = 0; i <= m; i++)f[0][i] = 0;
+    int dp[14][14];
+    memset(dp, m*n, sizeof(dp));
+    for (int i = 0; i <= n; i++)dp[i][0] = 0;
+    for (int i = 0; i <= m; i++)dp[0][i] = 0;
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= m; j++)
@@ -26,7 +26,7 @@ int TilingRectWithRewestSquares::tilingRectangle(int n, int m)
                 {
                     for (int j2 = j1; j2 <= j; j2++)
                     {
-                        f[i][j] = ACM::min(f[i][j], f[i1][j2] + f[i2][j - j2] + f[i - i1][j1] + f[i2 - i1][j2 - j1] + 1);
+                        dp[i][j] = ACM::min(dp[i][j], dp[i1][j2] + dp[i2][j - j2] + dp[i - i1][j1] + dp[i2 - i1][j2 - j1] + 1);
                     }
                 }
 
@@ -34,6 +34,6 @@ int TilingRectWithRewestSquares::tilingRectangle(int n, int m)
         }
     }
 
-    return f[n][m];
+    return dp[n][m];
 }
 
