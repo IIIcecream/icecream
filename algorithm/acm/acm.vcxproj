@@ -32,6 +32,7 @@
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
     <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h" />
+    <ClInclude Include="include\dynamicProgramming\TilingRectWithRewestSquares.h" />
     <ClInclude Include="include\graph\CloneGraph.h" />
     <ClInclude Include="include\graph\CourseSchedule.h" />
     <ClInclude Include="include\graph\CourseScheduleII.h" />
@@ -100,6 +101,7 @@
     <ClInclude Include="include\stack\MaximalRectangle.h" />
     <ClInclude Include="include\stack\MinStack.h" />
     <ClInclude Include="include\stack\NextGreaterElement.h" />
+    <ClInclude Include="include\stack\ReverseSubstringsBetweenParentheses.h" />
     <ClInclude Include="include\string\DistinctSubsequnces.h" />
     <ClInclude Include="include\tree\binaryTree\BalancedBinaryTree.h" />
     <ClInclude Include="include\tree\binaryTree\binaryTreeCommon.h" />
@@ -127,6 +129,7 @@
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp" />
+    <ClCompile Include="src\dynamicProgramming\TilingRectWithRewestSquares.cpp" />
     <ClCompile Include="src\graph\CloneGraph.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\CourseScheduleII.cpp" />
@@ -190,6 +193,7 @@
     <ClCompile Include="src\stack\MaximalRectangle.cpp" />
     <ClCompile Include="src\stack\MinStack.cpp" />
     <ClCompile Include="src\stack\NextGreaterElement.cpp" />
+    <ClCompile Include="src\stack\ReverseSubstringsBetweenParentheses.cpp" />
     <ClCompile Include="src\string\DistinctSubsequnces.cpp" />
     <ClCompile Include="src\tree\binaryTree\BalancedBinaryTree.cpp" />
     <ClCompile Include="src\tree\binaryTree\binaryTreeDepth.cpp" />

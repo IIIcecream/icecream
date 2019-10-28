@@ -814,8 +814,18 @@ void tes1004()
     SAFE_DELETE(p);
 }
 
+
+#include <ctime>
 int main()
 {
+    clock_t nBegin = clock();
+    map<int, int> myMap;
+    for (int i = 0; i < 10000000; ++i) myMap[i] = i;
+    clock_t nEnd = clock();
+
+    cout << nEnd - nBegin << endl;
+
+
     test300();
     return 0;
 }

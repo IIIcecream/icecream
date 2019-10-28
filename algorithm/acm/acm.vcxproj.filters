@@ -392,6 +392,12 @@
     <ClInclude Include="include\slidingWindow\ReplaceSubstringForBalancedString.h">
       <Filter>头文件\SlidingWindow</Filter>
     </ClInclude>
+    <ClInclude Include="include\stack\ReverseSubstringsBetweenParentheses.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\TilingRectWithRewestSquares.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -654,6 +660,12 @@
     </ClCompile>
     <ClCompile Include="src\slidingWindow\ReplaceSubstringForBalancedString.cpp">
       <Filter>源文件\SlidingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack\ReverseSubstringsBetweenParentheses.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\TilingRectWithRewestSquares.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
