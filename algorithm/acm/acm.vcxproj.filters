@@ -398,6 +398,9 @@
     <ClInclude Include="include\dynamicProgramming\TilingRectWithRewestSquares.h">
       <Filter>头文件\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\RevealCardsInIncreasingOrder.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -666,6 +669,9 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\TilingRectWithRewestSquares.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\RevealCardsInIncreasingOrder.cpp">
+      <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -47,6 +47,7 @@
 #include "others\UglyNumber.h"
 #include "tree\binaryTree\BinaryTreePaths.h"
 #include "dynamicProgramming\LongestIncreasingSubsequence.h"
+#include "others\RevealCardsInIncreasingOrder.h"
 
 using namespace std;
 
@@ -794,6 +795,23 @@ void test485()
 	SAFE_DELETE(p);
 }
 
+void test950()
+{
+    vector<int> nums = {1,2,3,4,5,6,7};
+    //nums.push_back(17);
+    //nums.push_back(13);
+    //nums.push_back(11);
+    //nums.push_back(2);
+    //nums.push_back(3);
+    //nums.push_back(5);
+    //nums.push_back(7);
+    IACM *p = new RevealCardsInIncreasingOrder(nums);
+    p->solve();
+
+    SAFE_DELETE(p);
+    
+}
+
 void tes1004()
 {
     vector<int> nums;
@@ -814,18 +832,8 @@ void tes1004()
     SAFE_DELETE(p);
 }
 
-
-#include <ctime>
 int main()
 {
-    clock_t nBegin = clock();
-    map<int, int> myMap;
-    for (int i = 0; i < 10000000; ++i) myMap[i] = i;
-    clock_t nEnd = clock();
-
-    cout << nEnd - nBegin << endl;
-
-
-    test300();
+    test950();
     return 0;
 }

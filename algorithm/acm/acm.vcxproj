@@ -65,6 +65,7 @@
     <ClInclude Include="include\others\MultiplyStrings.h" />
     <ClInclude Include="include\others\PascalsTriangle.h" />
     <ClInclude Include="include\others\Permutations.h" />
+    <ClInclude Include="include\others\RevealCardsInIncreasingOrder.h" />
     <ClInclude Include="include\others\ReverseWords.h" />
     <ClInclude Include="include\others\RotateArray.h" />
     <ClInclude Include="include\others\SingleNumber.h" />
@@ -160,6 +161,7 @@
     <ClCompile Include="src\others\MultiplyStrings.cpp" />
     <ClCompile Include="src\others\PascalsTriangle.cpp" />
     <ClCompile Include="src\others\Permutations.cpp" />
+    <ClCompile Include="src\others\RevealCardsInIncreasingOrder.cpp" />
     <ClCompile Include="src\others\ReverseWords.cpp" />
     <ClCompile Include="src\others\RotateArray.cpp" />
     <ClCompile Include="src\others\SingleNumber.cpp" />
