@@ -407,6 +407,9 @@
     <ClInclude Include="include\others\QueueReconstructionByHeight.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\LargestDivisibleSubset.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -684,6 +687,9 @@
     </ClCompile>
     <ClCompile Include="src\others\QueueReconstructionByHeight.cpp">
       <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\LargestDivisibleSubset.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

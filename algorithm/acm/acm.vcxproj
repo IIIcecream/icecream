@@ -27,6 +27,7 @@
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
     <ClInclude Include="include\dynamicProgramming\CoinChange.h" />
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
+    <ClInclude Include="include\dynamicProgramming\LargestDivisibleSubset.h" />
     <ClInclude Include="include\dynamicProgramming\LongestIncreasingSubsequence.h" />
     <ClInclude Include="include\dynamicProgramming\LongestPalindromicSubsequence.h" />
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
@@ -127,6 +128,7 @@
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
     <ClCompile Include="src\dynamicProgramming\CoinChange.cpp" />
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
+    <ClCompile Include="src\dynamicProgramming\LargestDivisibleSubset.cpp" />
     <ClCompile Include="src\dynamicProgramming\LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="src\dynamicProgramming\LongestPalindromicSubsequence.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />

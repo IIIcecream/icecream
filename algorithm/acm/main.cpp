@@ -48,6 +48,7 @@
 #include "tree\binaryTree\BinaryTreePaths.h"
 #include "dynamicProgramming\LongestIncreasingSubsequence.h"
 #include "others\RevealCardsInIncreasingOrder.h"
+#include "others\QueueReconstructionByHeight.h"
 
 using namespace std;
 
@@ -644,6 +645,18 @@ void test300()
     SAFE_DELETE(p);
 }
 
+void test406()
+{
+    vector<vector<int>> aaa = { {7,0}, {4,4},{7,1},{5,0},{6,1},{5,2} };
+
+    reverse(aaa.begin(), aaa.end());
+
+    IACM* p = new QueueReconstructionByHeight(aaa);
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test460()
 {
     LFUCache *p = new LFUCache(2);
@@ -685,25 +698,8 @@ void tes1004()
     SAFE_DELETE(p);
 }
 
-vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
-    sort(people.begin(), people.end(), [](vector<int>& lhs, vector<int>& rhs) {
-        return lhs[0] > rhs[0] || lhs[0] == rhs[0] && lhs[1] < rhs[1];
-    });
-
-    vector<vector<int>> res;
-    for (vector<int>& item : people)
-    {
-        res.insert(res.begin() + item[1], move(item));
-    }
-
-    return res;
-}
-
 int main()
 {
-    vector<vector<int>> aaa = { {7,0}, {4,4},{7,1},{5,0},{6,1},{5,2} };
-    
-    reconstructQueue(aaa);
     test950();
     return 0;
 }
