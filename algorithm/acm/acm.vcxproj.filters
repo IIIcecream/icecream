@@ -401,6 +401,9 @@
     <ClInclude Include="include\others\RevealCardsInIncreasingOrder.h">
       <Filter>头文件\Others</Filter>
     </ClInclude>
+    <ClInclude Include="include\others\ArithmeticSlices.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -671,6 +674,9 @@
       <Filter>源文件\DynamicProgramming</Filter>
     </ClCompile>
     <ClCompile Include="src\others\RevealCardsInIncreasingOrder.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\ArithmeticSlices.cpp">
       <Filter>源文件\Others</Filter>
     </ClCompile>
   </ItemGroup>

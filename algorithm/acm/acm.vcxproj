@@ -47,6 +47,7 @@
     <ClInclude Include="include\linkedList\MergeTwoSortedLists.h" />
     <ClInclude Include="include\linkedList\RemoveElements.h" />
     <ClInclude Include="include\math\pow.h" />
+    <ClInclude Include="include\others\ArithmeticSlices.h" />
     <ClInclude Include="include\others\BulbSwitcher.h" />
     <ClInclude Include="include\others\BullsAndCows.h" />
     <ClInclude Include="include\others\CompareStringsbyFrequencyoftheSmallestCharacter.h" />
@@ -143,6 +144,7 @@
     <ClCompile Include="src\linkedList\RemoveElements.cpp" />
     <ClCompile Include="src\LRU\LFUCache.cpp" />
     <ClCompile Include="src\math\pow.cpp" />
+    <ClCompile Include="src\others\ArithmeticSlices.cpp" />
     <ClCompile Include="src\others\BulbSwitcher.cpp" />
     <ClCompile Include="src\others\BullsAndCows.cpp" />
     <ClCompile Include="src\others\CompareStringsbyFrequencyoftheSmallestCharacter.cpp" />
