@@ -182,24 +182,15 @@ void test76()
 void test79()
 {
     vector<vector<char>> board;
-    vector<char> b;
-    b.push_back('A');
-    b.push_back('B');
-    b.push_back('C');
-    b.push_back('E');
+
+    vector<char> a = { 'A', 'B', 'C', 'E' };
+    board.push_back(a);
+
+    vector<char> b = { 'S', 'F', 'C', 'S' };
     board.push_back(b);
 
-    b[0] = 'S';
-    b[1] = 'F';
-    b[2] = 'C';
-    b[3] = 'S';
-    board.push_back(b);
-
-    b[0] = 'A';
-    b[1] = 'D';
-    b[2] = 'E';
-    b[3] = 'E';
-    board.push_back(b);
+    vector<char> c = { 'A', 'D', 'E', 'E' };
+    board.push_back(c);
 
     IACM *p = new WordSearch(board, "ABCCED");
     p->solve();
@@ -224,36 +215,16 @@ void test84()
 void test85()
 {
     vector<vector<char>> matrix;
-    vector<char> a;
-    a.push_back('1');
-    a.push_back('0');
-    a.push_back('1');
-    a.push_back('0');
-    a.push_back('0');
+    vector<char> a = {'1', '0', '1', '0', '0'};
     matrix.push_back(a);
 
-    vector<char> b;
-    b.push_back('1');
-    b.push_back('0');
-    b.push_back('1');
-    b.push_back('1');
-    b.push_back('1');
+    vector<char> b = {'1', '0', '1', '1', '1'};
     matrix.push_back(b);
 
-    vector<char> c;
-    c.push_back('1');
-    c.push_back('1');
-    c.push_back('1');
-    c.push_back('1');
-    c.push_back('1');
+    vector<char> c = {'1', '1', '1', '1', '1'};
     matrix.push_back(c);
 
-    vector<char> d;
-    d.push_back('1');
-    d.push_back('0');
-    d.push_back('0');
-    d.push_back('1');
-    d.push_back('0');
+    vector<char> d = {'1', '0', '0', '1', '0'};
     matrix.push_back(d);
 
     IACM *p = new MaximalRectangle(matrix);
@@ -298,20 +269,7 @@ void test103()
 
 void test105()
 {
-    vector<int> preorder, inorder;
-    preorder.push_back(3);
-    preorder.push_back(9);
-    preorder.push_back(4);
-    preorder.push_back(20);
-    preorder.push_back(15);
-    preorder.push_back(7);
-
-    inorder.push_back(4);
-    inorder.push_back(9);
-    inorder.push_back(3);
-    inorder.push_back(15);
-    inorder.push_back(20);
-    inorder.push_back(7);
+    vector<int> preorder = { 3, 9, 4, 20, 15, 7 }, inorder = {4, 9, 3, 15, 20, 7};
 
     IACM *p = new CBTfromPreInorder(preorder, inorder);
     p->solve();
@@ -320,20 +278,7 @@ void test105()
 
 void test106()
 {
-    vector<int> inorder, postOrder;
-    inorder.push_back(4);
-    inorder.push_back(9);
-    inorder.push_back(3);
-    inorder.push_back(15);
-    inorder.push_back(20);
-    inorder.push_back(7);
-
-    postOrder.push_back(4);
-    postOrder.push_back(9);
-    postOrder.push_back(15);
-    postOrder.push_back(7);
-    postOrder.push_back(20);
-    postOrder.push_back(3);
+    vector<int> inorder = { 4, 9, 3, 15, 20, 7 }, postOrder = {4, 9, 15, 7, 20, 3};
 
     IACM *p = new CBTfromInPostOrder(inorder, postOrder);
     p->solve();
@@ -380,10 +325,10 @@ void test118()
 void test120()
 {
     vector<vector<int>> triangle;
-    vector<int> a; a.push_back(2);  triangle.push_back(a);
-    vector<int> b; b.push_back(3), b.push_back(4); triangle.push_back(b);
-    vector<int> c; c.push_back(6), c.push_back(5), c.push_back(7); triangle.push_back(c);
-    vector<int> d; d.push_back(4), d.push_back(1), d.push_back(8), d.push_back(3); triangle.push_back(d);
+    vector<int> a = {2};  triangle.push_back(a);
+    vector<int> b = {3, 4}; triangle.push_back(b);
+    vector<int> c = {6, 5, 7}; triangle.push_back(c);
+    vector<int> d = {4, 1, 8, 3}; triangle.push_back(d);
 
     IACM *p = new Triangle(triangle);
     p->solve();
@@ -392,15 +337,7 @@ void test120()
 
 void test123()
 {
-    vector<int> prices;
-    prices.push_back(3);
-    prices.push_back(3);
-    prices.push_back(5);
-    prices.push_back(0);
-    prices.push_back(0);
-    prices.push_back(3);
-    prices.push_back(1);
-    prices.push_back(4);
+    vector<int> prices = {3, 3, 5, 0, 0, 3, 1, 4};
 
     IACM *p = new BuySellSrock(prices);
     p->solve();
@@ -424,13 +361,7 @@ void test124()
 void test127()
 {
     string sBegin("hit"), sEnd("cog");
-    vector<string> words;
-    words.push_back("hot");
-    words.push_back("dot");
-    words.push_back("dog");
-    words.push_back("lot");
-    words.push_back("log");
-    words.push_back("cog");
+    vector<string> words = { "hot", "dot", "dog", "lot", "log", "cog" };
 
     IACM *p = new WordLadder(sBegin, sEnd, words);
     p->solve();
@@ -446,14 +377,7 @@ void test131()
 
 void test137()
 {
-    vector<int> nums;
-    nums.push_back(99);
-    nums.push_back(1);
-    nums.push_back(99);
-    nums.push_back(1);
-    nums.push_back(0);
-    nums.push_back(1);
-    nums.push_back(99);
+    vector<int> nums = {99, 1, 99, 1, 0, 1, 99};
 
     IACM *p = new SingleNumberII(nums);
     p->solve();
@@ -479,12 +403,7 @@ void test139()
 {
     //string word = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
     string word = "catsandog";
-    vector<string> wordDict;
-    wordDict.push_back("cats");
-    wordDict.push_back("og");
-    wordDict.push_back("sand");
-    wordDict.push_back("and");
-    wordDict.push_back("cat");
+    vector<string> wordDict = { "cats", "og", "sand", "and", "cat" };
     //wordDict.push_back("a");
     //wordDict.push_back("aa");
     //wordDict.push_back("aaa");
@@ -534,12 +453,7 @@ void test151()
 
 void test152()
 {
-    vector<int> nums;
-    nums.push_back(2);
-    nums.push_back(-5);
-    nums.push_back(-2);
-    nums.push_back(-4);
-    nums.push_back(3);
+    vector<int> nums = {2, -5, -2, -4, 3};
 
     IACM *p = new MaximumProductSubarray(nums);
     p->solve();
@@ -548,11 +462,7 @@ void test152()
 
 void test162()
 {
-    vector<int> nums;
-    nums.push_back(1);
-    nums.push_back(2);
-    nums.push_back(3);
-    nums.push_back(1);
+    vector<int> nums = { 1, 2, 3, 1 };
     //nums.push_back(2);
     //nums.push_back(5);
 
@@ -574,11 +484,7 @@ void test179()
 
 void test198()
 {
-    vector<int> nums;
-    nums.push_back(1);
-    nums.push_back(2);
-    nums.push_back(3);
-    nums.push_back(1);
+    vector<int> nums = { 1, 2, 3, 1 };
     IACM *p = new HouseRobber(nums);
     p->solve();
 
@@ -664,15 +570,7 @@ void tesst224()
 
 void test239()
 {
-    vector<int> nums;
-    nums.push_back(1);
-    nums.push_back(3);
-    nums.push_back(-1);
-    nums.push_back(-3);
-    nums.push_back(5);
-    nums.push_back(3);
-    nums.push_back(6);
-    nums.push_back(7);
+    vector<int> nums = { 1, 3, -1, -3, 5, 3, 6, 7 };
     IACM *p = new SlidingWindowMaximum(nums, 3);
     p->solve();
 
@@ -699,11 +597,7 @@ void tesst257()
 
 void test260()
 {
-    vector<int> nums;
-    nums.push_back(1);
-    nums.push_back(2);
-    nums.push_back(1);
-    nums.push_back(3);
+    vector<int> nums = { 1, 2, 1, 3 };
     IACM *p = new SingleNumberIII(nums);
     p->solve();
 
@@ -720,25 +614,13 @@ void tesst264()
 
 void test289()
 {
-    vector<int> vec1;
-    vec1.push_back(0);
-    vec1.push_back(1);
-    vec1.push_back(0);
+    vector<int> vec1 = { 0, 1, 0 };
 
-    vector<int> vec2;
-    vec2.push_back(0);
-    vec2.push_back(0);
-    vec2.push_back(1);
+    vector<int> vec2 = { 0, 0, 1 };
 
-    vector<int> vec3;
-    vec3.push_back(1);
-    vec3.push_back(1);
-    vec3.push_back(1);
+    vector<int> vec3 = { 1, 1, 1 };
 
-    vector<int> vec4;
-    vec4.push_back(0);
-    vec4.push_back(0);
-    vec4.push_back(0);
+    vector<int> vec4 = { 0, 0, 0 };
 
     vector<vector<int>> board;
     board.push_back(vec1);
@@ -754,13 +636,7 @@ void test289()
 
 void test300()
 {
-    vector<int> nums;
-    nums.push_back(10);
-    nums.push_back(9);
-    nums.push_back(2);
-    nums.push_back(5);
-    nums.push_back(3);
-    nums.push_back(4);
+    vector<int> nums = { 10, 9, 2, 5, 3, 4 };
 
     IACM *p = new LongestIncreasingSubsequence(nums);
     p->solve();
@@ -782,13 +658,7 @@ void test460()
 
 void test485()
 {
-	vector<int> nums;
-	nums.push_back(1);
-	nums.push_back(1);
-	nums.push_back(0);
-	nums.push_back(1);
-	nums.push_back(1);
-	nums.push_back(1);
+    vector<int> nums = { 1, 1, 0, 1, 1, 1 };
 	IACM *p = new MaxConsecutiveOnes(nums);
 	p->solve();
 
@@ -798,13 +668,7 @@ void test485()
 void test950()
 {
     vector<int> nums = {1,2,3,4,5,6,7};
-    //nums.push_back(17);
-    //nums.push_back(13);
-    //nums.push_back(11);
-    //nums.push_back(2);
-    //nums.push_back(3);
-    //nums.push_back(5);
-    //nums.push_back(7);
+    nums.insert(nums.begin() + 4, 5);
     IACM *p = new RevealCardsInIncreasingOrder(nums);
     p->solve();
 
@@ -814,26 +678,32 @@ void test950()
 
 void tes1004()
 {
-    vector<int> nums;
-    nums.push_back(1);
-    nums.push_back(1);
-    nums.push_back(1);
-    nums.push_back(0);
-    nums.push_back(0);
-    nums.push_back(0);
-    nums.push_back(1);
-    nums.push_back(1);
-    nums.push_back(1);
-    nums.push_back(1);
-    nums.push_back(0);
+    vector<int> nums = { 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0 };
     IACM *p = new MaxConsecutiveOnesIII(nums, 2);
     p->solve();
 
     SAFE_DELETE(p);
 }
 
+vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
+    sort(people.begin(), people.end(), [](vector<int>& lhs, vector<int>& rhs) {
+        return lhs[0] > rhs[0] || lhs[0] == rhs[0] && lhs[1] < rhs[1];
+    });
+
+    vector<vector<int>> res;
+    for (vector<int>& item : people)
+    {
+        res.insert(res.begin() + item[1], move(item));
+    }
+
+    return res;
+}
+
 int main()
 {
+    vector<vector<int>> aaa = { {7,0}, {4,4},{7,1},{5,0},{6,1},{5,2} };
+    
+    reconstructQueue(aaa);
     test950();
     return 0;
 }
