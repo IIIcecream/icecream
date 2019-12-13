@@ -49,6 +49,7 @@
 #include "dynamicProgramming\LongestIncreasingSubsequence.h"
 #include "others\RevealCardsInIncreasingOrder.h"
 #include "others\QueueReconstructionByHeight.h"
+#include "dynamicProgramming\PalindromicSubstrings.h"
 
 using namespace std;
 
@@ -678,6 +679,14 @@ void test485()
 	SAFE_DELETE(p);
 }
 
+void test647()
+{
+    IACM *p = new PalindromicSubstrings("abcbaksjdgnncaccnnnjga");
+    p->solve();
+
+    SAFE_DELETE(p);
+}
+
 void test950()
 {
     vector<int> nums = {1,2,3,4,5,6,7};
@@ -698,8 +707,22 @@ void tes1004()
     SAFE_DELETE(p);
 }
 
+union MyUnion
+{
+    int i;
+    char a[
+    ];
+};
+
 int main()
 {
-    test950();
+    MyUnion o;
+    cout << sizeof(MyUnion) << endl;
+    o.i = 0;
+    o.a[0] = 10;
+    o.a[1] = 1;
+    cout << o.i;
+
+    test647();
     return 0;
 }

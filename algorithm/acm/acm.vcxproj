@@ -26,6 +26,7 @@
     <ClInclude Include="include\binarySearch\SearchInRotatedSortedArray.h" />
     <ClInclude Include="include\dynamicProgramming\BuySellStock.h" />
     <ClInclude Include="include\dynamicProgramming\CoinChange.h" />
+    <ClInclude Include="include\dynamicProgramming\GuessNumber.h" />
     <ClInclude Include="include\dynamicProgramming\HouseRobber.h" />
     <ClInclude Include="include\dynamicProgramming\LargestDivisibleSubset.h" />
     <ClInclude Include="include\dynamicProgramming\LongestIncreasingSubsequence.h" />
@@ -33,6 +34,7 @@
     <ClInclude Include="include\dynamicProgramming\MaxConsecutiveOnes.h" />
     <ClInclude Include="include\dynamicProgramming\MaximalSquare.h" />
     <ClInclude Include="include\dynamicProgramming\MaximumProductSubarray.h" />
+    <ClInclude Include="include\dynamicProgramming\PalindromicSubstrings.h" />
     <ClInclude Include="include\dynamicProgramming\TilingRectWithRewestSquares.h" />
     <ClInclude Include="include\graph\CloneGraph.h" />
     <ClInclude Include="include\graph\CourseSchedule.h" />
@@ -59,6 +61,7 @@
     <ClInclude Include="include\others\GroupAnagrams.h" />
     <ClInclude Include="include\others\HandofStraights.h" />
     <ClInclude Include="include\others\InsertInterval.h" />
+    <ClInclude Include="include\others\IntegerReplacement.h" />
     <ClInclude Include="include\others\IsomorphicStrings.h" />
     <ClInclude Include="include\others\LargestNumber.h" />
     <ClInclude Include="include\others\LetterCombinationsOfPhoneNumbers.h" />
@@ -116,6 +119,7 @@
     <ClInclude Include="include\tree\binaryTree\binaryTreeTraversal.h" />
     <ClInclude Include="include\tree\binaryTree\ConstructBinaryTree.h" />
     <ClInclude Include="include\tree\binaryTree\RightPointerBinaryTree.h" />
+    <ClInclude Include="include\tree\binaryTree\RightSideView.h" />
     <ClInclude Include="include\tree\binaryTree\SumRootToLeafNumbers.h" />
     <ClInclude Include="include\tree\trie\Trie.h" />
   </ItemGroup>
@@ -127,6 +131,7 @@
     <ClCompile Include="src\bianrySearch\SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="src\dynamicProgramming\BuySellStock.cpp" />
     <ClCompile Include="src\dynamicProgramming\CoinChange.cpp" />
+    <ClCompile Include="src\dynamicProgramming\GuessNumber.cpp" />
     <ClCompile Include="src\dynamicProgramming\HouseRobber.cpp" />
     <ClCompile Include="src\dynamicProgramming\LargestDivisibleSubset.cpp" />
     <ClCompile Include="src\dynamicProgramming\LongestIncreasingSubsequence.cpp" />
@@ -134,6 +139,7 @@
     <ClCompile Include="src\dynamicProgramming\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximalSquare.cpp" />
     <ClCompile Include="src\dynamicProgramming\MaximumProductSubarray.cpp" />
+    <ClCompile Include="src\dynamicProgramming\PalindromicSubstrings.cpp" />
     <ClCompile Include="src\dynamicProgramming\TilingRectWithRewestSquares.cpp" />
     <ClCompile Include="src\graph\CloneGraph.cpp" />
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
@@ -158,6 +164,7 @@
     <ClCompile Include="src\others\GroupAnagrams.cpp" />
     <ClCompile Include="src\others\HandofStraights.cpp" />
     <ClCompile Include="src\others\InsertInterval.cpp" />
+    <ClCompile Include="src\others\IntegerReplacement.cpp" />
     <ClCompile Include="src\others\IsomorphicStrings.cpp" />
     <ClCompile Include="src\others\LargestNumber.cpp" />
     <ClCompile Include="src\others\LetterCombinationsOfPhoneNumbers.cpp" />
@@ -211,6 +218,7 @@
     <ClCompile Include="src\tree\binaryTree\binaryTreeTraversal.cpp" />
     <ClCompile Include="src\tree\binaryTree\ConstructBinaryTree.cpp" />
     <ClCompile Include="src\tree\binaryTree\RightPointerBinaryTree.cpp" />
+    <ClCompile Include="src\tree\binaryTree\RightSideView.cpp" />
     <ClCompile Include="src\tree\binaryTree\SumRootToLeafNumbers.cpp" />
     <ClCompile Include="src\tree\trie\Trie.cpp" />
   </ItemGroup>

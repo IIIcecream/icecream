@@ -410,6 +410,18 @@
     <ClInclude Include="include\dynamicProgramming\LargestDivisibleSubset.h">
       <Filter>头文件\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\GuessNumber.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="include\others\IntegerReplacement.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dynamicProgramming\PalindromicSubstrings.h">
+      <Filter>头文件\DynamicProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree\binaryTree\RightSideView.h">
+      <Filter>头文件\Tree\BinaryTree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -690,6 +702,18 @@
     </ClCompile>
     <ClCompile Include="src\dynamicProgramming\LargestDivisibleSubset.cpp">
       <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\GuessNumber.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\others\IntegerReplacement.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicProgramming\PalindromicSubstrings.cpp">
+      <Filter>源文件\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\binaryTree\RightSideView.cpp">
+      <Filter>源文件\Tree\BinaryTree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
