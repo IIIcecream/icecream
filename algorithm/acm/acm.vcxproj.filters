@@ -111,6 +111,12 @@
     <Filter Include="源文件\Recursion\BFS">
       <UniqueIdentifier>{8148df5d-68f3-4da5-9450-4248b36b127e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Heap">
+      <UniqueIdentifier>{0a40e173-7921-4124-ad08-b20e0dc6e1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Heap">
+      <UniqueIdentifier>{6a1e3050-3d14-4449-9387-61823e559a37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ACMMathCommon.h">
@@ -422,6 +428,9 @@
     <ClInclude Include="include\tree\binaryTree\RightSideView.h">
       <Filter>头文件\Tree\BinaryTree</Filter>
     </ClInclude>
+    <ClInclude Include="include\heap\KthLargestElementInArray.h">
+      <Filter>头文件\Heap</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -714,6 +723,9 @@
     </ClCompile>
     <ClCompile Include="src\tree\binaryTree\RightSideView.cpp">
       <Filter>源文件\Tree\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\heap\KthLargestElementInArray.cpp">
+      <Filter>源文件\Heap</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

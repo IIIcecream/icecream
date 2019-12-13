@@ -57,6 +57,6 @@ bool NextGreaterElementIII::solve()
 // LeetCode 556. Next Greater Element III
 int NextGreaterElementIII::nextGreaterElement(int n)
 {
-    int nRes;
+    int nRes = 0;
     return nRes;
 }

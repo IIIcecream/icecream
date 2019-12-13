@@ -41,6 +41,7 @@
     <ClInclude Include="include\graph\CourseScheduleII.h" />
     <ClInclude Include="include\graph\GraphCommon.h" />
     <ClInclude Include="include\graph\WordLadder.h" />
+    <ClInclude Include="include\heap\KthLargestElementInArray.h" />
     <ClInclude Include="include\IACM.h" />
     <ClInclude Include="include\linkedList\AddAndSearchWord.h" />
     <ClInclude Include="include\linkedList\CloneRandomPointerList.h" />
@@ -145,6 +146,7 @@
     <ClCompile Include="src\graph\CourseSchedule.cpp" />
     <ClCompile Include="src\graph\CourseScheduleII.cpp" />
     <ClCompile Include="src\graph\WordLadder.cpp" />
+    <ClCompile Include="src\heap\KthLargestElementInArray.cpp" />
     <ClCompile Include="src\linkedList\AddAndSearchWord.cpp" />
     <ClCompile Include="src\linkedList\CloneRandomPointerList.cpp" />
     <ClCompile Include="src\linkedList\IntersectionLinkedLists.cpp" />
