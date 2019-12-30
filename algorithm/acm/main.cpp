@@ -707,21 +707,119 @@ void tes1004()
     SAFE_DELETE(p);
 }
 
-union MyUnion
+int nDefaultConstructorTimes = 0;
+int nConstructorTimes = 0;
+int nCopyConstructorTimes = 0;
+int nMoveConstructorTimes = 0;
+int nCopyAssignmentTimes = 0;
+int nMoveAssignmentTimes = 0;
+
+void init()
 {
-    int i;
-    char a[
-    ];
+    nDefaultConstructorTimes = 0;
+    nConstructorTimes = 0;
+    nCopyConstructorTimes = 0;
+    nMoveConstructorTimes = 0;
+    nCopyAssignmentTimes = 0;
+    nMoveAssignmentTimes = 0;
+}
+
+void print()
+{
+    cout << "DefaultConstructor:" << nDefaultConstructorTimes << endl;
+    cout << "Constructor:       " << nConstructorTimes << endl;
+    cout << "CopyConstructor:   " << nCopyConstructorTimes << endl;
+    cout << "MoveConstructor    " << nMoveConstructorTimes << endl;
+    cout << "CopyAssignment     " << nCopyAssignmentTimes << endl;
+    cout << "MoveAssignment     " << nMoveAssignmentTimes << endl;
+}
+
+class Item
+{
+public:
+    Item() : len(0), p(nullptr)
+    {
+        nDefaultConstructorTimes++;
+    }
+
+    Item(const char* p) : len(strlen(p))
+    {
+        nConstructorTimes++;
+
+        init(p);
+    }
+
+    Item(const Item& item) : len(item.len)
+    {
+        nCopyConstructorTimes++;
+
+        init(item.p);
+    }
+
+    Item(Item&& item) noexcept : len(item.len), p(item.p)
+    {
+        nMoveConstructorTimes++;
+
+        item.len = 0;
+        item.p = nullptr;
+    }
+
+    Item& operator=(const Item& item)
+    {
+        nCopyAssignmentTimes++;
+        if (this != &item)
+        {
+            if (p) delete[] p;
+            len = item.len;
+            init(item.p);
+        }
+        return *this;
+    }
+
+    Item& operator=(Item&& item) noexcept
+    {
+        nCopyAssignmentTimes++;
+        if (this != &item)
+        {
+            if (p) delete[] p;
+            len = item.len;
+            p = item.p;
+
+            item.len = 0;
+            item.p = nullptr;
+        }
+        return *this;
+    }
+
+    ~Item()
+    {
+        if (p) delete[] p;
+    }
+
+private:
+    void init(const char* ptr)  // deep copy
+    {
+        p = new char[len + 1];
+        memcpy(p, ptr, len);
+        p[len] = '\0';
+    }
+
+private:
+    int len;
+    char* p;
 };
 
+#include <time.h>
 int main()
 {
-    MyUnion o;
-    cout << sizeof(MyUnion) << endl;
-    o.i = 0;
-    o.a[0] = 10;
-    o.a[1] = 1;
-    cout << o.i;
+    {
+        char *p = new char;
+        Item ooo(p);
+    }
+    {
+        char *p = new char[2];
+        Item ooo(p);
+    }
 
     test647();
     return 0;
