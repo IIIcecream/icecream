@@ -809,18 +809,20 @@ private:
     char* p;
 };
 
-#include <time.h>
+struct Test
+{
+public:
+	void print() { cout << m << endl; }
+
+private:
+	int m : 1;
+};
+
 int main()
 {
-    {
-        char *p = new char;
-        Item ooo(p);
-    }
-    {
-        char *p = new char[2];
-        Item ooo(p);
-    }
+	Test ooo;
+	ooo.print();
 
-    test647();
     return 0;
 }
+
