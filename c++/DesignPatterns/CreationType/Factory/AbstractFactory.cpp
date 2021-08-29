@@ -5,11 +5,16 @@ IProduct* AbstractFactory::createProduct()
     IProduct *pA = createProductA();
     IProduct *pB = createProductB();
 
-    // ÕâÀï±íÒâ£¬¿ÉÒÔºöÊÓ
+    // è¿™é‡Œè¡¨æ„ï¼Œå¯ä»¥å¿½è§†
     return nullptr;
 }
 
-IProduct* AbstractFactoryA::createProductA()
-{
-
-}
+//IProduct* AbstractFactoryA::createProductA()
+//{
+//    return nullptr;
+//}
+//
+//IProduct* AbstractFactoryA::createProductB()
+//{
+//    
+//}

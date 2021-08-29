@@ -35,4 +35,7 @@ set(AP_ALL ${BehaviorType_Iterator} ${BehaviorType_Observer}
 		   ${StructureType_Composite}
 		   ${MAIN})
 
+# 设置包含的目录
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/")
+
 add_executable(${PROJECT_NAME} ${AP_ALL})

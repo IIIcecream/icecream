@@ -1,9 +1,9 @@
 #pragma once
 
 /*!
-*@brief        ¹Û²ìÕß
+*@brief        è§‚å¯Ÿè€…
 *@author       tangwei  2019/04/03  19:14
-*@remarks      ÎŞ
+*@remarks      æ— 
 */
 
 #include <string>
@@ -15,9 +15,9 @@ public:
     virtual ~IObserver() {}
 
     /*!
-    *@brief        ¹Û²ìÕß¼àÌıµ½Ö®ºó¸üĞÂ
+    *@brief        è§‚å¯Ÿè€…ç›‘å¬åˆ°ä¹‹åæ›´æ–°
     *@author       tangwei  2019/04/03  19:31
-    *@remarks      ÎŞ
+    *@remarks      æ— 
     */
     virtual void update() = 0;
 };

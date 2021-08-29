@@ -1,9 +1,9 @@
 #pragma once
 
 /*!
-*@brief        ¼òµ¥¹¤³§£¨¾²Ì¬¹¤³§£©£¬µ«ÊÇ²»ÊôÓÚÉè¼ÆÄ£Ê½ÖÐµÄ£¬×÷ÎªºóÐø¹¤³§·½·¨¡¢³éÏó¹¤³§µÄÇ°ÖÃ
+*@brief        ç®€å•å·¥åŽ‚ï¼ˆé™æ€å·¥åŽ‚ï¼‰ï¼Œä½†æ˜¯ä¸å±žäºŽè®¾è®¡æ¨¡å¼ä¸­çš„ï¼Œä½œä¸ºåŽç»­å·¥åŽ‚æ–¹æ³•ã€æŠ½è±¡å·¥åŽ‚çš„å‰ç½®
 *@author       tangwei  2019/03/19  11:10
-*@remarks      ÎÞ
+*@remarks      æ— 
 */
 
 #include "IFactory.h"

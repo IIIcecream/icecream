@@ -13,7 +13,7 @@ public:
     virtual void operation() override;
 };
 
-// productA”…productA1,A2...◊È≥…
+// productAÁî±productA1,A2...ÁªÑÊàê
 
 // Product1
 class Product1 : public Product
@@ -41,7 +41,7 @@ public:
     virtual void operation() override;
 };
 
-class ProductA2 : public Product2
+class ProductB1 : public Product2
 {
 public:
     virtual void operation() override;

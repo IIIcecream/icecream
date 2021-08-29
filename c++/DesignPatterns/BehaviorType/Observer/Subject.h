@@ -1,9 +1,9 @@
 #pragma once
 
 /*!
-*@brief        ¹Û²ìÄ¿±ê
+*@brief        è§‚å¯Ÿç›®æ ‡
 *@author       tangwei  2019/04/03  19:19
-*@remarks      ÎŞ
+*@remarks      æ— 
 */
 
 #include <list>
@@ -16,42 +16,42 @@ public:
     virtual ~ISubject() {};
 
     /*!
-    *@brief        ×¢²á¹Û²ìÕß
+    *@brief        æ³¨å†Œè§‚å¯Ÿè€…
     *@author       tangwei  2019/04/03  19:20
-    *@param[in]    pObserver    ¹Û²ìÕß
-    *@param[out]   ÎŞ
-    *@remarks      ÎŞ
+    *@param[in]    pObserver    è§‚å¯Ÿè€…
+    *@param[out]   æ— 
+    *@remarks      æ— 
     */
     virtual void attach(IObserver *pObserver) = 0;
 
     /*!
-    *@brief        ×¢Ïú¹Û²ìÕß
+    *@brief        æ³¨é”€è§‚å¯Ÿè€…
     *@author       tangwei  2019/04/03  19:20
-    *@param[in]    pObserver    ¹Û²ìÕß
-    *@param[out]   ÎŞ
-    *@remarks      ÎŞ
+    *@param[in]    pObserver    è§‚å¯Ÿè€…
+    *@param[out]   æ— 
+    *@remarks      æ— 
     */
     virtual void detach(IObserver *pObserver) = 0;
 
     /*!
-    *@brief        Í¨Öª
+    *@brief        é€šçŸ¥
     *@author       tangwei  2019/04/03  19:20
-    *@remarks      ÎŞ
+    *@remarks      æ— 
     */
     virtual void notify() = 0;
 
     /*!
-    *@brief        »ñÈ¡×´Ì¬
+    *@brief        è·å–çŠ¶æ€
     *@author       tangwei  2019/04/03  19:32
-    *@remarks      ÎŞ
+    *@remarks      æ— 
     */
     virtual int getStatus() = 0;
 
     /*!
-    *@brief        ÉèÖÃ×´Ì¬
+    *@brief        è®¾ç½®çŠ¶æ€
     *@author       tangwei  2019/04/03  19:32
-    *@param[in]    status    ×´Ì¬
-    *@remarks      ÎŞ
+    *@param[in]    status    çŠ¶æ€
+    *@remarks      æ— 
     */
     virtual void setStatus(int status) = 0;
 };

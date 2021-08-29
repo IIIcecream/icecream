@@ -1,9 +1,9 @@
 #pragma once
 
 /*!
-*@brief        Ҷ�ӽڵ�
+*@brief        叶子节点
 *@author       tangwei  2019/03/15  11:15
-*@remarks      ��
+*@remarks      无
 */
 
 #include "Component.h"

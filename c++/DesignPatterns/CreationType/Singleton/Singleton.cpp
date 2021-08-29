@@ -1,6 +1,6 @@
 #include "Singleton.h"
 
-Singleton *m_pInstance = nullptr;
+Singleton* Singleton::m_pInstance = nullptr;
 
 Singleton* Singleton::getInstanse()
 {

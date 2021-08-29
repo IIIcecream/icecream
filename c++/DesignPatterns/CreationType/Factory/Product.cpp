@@ -32,7 +32,7 @@ void ProductA2::operation()
     cout << "ProductA2" << endl;
 }
 
-void ProductA2::operation()
+void ProductB1::operation()
 {
     cout << "ProductB1" << endl;
 }

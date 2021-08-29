@@ -1,9 +1,9 @@
 #pragma once
 
 /*!
-*@brief        ³éÏó¹¤³§
+*@brief        æŠ½è±¡å·¥åŽ‚
 *@author       tangwei  2019/03/19  11:18
-*@remarks      ÎÞ
+*@remarks      æ— 
 */
 
 #include "IFactory.h"
@@ -18,16 +18,16 @@ private:
     virtual IProduct* createProductB() = 0;
 };
 
-class AbstractFactoryA : public AbstractFactory
-{
-public:
-    virtual IProduct* createProductA() override;
-    virtual IProduct* createProductB() override;
-};
-
-class AbstractFactoryB : public AbstractFactory
-{
-public:
-    virtual IProduct* createProductA();
-    virtual IProduct* createProductB();
-};
+//class AbstractFactoryA : public AbstractFactory
+//{
+//public:
+//    virtual IProduct* createProductA() override;
+//    virtual IProduct* createProductB() override;
+//};
+//
+//class AbstractFactoryB : public AbstractFactory
+//{
+//public:
+//    virtual IProduct* createProductA();
+//    virtual IProduct* createProductB();
+//};

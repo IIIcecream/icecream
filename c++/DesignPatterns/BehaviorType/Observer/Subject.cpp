@@ -21,7 +21,7 @@ void Subject::notify()
     }
 }
 
-// ©иртвт╤╞╣Всцм╗ж╙ё╛р╡©имБ╡©йж╤╞╣Всц
+// Е▐╞Д╩╔Х┤╙Е┼╗Х╟┐Г■╗И─ Г÷╔О╪▄Д╧÷Е▐╞Е╓√И┐╗Ф┴▀Е┼╗Х╟┐Г■╗
 void Subject::setStatus(int status)
 {
     cout << "cur status " << m_nStatus << " change to " << status << endl;

@@ -3,11 +3,11 @@
 #include "IFactory.h"
 
 /*!
-*@brief        ¹¤³§·½·¨
+*@brief        å·¥åŽ‚æ–¹æ³•
 *@author       tangwei  2019/03/19  11:09
-*@param[in]    ÎÞ
-*@param[out]   ÎÞ
-*@remarks      ÎÞ
+*@param[in]    æ— 
+*@param[out]   æ— 
+*@remarks      æ— 
 */
 
 class FactoryMethod : public IFactory

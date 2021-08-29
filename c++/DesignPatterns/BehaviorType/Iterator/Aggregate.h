@@ -15,7 +15,7 @@ public:
     virtual size_t Count() = 0;
     virtual void Push(const Item& strValue) = 0;
     virtual Item getItem(const size_t nIndex) = 0;
-    virtual Iterator* CreateIterator() = 0;
+    virtual Iterator<Item>* CreateIterator() = 0;
 };
 
 template<class Item>
@@ -37,5 +37,5 @@ public:
 
 private:
     vector<Item> m_vecItems;
-    Iterator* m_pIterator;
+    Iterator<Item>* m_pIterator;
 };

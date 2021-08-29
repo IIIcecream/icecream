@@ -1,7 +1,7 @@
 #pragma once
 
 /*!
-*@brief        µ¥ÀıÄ£Ê½
+*@brief        å•ä¾‹æ¨¡å¼
 *@author       tangw-b  2019/03/14  16:35
 */
 

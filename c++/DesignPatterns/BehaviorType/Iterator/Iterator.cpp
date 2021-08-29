@@ -35,5 +35,5 @@ Item ConcreteIterator<Item>::GetCur()
 template<class Item>
 bool ConcreteIterator<Item>::IsDone()
 {
-    return m_nCur >= m_pAggregate.Count();
+    return m_nCur >= m_pAggregate->Count();
 }

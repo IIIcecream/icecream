@@ -1,7 +1,7 @@
 #pragma once
 
 /*!
-*@brief        µü´úÆ÷Ä£Ê½
+*@brief        è¿­ä»£å™¨æ¨¡å¼
 *@author       tangw-b  2019/03/14  17:33
 */
 
@@ -36,6 +36,6 @@ public:
     virtual bool IsDone() override;
 
 private:
-    Aggregate *m_pAggregate;
+    Aggregate<Item> *m_pAggregate;
     int m_nCur;
 };

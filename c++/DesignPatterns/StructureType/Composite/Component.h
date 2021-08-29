@@ -1,9 +1,9 @@
 #pragma once
 
 /*!
-*@brief        组合模式
+*@brief        缁勫悎妯″紡
 *@author       tangwei  2019/03/15  11:12
-*@remarks      无
+*@remarks      
 */
 class IComponent
 {
